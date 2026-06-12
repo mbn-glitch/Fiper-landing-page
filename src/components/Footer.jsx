@@ -28,7 +28,7 @@ export default function Footer() {
     }
     setSubmitState("submitting");
     const message = encodeURIComponent(`Hi! Please add me to the Fiper Card newsletter. Email: ${emailValue}`);
-    window.open(`https://wa.me/971561111855?text=${message}`, "_blank", "noopener");
+    window.open(`https://wa.me/97433600905?text=${message}`, "_blank", "noopener");
     setTimeout(() => {
       setSubmitState("success");
       setEmailValue("");

@@ -197,7 +197,7 @@ The "Get Your Card" CTAs link to https://crm.fiper.me — Fiper's customer onboa
 
 ### WhatsApp support
 
-The floating button on every page links to https://wa.me/971561111855 — Fipo AI on Callbell. The pre-filled message is "Hello, I need help with my Fiper Card".
+The floating button on every page links to https://wa.me/97433600905 — Fipo AI on Callbell. The pre-filled message is "Hello, I need help with my Fiper Card".
 
 To change the number or message, edit `src/components/WhatsAppButton.jsx` (single source of truth — also referenced from HelpCenter contact card).
 

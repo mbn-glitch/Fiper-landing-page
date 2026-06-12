@@ -10,7 +10,7 @@ import LanguageSwitcher from "../components/LanguageSwitcher";
 import WhatsAppButton from "../components/WhatsAppButton";
 import StickyMobileCTA from "../components/StickyMobileCTA";
 
-const WHATSAPP_URL = "https://wa.me/971561111855?text=Hello%2C%20I%20need%20help%20with%20my%20Fiper%20Card";
+const WHATSAPP_URL = "https://wa.me/97433600905?text=Hello%2C%20I%20need%20help%20with%20my%20Fiper%20Card";
 const RECENT_KEY = "fiper_recent_searches";
 
 function WhatsAppIcon({ className = "w-6 h-6" }) {
