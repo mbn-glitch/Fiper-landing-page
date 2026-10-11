@@ -2,8 +2,8 @@ import sharp from "sharp";
 import { writeFileSync } from "fs";
 import { join } from "path";
 
-const PUBLIC = "C:/Users/Mrmbn/my-landing-page/public";
-const SRC = "C:/Users/Mrmbn/my-landing-page/Fiper Logo white2.png";
+const PUBLIC = `${(process.env.BUILDER_HOME ?? process.env.USERPROFILE ?? process.env.HOME ?? "")}/my-landing-page/public`;
+const SRC = `${(process.env.BUILDER_HOME ?? process.env.USERPROFILE ?? process.env.HOME ?? "")}/my-landing-page/Fiper Logo white2.png`;
 
 async function createFavicon(size, filename) {
   // Create a red rounded-rect background with the white Fiper swoosh centered
