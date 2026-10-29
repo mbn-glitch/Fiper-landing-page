@@ -1,0 +1,69 @@
+# Fiper Hub screenshots — 29 Oct 2026
+
+before/ = www.fiperhub.com (live) · after/ = brand v2.0.1 preview · compare/ = side by side. Raw: https://raw.githubusercontent.com/mbn-glitch/Fiper-landing-page/hub-shots-20261029/<folder>/<file>.png · Names: <page>-<lang>-<width>.png
+
+## before/
+- article-ar-1360.png
+- article-ar-390.png
+- article-en-1360.png
+- article-en-390.png
+- chat-ar-1360.png
+- chat-ar-390.png
+- chat-en-1360.png
+- chat-en-390.png
+- home-ar-1360.png
+- home-ar-390.png
+- home-en-1360.png
+- home-en-390.png
+- platforms-ar-1360.png
+- platforms-ar-390.png
+- platforms-en-1360.png
+- platforms-en-390.png
+- quiz-ar-1360.png
+- quiz-ar-390.png
+- quiz-en-1360.png
+- quiz-en-390.png
+
+## after/
+- article-ar-1360.png
+- article-ar-390.png
+- article-en-1360.png
+- article-en-390.png
+- chat-ar-1360.png
+- chat-ar-390.png
+- chat-en-1360.png
+- chat-en-390.png
+- home-ar-1360.png
+- home-ar-390.png
+- home-en-1360.png
+- home-en-390.png
+- platforms-ar-1360.png
+- platforms-ar-390.png
+- platforms-en-1360.png
+- platforms-en-390.png
+- quiz-ar-1360.png
+- quiz-ar-390.png
+- quiz-en-1360.png
+- quiz-en-390.png
+
+## compare/
+- article-ar-1360.png
+- article-ar-390.png
+- article-en-1360.png
+- article-en-390.png
+- chat-ar-1360.png
+- chat-ar-390.png
+- chat-en-1360.png
+- chat-en-390.png
+- home-ar-1360.png
+- home-ar-390.png
+- home-en-1360.png
+- home-en-390.png
+- platforms-ar-1360.png
+- platforms-ar-390.png
+- platforms-en-1360.png
+- platforms-en-390.png
+- quiz-ar-1360.png
+- quiz-ar-390.png
+- quiz-en-1360.png
+- quiz-en-390.png
