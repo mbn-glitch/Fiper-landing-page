@@ -67,3 +67,47 @@ before/ = www.fiperhub.com (live) · after/ = brand v2.0.1 preview · compare/ =
 - quiz-ar-390.png
 - quiz-en-1360.png
 - quiz-en-390.png
+
+## after-v2/ (preview 2, charcoal)
+- article-ar-1360.png
+- article-ar-390.png
+- article-en-1360.png
+- article-en-390.png
+- chat-ar-1360.png
+- chat-ar-390.png
+- chat-en-1360.png
+- chat-en-390.png
+- home-ar-1360.png
+- home-ar-390.png
+- home-en-1360.png
+- home-en-390.png
+- platforms-ar-1360.png
+- platforms-ar-390.png
+- platforms-en-1360.png
+- platforms-en-390.png
+- quiz-ar-1360.png
+- quiz-ar-390.png
+- quiz-en-1360.png
+- quiz-en-390.png
+
+## compare-v2/ (live / preview-v1 / preview-v2, three columns)
+- article-ar-1360.png
+- article-ar-390.png
+- article-en-1360.png
+- article-en-390.png
+- chat-ar-1360.png
+- chat-ar-390.png
+- chat-en-1360.png
+- chat-en-390.png
+- home-ar-1360.png
+- home-ar-390.png
+- home-en-1360.png
+- home-en-390.png
+- platforms-ar-1360.png
+- platforms-ar-390.png
+- platforms-en-1360.png
+- platforms-en-390.png
+- quiz-ar-1360.png
+- quiz-ar-390.png
+- quiz-en-1360.png
+- quiz-en-390.png
