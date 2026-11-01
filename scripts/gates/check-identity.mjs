@@ -37,7 +37,7 @@ if (!base) {
     process.exit(2);
   }
   const port = await freePort();
-  server = spawn("npx", ["vite", "preview", "--port", String(port), "--strictPort"], { stdio: "ignore" });
+  server = spawn("npx", ["vite", "preview", "--port", String(port), "--strictPort"], { stdio: "ignore", detached: true }); // own process group: the vite child dies with the wrapper
   base = `http://localhost:${port}`;
   for (let i = 0; i < 60; i++) {
     try {
@@ -116,7 +116,7 @@ try {
   }
 } finally {
   await browser.close();
-  if (server) server.kill();
+  if (server) { try { process.kill(-server.pid, "SIGTERM"); } catch { server.kill(); } }
 }
 const all = results.every((r) => r.pass);
 fs.mkdirSync("regression-out", { recursive: true });
