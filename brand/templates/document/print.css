@@ -1,0 +1,65 @@
+/* Fiper document / report print stylesheet — Fiper Brand Identity System v2.0 (approved direction)
+   A4, 18 mm margins on inner pages. Every page is PAPER (#F7F4F1); no dark cover. Composition: headline-dominant cover, number-dominant inner pages,
+   rules instead of boxes (boxes only group related data), figures in IBM Plex Mono, Arabic IBM Plex Sans Arabic 700 headlines, no "//" labels, no decorative numbering.
+   Loads ../../tokens.css and ../../fonts/fonts.css. Light values = the PROPOSED light tokens (paper for documents is approved; light mode for apps is NOT). */
+@page { size: A4; margin: 0; }
+html { background: #fff; }
+body { margin: 0; color: #120D0E; font-family: 'IBM Plex Sans Arabic', 'Inter', sans-serif; font-size: 10.5pt; line-height: 1.8; counter-reset: page; font-synthesis: none; letter-spacing: 0; }
+[lang="en"], .en { font-family: 'Inter', sans-serif; line-height: 1.6; direction: ltr; }
+.num, td.num, .mono, .fp-unit, .unit { font-family: 'IBM Plex Mono', 'IBM Plex Sans Arabic', 'Inter', monospace; font-variant-numeric: tabular-nums lining-nums; direction: ltr; unicode-bidi: isolate; white-space: nowrap; }
+.fp-unit, .unit { display: inline-block; }
+h1, h2, h3 { margin: 0; font-weight: 700; line-height: 1.25; letter-spacing: 0; }
+.muted { color: #6B635E; }
+.rule { border: 0; border-top: 1px solid rgba(18,13,14,.22); margin: 0; }
+.page { position: relative; width: 210mm; min-height: 297mm; box-sizing: border-box; padding: 16mm 18mm 18mm; background: #F7F4F1; page-break-after: always; break-after: page; -webkit-print-color-adjust: exact; print-color-adjust: exact; display: flex; flex-direction: column; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+@media screen { body { background: #e9e5e1; } .page { margin: 8mm auto; } }
+/* cover — headline-dominant */
+.cover { padding: 18mm 18mm; }
+.cover .lockup { height: 9mm; width: auto; align-self: flex-start; }
+.cover .block { margin: auto 0; padding-top: 30mm; }
+.cover .kind { font-size: 11pt; color: #6B635E; font-weight: 500; }
+.cover .title { font-size: 34pt; font-weight: 700; line-height: 1.18; margin-top: 3mm; max-width: 150mm; }
+.cover .title-en { font-family: 'Inter', sans-serif; font-size: 13pt; font-weight: 500; color: #6B635E; direction: ltr; text-align: right; margin-top: 4mm; }
+.cover .period { margin-top: 12mm; font-size: 12pt; }
+.cover .foot { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; padding-top: 5mm; border-top: 1px solid rgba(18,13,14,.22); font-size: 8.5pt; line-height: 1.7; color: #6B635E; margin-top: auto; }
+.cover .foot .en { text-align: left; }
+/* inner pages — number-dominant */
+.doc-head { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 4mm; border-bottom: 1px solid rgba(18,13,14,.22); }
+.doc-head h1 { font-size: 15pt; }
+.doc-head .en { font-size: 8.5pt; color: #6B635E; }
+.kpis { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 9mm; margin-top: 9mm; }
+.kpi { padding: 4mm 0 5mm; border-top: 2px solid #120D0E; }
+.kpi .l { font-size: 8.5pt; color: #6B635E; font-weight: 500; }
+.kpi .v { font-size: 22pt; font-weight: 600; margin-top: 2.5mm; line-height: 1; }
+.kpi .d { font-size: 9pt; margin-top: 3mm; font-weight: 500; line-height: 1.5; }
+h2 { font-size: 12pt; margin-top: 11mm; }
+table.fin { width: 100%; border-collapse: collapse; margin-top: 3mm; font-size: 9.5pt; }
+table.fin th { text-align: start; font-weight: 600; color: #6B635E; font-size: 8.3pt; padding: 0 0 2.5mm; border-bottom: 1px solid rgba(18,13,14,.22); }
+table.fin td { padding: 3mm 0; border-bottom: 1px solid rgba(18,13,14,.22); vertical-align: top; }
+table.fin td.num, table.fin th.num { text-align: right; white-space: nowrap; }
+table.fin tr.total td { font-weight: 700; border-bottom: 2px solid #120D0E; }
+.gain { color: #146A45; } .loss { color: #B91C1C; } .pending { color: #7A520A; }
+.chart { margin-top: 10mm; }
+.chart .l { display: flex; justify-content: space-between; font-size: 8.5pt; color: #6B635E; font-weight: 500; margin-bottom: 2mm; }
+.chart svg { width: 100%; height: auto; display: block; }
+.chart .cap { font-size: 8.3pt; color: #6B635E; margin-top: 2mm; line-height: 1.6; }
+.doc-foot { display: flex; justify-content: space-between; font-size: 8pt; color: #6B635E; padding-top: 3mm; border-top: 1px solid rgba(18,13,14,.22); margin-top: auto; }
+.doc-foot .risk { color: #6B635E; } /* CEO 30 Oct 2026: the fixed risk line on every document — footer, muted, never red */
+.doc-foot .pg::after { content: counter(page); font-family: 'IBM Plex Mono', monospace; }
+.doc-foot .pgs::after { content: attr(data-pages); font-family: 'IBM Plex Mono', monospace; } /* Chromium has no counter(pages): the generator sets data-pages */
+.page.inner { counter-increment: page; }
+/* signature block */
+.sig { display: grid; grid-template-columns: 1fr 1fr; gap: 12mm; margin-top: 14mm; }
+.sig div { border-top: 1px solid #120D0E; padding-top: 2mm; font-size: 9.5pt; }
+.sig b { display: block; } .sig small { color: #6B635E; display: block; }
+/* facts card — a justified grouping box (invoice parties, order facts) */
+.card { background: #FFFFFF; border: 1px solid rgba(18,13,14,.14); border-radius: 12px; padding: 4mm 5mm; }
+.inv-head { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; margin-top: 8mm; font-size: 9.5pt; }
+.inv-head b { display: block; font-size: 8.3pt; color: #6B635E; font-weight: 600; margin-bottom: 1mm; }
+.inv-no { font-family: 'IBM Plex Mono', monospace; font-size: 15pt; font-weight: 600; direction: ltr; }
+.totals { width: 58%; margin-inline-start: auto; }
+.chip { display: inline-block; font-size: 8.3pt; font-weight: 600; padding: .6mm 3mm; border-radius: 999px; }
+.chip.paid { background: rgba(24,122,80,.12); color: #146A45; } .chip.pending { background: rgba(138,95,11,.12); color: #7A520A; } .chip.due { background: rgba(220,38,38,.12); color: #B91C1C; }
+.sample { font-family: 'Inter', 'IBM Plex Sans Arabic', sans-serif; font-size: 7.5pt; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #6B635E; border: 1px solid rgba(18,13,14,.22); padding: .4mm 2.5mm; border-radius: 999px; vertical-align: middle; }
+.brandline { font-size: 9pt; color: #6B635E; }

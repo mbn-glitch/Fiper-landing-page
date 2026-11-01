@@ -1,18 +1,15 @@
-import {
-  CreditCard, Layers, ArrowUpDown, DollarSign,
-  ShoppingBag, Landmark, ShieldCheck, Truck, AlertCircle,
-} from "lucide-react";
-
+/* Help-centre categories. `icon` = a Lucide v0.468.0 name from the package sprite (brand/icons/REGISTRY.md), used beside
+   the category title as a navigation icon (never in a tile). */
 const categoryDefs = [
-  { id: "getting-started", icon: CreditCard, titleKey: "cat1", prefix: "gs", count: 5 },
-  { id: "virtual-vs-physical", icon: Layers, titleKey: "cat2", prefix: "vp", count: 8 },
-  { id: "topup-transfers", icon: ArrowUpDown, titleKey: "cat3", prefix: "tt", count: 7 },
-  { id: "fees-limits", icon: DollarSign, titleKey: "cat4", prefix: "fl", count: 7 },
-  { id: "payments-usage", icon: ShoppingBag, titleKey: "cat5", prefix: "pu", count: 10 },
-  { id: "atm-withdrawals", icon: Landmark, titleKey: "cat6", prefix: "aw", count: 2 },
-  { id: "security-lost-cards", icon: ShieldCheck, titleKey: "cat7", prefix: "sl", count: 7 },
-  { id: "shipping-delivery", icon: Truck, titleKey: "cat8", prefix: "sd", count: 4 },
-  { id: "troubleshooting", icon: AlertCircle, titleKey: "cat9", prefix: "ts", count: 5 },
+  { id: "getting-started", icon: "credit-card", titleKey: "cat1", prefix: "gs", count: 5 },
+  { id: "virtual-vs-physical", icon: "layers", titleKey: "cat2", prefix: "vp", count: 8 },
+  { id: "topup-transfers", icon: "arrow-up-down", titleKey: "cat3", prefix: "tt", count: 7 },
+  { id: "fees-limits", icon: "coins", titleKey: "cat4", prefix: "fl", count: 7 },
+  { id: "payments-usage", icon: "wallet", titleKey: "cat5", prefix: "pu", count: 10 },
+  { id: "atm-withdrawals", icon: "landmark", titleKey: "cat6", prefix: "aw", count: 2 },
+  { id: "security-lost-cards", icon: "shield-check", titleKey: "cat7", prefix: "sl", count: 7 },
+  { id: "shipping-delivery", icon: "globe", titleKey: "cat8", prefix: "sd", count: 4 },
+  { id: "troubleshooting", icon: "circle-alert", titleKey: "cat9", prefix: "ts", count: 5 },
 ];
 
 export function getCategories(t) {

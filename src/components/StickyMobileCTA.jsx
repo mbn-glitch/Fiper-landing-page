@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { ArrowRight } from "lucide-react";
+import Icon from "./Icon";
 
+/** Mobile sticky bar: the one primary action once the hero CTA has scrolled away; hidden near the footer. */
 export default function StickyMobileCTA() {
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
@@ -19,21 +20,14 @@ export default function StickyMobileCTA() {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-40 lg:hidden transition-transform duration-300 ${
-        show ? "translate-y-0" : "translate-y-full"
-      }`}
+      className={`fixed bottom-0 left-0 right-0 z-[70] lg:hidden transition-transform duration-[350ms] ease-exit ${show ? "translate-y-0" : "translate-y-full"}`}
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
       aria-hidden={!show}
     >
-      <div className="px-4 py-3 bg-black/85 backdrop-blur-xl border-t border-white/10">
-        <a
-          href="https://crm.fiper.me"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group flex items-center justify-center gap-2 w-full rounded-full bg-fiper px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-fiper/30"
-        >
+      <div className="px-4 py-3 bg-header backdrop-blur-[14px] border-t border-line">
+        <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer" className="fp-btn fp-btn--primary fp-btn--block" tabIndex={show ? 0 : -1}>
           {t("nav.getYourCard")}
-          <ArrowRight size={16} className="transition-transform group-hover:translate-x-1 rtl-flip" />
+          <Icon name="arrow-right" size="md" dir />
         </a>
       </div>
     </div>

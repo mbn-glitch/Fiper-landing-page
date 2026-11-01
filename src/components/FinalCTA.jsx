@@ -1,30 +1,25 @@
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import Icon from "./Icon";
+import Reveal from "./Reveal";
 
+/** Closing block: one headline, one line, the one primary action — no glow, no halo. */
 export default function FinalCTA() {
   const { t } = useTranslation();
   return (
-    <section className="relative pt-16 pb-24 md:pt-20 md:pb-32 overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none">
-        <motion.div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full" style={{ background: "radial-gradient(circle, rgba(220,38,38,0.12) 0%, rgba(220,38,38,0.04) 40%, transparent 70%)" }} animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} />
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-fiper/20 to-transparent" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
-      </div>
-      <div className="relative mx-auto max-w-4xl px-6 text-center">
-        <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}>
-          <h2 className="text-4xl font-semibold leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl" style={{ letterSpacing: "-0.04em" }}>
-            {t("finalCta.heading1")} <span className="text-gradient-red">{t("finalCta.heading2")}</span>
+    <section className="relative py-20 md:py-28 bg-coal border-t border-line">
+      <div className="relative mx-auto max-w-4xl px-4 sm:px-6 text-center">
+        <Reveal>
+          <h2 className="h-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-fg">
+            {t("finalCta.heading1")} <span className="text-muted">{t("finalCta.heading2")}</span>
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400 sm:text-xl">{t("finalCta.subtext")}</p>
-          <div className="mt-12 relative inline-block">
-            <motion.div className="absolute inset-0 scale-110 rounded-full pointer-events-none" style={{ background: "radial-gradient(ellipse, rgba(220,38,38,0.4) 0%, transparent 70%)", filter: "blur(20px)" }} animate={{ scale: [1.1, 1.25, 1.1], opacity: [0.5, 0.8, 0.5] }} transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }} />
-            <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer" className="relative group inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-red-600 to-red-500 px-12 py-5 text-lg font-semibold text-white shadow-[0_20px_50px_-10px_rgba(220,38,38,0.5)] transition-all duration-300 hover:shadow-[0_25px_60px_-10px_rgba(220,38,38,0.7)] hover:scale-105">
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-muted sm:text-xl">{t("finalCta.subtext")}</p>
+          <div className="mt-10">
+            <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer" className="fp-btn fp-btn--primary">
               {t("finalCta.cta")}
-              <ArrowRight size={18} className="transition-transform group-hover:translate-x-1 rtl-flip" />
+              <Icon name="arrow-right" size="md" dir />
             </a>
           </div>
-        </motion.div>
+        </Reveal>
       </div>
     </section>
   );

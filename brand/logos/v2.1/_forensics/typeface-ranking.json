@@ -1,0 +1,3429 @@
+{
+ "logo": {
+  "xh/cap": 0.7258557267987339,
+  "desc/cap": 0.34021073762996196,
+  "Fw/cap": 0.7224049279887272,
+  "ew/cap": 0.6187922654556773,
+  "rw/cap": 0.5407766241732846,
+  "pw/cap": 0.6996715799355847
+ },
+ "ranking": [
+  {
+   "font": "Castoro-400.ttf",
+   "name": "Castoro Regular",
+   "mean": 0.797895073890686,
+   "iou_F": 0.794,
+   "iou_p": 0.777,
+   "iou_e": 0.826,
+   "iou_r": 0.794,
+   "feat": {
+    "xh/cap": 0.718,
+    "desc/cap": 0.349,
+    "Fw/cap": 0.802,
+    "ew/cap": 0.595,
+    "rw/cap": 0.555,
+    "pw/cap": 0.754
+   }
+  },
+  {
+   "font": "Fenix-400.ttf",
+   "name": "Fenix",
+   "mean": 0.7583832740783691,
+   "iou_F": 0.777,
+   "iou_p": 0.761,
+   "iou_e": 0.728,
+   "iou_r": 0.769,
+   "feat": {
+    "xh/cap": 0.717,
+    "desc/cap": 0.351,
+    "Fw/cap": 0.725,
+    "ew/cap": 0.585,
+    "rw/cap": 0.549,
+    "pw/cap": 0.731
+   }
+  },
+  {
+   "font": "Peddana-400.ttf",
+   "name": "Peddana Regular",
+   "mean": 0.747387558221817,
+   "iou_F": 0.772,
+   "iou_p": 0.745,
+   "iou_e": 0.707,
+   "iou_r": 0.765,
+   "feat": {
+    "xh/cap": 0.754,
+    "desc/cap": 0.322,
+    "Fw/cap": 0.723,
+    "ew/cap": 0.629,
+    "rw/cap": 0.535,
+    "pw/cap": 0.748
+   }
+  },
+  {
+   "font": "Caudex-700.ttf",
+   "name": "Caudex Bold",
+   "mean": 0.7462261319160461,
+   "iou_F": 0.733,
+   "iou_p": 0.727,
+   "iou_e": 0.748,
+   "iou_r": 0.776,
+   "feat": {
+    "xh/cap": 0.714,
+    "desc/cap": 0.4,
+    "Fw/cap": 0.692,
+    "ew/cap": 0.644,
+    "rw/cap": 0.496,
+    "pw/cap": 0.729
+   }
+  },
+  {
+   "font": "Libre_Baskerville-700.ttf",
+   "name": "Libre Baskerville Bold",
+   "mean": 0.7413283139467239,
+   "iou_F": 0.74,
+   "iou_p": 0.679,
+   "iou_e": 0.811,
+   "iou_r": 0.736,
+   "feat": {
+    "xh/cap": 0.714,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.825,
+    "ew/cap": 0.664,
+    "rw/cap": 0.61,
+    "pw/cap": 0.834
+   }
+  },
+  {
+   "font": "Gowun_Batang-700.ttf",
+   "name": "Gowun Batang Bold",
+   "mean": 0.7402242869138718,
+   "iou_F": 0.81,
+   "iou_p": 0.662,
+   "iou_e": 0.782,
+   "iou_r": 0.707,
+   "feat": {
+    "xh/cap": 0.707,
+    "desc/cap": 0.286,
+    "Fw/cap": 0.707,
+    "ew/cap": 0.607,
+    "rw/cap": 0.521,
+    "pw/cap": 0.743
+   }
+  },
+  {
+   "font": "Sree_Krushnadevaraya-400.ttf",
+   "name": "Sree Krushnadevaraya",
+   "mean": 0.7389486581087112,
+   "iou_F": 0.717,
+   "iou_p": 0.703,
+   "iou_e": 0.757,
+   "iou_r": 0.78,
+   "feat": {
+    "xh/cap": 0.694,
+    "desc/cap": 0.365,
+    "Fw/cap": 0.819,
+    "ew/cap": 0.656,
+    "rw/cap": 0.596,
+    "pw/cap": 0.803
+   }
+  },
+  {
+   "font": "Martel-700.ttf",
+   "name": "Martel Bold",
+   "mean": 0.732329785823822,
+   "iou_F": 0.799,
+   "iou_p": 0.816,
+   "iou_e": 0.633,
+   "iou_r": 0.681,
+   "feat": {
+    "xh/cap": 0.76,
+    "desc/cap": 0.33,
+    "Fw/cap": 0.724,
+    "ew/cap": 0.64,
+    "rw/cap": 0.508,
+    "pw/cap": 0.736
+   }
+  },
+  {
+   "font": "Libre_Caslon_Text-700.ttf",
+   "name": "Libre Caslon Text Bold",
+   "mean": 0.7282556444406509,
+   "iou_F": 0.708,
+   "iou_p": 0.724,
+   "iou_e": 0.751,
+   "iou_r": 0.73,
+   "feat": {
+    "xh/cap": 0.714,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.817,
+    "ew/cap": 0.699,
+    "rw/cap": 0.601,
+    "pw/cap": 0.817
+   }
+  },
+  {
+   "font": "Poly-400.ttf",
+   "name": "Poly-Regular",
+   "mean": 0.7266514450311661,
+   "iou_F": 0.717,
+   "iou_p": 0.711,
+   "iou_e": 0.784,
+   "iou_r": 0.694,
+   "feat": {
+    "xh/cap": 0.717,
+    "desc/cap": 0.303,
+    "Fw/cap": 0.69,
+    "ew/cap": 0.593,
+    "rw/cap": 0.548,
+    "pw/cap": 0.723
+   }
+  },
+  {
+   "font": "Ibarra_Real_Nova-700.ttf",
+   "name": "Ibarra Real Nova Bold",
+   "mean": 0.7254200279712677,
+   "iou_F": 0.653,
+   "iou_p": 0.801,
+   "iou_e": 0.735,
+   "iou_r": 0.712,
+   "feat": {
+    "xh/cap": 0.684,
+    "desc/cap": 0.371,
+    "Fw/cap": 0.865,
+    "ew/cap": 0.606,
+    "rw/cap": 0.582,
+    "pw/cap": 0.762
+   }
+  },
+  {
+   "font": "Alike-400.ttf",
+   "name": "Alike Regular",
+   "mean": 0.724201112985611,
+   "iou_F": 0.768,
+   "iou_p": 0.696,
+   "iou_e": 0.727,
+   "iou_r": 0.706,
+   "feat": {
+    "xh/cap": 0.752,
+    "desc/cap": 0.352,
+    "Fw/cap": 0.71,
+    "ew/cap": 0.596,
+    "rw/cap": 0.561,
+    "pw/cap": 0.762
+   }
+  },
+  {
+   "font": "Spectral-700.ttf",
+   "name": "Spectral Bold",
+   "mean": 0.7231365591287613,
+   "iou_F": 0.696,
+   "iou_p": 0.733,
+   "iou_e": 0.782,
+   "iou_r": 0.681,
+   "feat": {
+    "xh/cap": 0.721,
+    "desc/cap": 0.348,
+    "Fw/cap": 0.811,
+    "ew/cap": 0.636,
+    "rw/cap": 0.592,
+    "pw/cap": 0.794
+   }
+  },
+  {
+   "font": "Averia_Serif_Libre-700.ttf",
+   "name": "Averia Serif Libre Bold",
+   "mean": 0.7153000384569168,
+   "iou_F": 0.692,
+   "iou_p": 0.761,
+   "iou_e": 0.724,
+   "iou_r": 0.684,
+   "feat": {
+    "xh/cap": 0.717,
+    "desc/cap": 0.305,
+    "Fw/cap": 0.744,
+    "ew/cap": 0.639,
+    "rw/cap": 0.577,
+    "pw/cap": 0.76
+   }
+  },
+  {
+   "font": "Trykker-400.ttf",
+   "name": "Trykker Regular",
+   "mean": 0.7125756591558456,
+   "iou_F": 0.713,
+   "iou_p": 0.724,
+   "iou_e": 0.736,
+   "iou_r": 0.678,
+   "feat": {
+    "xh/cap": 0.727,
+    "desc/cap": 0.348,
+    "Fw/cap": 0.735,
+    "ew/cap": 0.582,
+    "rw/cap": 0.501,
+    "pw/cap": 0.708
+   }
+  },
+  {
+   "font": "Stoke-400.ttf",
+   "name": "Stoke Regular",
+   "mean": 0.7116499692201614,
+   "iou_F": 0.774,
+   "iou_p": 0.679,
+   "iou_e": 0.687,
+   "iou_r": 0.707,
+   "feat": {
+    "xh/cap": 0.677,
+    "desc/cap": 0.316,
+    "Fw/cap": 0.792,
+    "ew/cap": 0.657,
+    "rw/cap": 0.615,
+    "pw/cap": 0.809
+   }
+  },
+  {
+   "font": "Prociono-400.ttf",
+   "name": "Prociono",
+   "mean": 0.7102721482515335,
+   "iou_F": 0.717,
+   "iou_p": 0.686,
+   "iou_e": 0.715,
+   "iou_r": 0.723,
+   "feat": {
+    "xh/cap": 0.729,
+    "desc/cap": 0.275,
+    "Fw/cap": 0.706,
+    "ew/cap": 0.551,
+    "rw/cap": 0.505,
+    "pw/cap": 0.675
+   }
+  },
+  {
+   "font": "FreeSerifBold.ttf",
+   "name": "FreeSerif Bold",
+   "mean": 0.7082137316465378,
+   "iou_F": 0.65,
+   "iou_p": 0.72,
+   "iou_e": 0.738,
+   "iou_r": 0.725,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.303,
+    "Fw/cap": 0.839,
+    "ew/cap": 0.593,
+    "rw/cap": 0.598,
+    "pw/cap": 0.747
+   }
+  },
+  {
+   "font": "FreeSerifBold.ttf",
+   "name": "FreeSerif Bold",
+   "mean": 0.7082137316465378,
+   "iou_F": 0.65,
+   "iou_p": 0.72,
+   "iou_e": 0.738,
+   "iou_r": 0.725,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.303,
+    "Fw/cap": 0.839,
+    "ew/cap": 0.593,
+    "rw/cap": 0.598,
+    "pw/cap": 0.747
+   }
+  },
+  {
+   "font": "Radley-400.ttf",
+   "name": "Radley Regular",
+   "mean": 0.7078405469655991,
+   "iou_F": 0.658,
+   "iou_p": 0.601,
+   "iou_e": 0.796,
+   "iou_r": 0.776,
+   "feat": {
+    "xh/cap": 0.725,
+    "desc/cap": 0.29,
+    "Fw/cap": 0.896,
+    "ew/cap": 0.62,
+    "rw/cap": 0.566,
+    "pw/cap": 0.807
+   }
+  },
+  {
+   "font": "Montaga-400.ttf",
+   "name": "Montaga",
+   "mean": 0.7055419385433197,
+   "iou_F": 0.707,
+   "iou_p": 0.64,
+   "iou_e": 0.762,
+   "iou_r": 0.713,
+   "feat": {
+    "xh/cap": 0.706,
+    "desc/cap": 0.334,
+    "Fw/cap": 0.777,
+    "ew/cap": 0.594,
+    "rw/cap": 0.511,
+    "pw/cap": 0.674
+   }
+  },
+  {
+   "font": "Gloock-400.ttf",
+   "name": "Gloock Regular",
+   "mean": 0.7049701511859894,
+   "iou_F": 0.707,
+   "iou_p": 0.666,
+   "iou_e": 0.724,
+   "iou_r": 0.723,
+   "feat": {
+    "xh/cap": 0.712,
+    "desc/cap": 0.28,
+    "Fw/cap": 0.759,
+    "ew/cap": 0.64,
+    "rw/cap": 0.603,
+    "pw/cap": 0.777
+   }
+  },
+  {
+   "font": "Habibi-400.ttf",
+   "name": "Habibi",
+   "mean": 0.7032676041126251,
+   "iou_F": 0.702,
+   "iou_p": 0.721,
+   "iou_e": 0.712,
+   "iou_r": 0.678,
+   "feat": {
+    "xh/cap": 0.687,
+    "desc/cap": 0.371,
+    "Fw/cap": 0.69,
+    "ew/cap": 0.582,
+    "rw/cap": 0.538,
+    "pw/cap": 0.702
+   }
+  },
+  {
+   "font": "Overlock-700.ttf",
+   "name": "Overlock Bold",
+   "mean": 0.7016662210226059,
+   "iou_F": 0.659,
+   "iou_p": 0.701,
+   "iou_e": 0.684,
+   "iou_r": 0.763,
+   "feat": {
+    "xh/cap": 0.732,
+    "desc/cap": 0.358,
+    "Fw/cap": 0.59,
+    "ew/cap": 0.605,
+    "rw/cap": 0.429,
+    "pw/cap": 0.652
+   }
+  },
+  {
+   "font": "Song_Myung-400.ttf",
+   "name": "Song Myung Regular",
+   "mean": 0.7006001025438309,
+   "iou_F": 0.761,
+   "iou_p": 0.744,
+   "iou_e": 0.524,
+   "iou_r": 0.774,
+   "feat": {
+    "xh/cap": 0.802,
+    "desc/cap": 0.346,
+    "Fw/cap": 0.775,
+    "ew/cap": 0.69,
+    "rw/cap": 0.6,
+    "pw/cap": 0.791
+   }
+  },
+  {
+   "font": "Andada_Pro-700.ttf",
+   "name": "Andada Pro Bold",
+   "mean": 0.6998423933982849,
+   "iou_F": 0.66,
+   "iou_p": 0.736,
+   "iou_e": 0.726,
+   "iou_r": 0.678,
+   "feat": {
+    "xh/cap": 0.726,
+    "desc/cap": 0.319,
+    "Fw/cap": 0.698,
+    "ew/cap": 0.608,
+    "rw/cap": 0.575,
+    "pw/cap": 0.75
+   }
+  },
+  {
+   "font": "Sumana-700.ttf",
+   "name": "Sumana Bold",
+   "mean": 0.6991793215274811,
+   "iou_F": 0.654,
+   "iou_p": 0.727,
+   "iou_e": 0.778,
+   "iou_r": 0.638,
+   "feat": {
+    "xh/cap": 0.691,
+    "desc/cap": 0.331,
+    "Fw/cap": 0.723,
+    "ew/cap": 0.66,
+    "rw/cap": 0.604,
+    "pw/cap": 0.75
+   }
+  },
+  {
+   "font": "Lora-700.ttf",
+   "name": "Lora Bold",
+   "mean": 0.6989705413579941,
+   "iou_F": 0.654,
+   "iou_p": 0.731,
+   "iou_e": 0.724,
+   "iou_r": 0.686,
+   "feat": {
+    "xh/cap": 0.76,
+    "desc/cap": 0.364,
+    "Fw/cap": 0.723,
+    "ew/cap": 0.686,
+    "rw/cap": 0.629,
+    "pw/cap": 0.779
+   }
+  },
+  {
+   "font": "Petrona-700.ttf",
+   "name": "Petrona Bold",
+   "mean": 0.6968985050916672,
+   "iou_F": 0.705,
+   "iou_p": 0.684,
+   "iou_e": 0.692,
+   "iou_r": 0.707,
+   "feat": {
+    "xh/cap": 0.739,
+    "desc/cap": 0.388,
+    "Fw/cap": 0.736,
+    "ew/cap": 0.676,
+    "rw/cap": 0.627,
+    "pw/cap": 0.816
+   }
+  },
+  {
+   "font": "Vidaloka-400.ttf",
+   "name": "Vidaloka ",
+   "mean": 0.6940870136022568,
+   "iou_F": 0.571,
+   "iou_p": 0.759,
+   "iou_e": 0.638,
+   "iou_r": 0.808,
+   "feat": {
+    "xh/cap": 0.746,
+    "desc/cap": 0.333,
+    "Fw/cap": 0.669,
+    "ew/cap": 0.577,
+    "rw/cap": 0.558,
+    "pw/cap": 0.69
+   }
+  },
+  {
+   "font": "Ledger-400.ttf",
+   "name": "Ledger",
+   "mean": 0.6917670220136642,
+   "iou_F": 0.759,
+   "iou_p": 0.642,
+   "iou_e": 0.7,
+   "iou_r": 0.666,
+   "feat": {
+    "xh/cap": 0.672,
+    "desc/cap": 0.42,
+    "Fw/cap": 0.736,
+    "ew/cap": 0.585,
+    "rw/cap": 0.559,
+    "pw/cap": 0.727
+   }
+  },
+  {
+   "font": "Merriweather-700.ttf",
+   "name": "Merriweather Light 18pt Bold",
+   "mean": 0.6903216540813446,
+   "iou_F": 0.728,
+   "iou_p": 0.733,
+   "iou_e": 0.618,
+   "iou_r": 0.683,
+   "feat": {
+    "xh/cap": 0.782,
+    "desc/cap": 0.326,
+    "Fw/cap": 0.757,
+    "ew/cap": 0.646,
+    "rw/cap": 0.548,
+    "pw/cap": 0.769
+   }
+  },
+  {
+   "font": "Vesper_Libre-700.ttf",
+   "name": "Vesper Libre Bold",
+   "mean": 0.6901179403066635,
+   "iou_F": 0.671,
+   "iou_p": 0.707,
+   "iou_e": 0.699,
+   "iou_r": 0.684,
+   "feat": {
+    "xh/cap": 0.716,
+    "desc/cap": 0.34,
+    "Fw/cap": 0.85,
+    "ew/cap": 0.634,
+    "rw/cap": 0.62,
+    "pw/cap": 0.78
+   }
+  },
+  {
+   "font": "Philosopher-700.ttf",
+   "name": "Philosopher Bold",
+   "mean": 0.6892237812280655,
+   "iou_F": 0.737,
+   "iou_p": 0.69,
+   "iou_e": 0.608,
+   "iou_r": 0.722,
+   "feat": {
+    "xh/cap": 0.742,
+    "desc/cap": 0.288,
+    "Fw/cap": 0.764,
+    "ew/cap": 0.667,
+    "rw/cap": 0.627,
+    "pw/cap": 0.802
+   }
+  },
+  {
+   "font": "Crete_Round-400.ttf",
+   "name": "Crete Round",
+   "mean": 0.6879512518644333,
+   "iou_F": 0.73,
+   "iou_p": 0.677,
+   "iou_e": 0.661,
+   "iou_r": 0.684,
+   "feat": {
+    "xh/cap": 0.763,
+    "desc/cap": 0.339,
+    "Fw/cap": 0.707,
+    "ew/cap": 0.624,
+    "rw/cap": 0.58,
+    "pw/cap": 0.779
+   }
+  },
+  {
+   "font": "FreeSerif.ttf",
+   "name": "FreeSerif",
+   "mean": 0.6878179460763931,
+   "iou_F": 0.718,
+   "iou_p": 0.743,
+   "iou_e": 0.649,
+   "iou_r": 0.642,
+   "feat": {
+    "xh/cap": 0.71,
+    "desc/cap": 0.328,
+    "Fw/cap": 0.807,
+    "ew/cap": 0.603,
+    "rw/cap": 0.498,
+    "pw/cap": 0.702
+   }
+  },
+  {
+   "font": "FreeSerif.ttf",
+   "name": "FreeSerif",
+   "mean": 0.6878179460763931,
+   "iou_F": 0.718,
+   "iou_p": 0.743,
+   "iou_e": 0.649,
+   "iou_r": 0.642,
+   "feat": {
+    "xh/cap": 0.71,
+    "desc/cap": 0.328,
+    "Fw/cap": 0.807,
+    "ew/cap": 0.603,
+    "rw/cap": 0.498,
+    "pw/cap": 0.702
+   }
+  },
+  {
+   "font": "LiberationSerif-Regular.ttf",
+   "name": "Liberation Serif",
+   "mean": 0.6869455575942993,
+   "iou_F": 0.716,
+   "iou_p": 0.753,
+   "iou_e": 0.641,
+   "iou_r": 0.637,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.75,
+    "ew/cap": 0.565,
+    "rw/cap": 0.465,
+    "pw/cap": 0.679
+   }
+  },
+  {
+   "font": "LiberationSerif-Regular.ttf",
+   "name": "Liberation Serif",
+   "mean": 0.6869455575942993,
+   "iou_F": 0.716,
+   "iou_p": 0.753,
+   "iou_e": 0.641,
+   "iou_r": 0.637,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.75,
+    "ew/cap": 0.565,
+    "rw/cap": 0.465,
+    "pw/cap": 0.679
+   }
+  },
+  {
+   "font": "Adamina-400.ttf",
+   "name": "Adamina Regular",
+   "mean": 0.6867949664592743,
+   "iou_F": 0.705,
+   "iou_p": 0.732,
+   "iou_e": 0.664,
+   "iou_r": 0.646,
+   "feat": {
+    "xh/cap": 0.716,
+    "desc/cap": 0.337,
+    "Fw/cap": 0.687,
+    "ew/cap": 0.545,
+    "rw/cap": 0.5,
+    "pw/cap": 0.713
+   }
+  },
+  {
+   "font": "Crimson_Text-700.ttf",
+   "name": "Crimson Text Bold",
+   "mean": 0.6859018951654434,
+   "iou_F": 0.715,
+   "iou_p": 0.709,
+   "iou_e": 0.689,
+   "iou_r": 0.631,
+   "feat": {
+    "xh/cap": 0.68,
+    "desc/cap": 0.32,
+    "Fw/cap": 0.751,
+    "ew/cap": 0.623,
+    "rw/cap": 0.615,
+    "pw/cap": 0.775
+   }
+  },
+  {
+   "font": "Cardo-700.ttf",
+   "name": "Cardo Bold",
+   "mean": 0.6826013922691345,
+   "iou_F": 0.673,
+   "iou_p": 0.727,
+   "iou_e": 0.766,
+   "iou_r": 0.565,
+   "feat": {
+    "xh/cap": 0.688,
+    "desc/cap": 0.426,
+    "Fw/cap": 0.724,
+    "ew/cap": 0.599,
+    "rw/cap": 0.547,
+    "pw/cap": 0.74
+   }
+  },
+  {
+   "font": "Quattrocento-700.ttf",
+   "name": "Quattrocento Bold",
+   "mean": 0.6807394623756409,
+   "iou_F": 0.643,
+   "iou_p": 0.552,
+   "iou_e": 0.752,
+   "iou_r": 0.775,
+   "feat": {
+    "xh/cap": 0.73,
+    "desc/cap": 0.381,
+    "Fw/cap": 0.709,
+    "ew/cap": 0.662,
+    "rw/cap": 0.598,
+    "pw/cap": 0.857
+   }
+  },
+  {
+   "font": "DM_Serif_Text-400.ttf",
+   "name": "DM Serif Text Regular",
+   "mean": 0.6790096014738083,
+   "iou_F": 0.767,
+   "iou_p": 0.648,
+   "iou_e": 0.578,
+   "iou_r": 0.724,
+   "feat": {
+    "xh/cap": 0.77,
+    "desc/cap": 0.349,
+    "Fw/cap": 0.738,
+    "ew/cap": 0.678,
+    "rw/cap": 0.608,
+    "pw/cap": 0.796
+   }
+  },
+  {
+   "font": "Alegreya-700.ttf",
+   "name": "Alegreya Bold",
+   "mean": 0.6785340160131454,
+   "iou_F": 0.569,
+   "iou_p": 0.768,
+   "iou_e": 0.732,
+   "iou_r": 0.645,
+   "feat": {
+    "xh/cap": 0.729,
+    "desc/cap": 0.338,
+    "Fw/cap": 0.735,
+    "ew/cap": 0.608,
+    "rw/cap": 0.556,
+    "pw/cap": 0.734
+   }
+  },
+  {
+   "font": "Suravaram-400.ttf",
+   "name": "Suravaram",
+   "mean": 0.6758064925670624,
+   "iou_F": 0.756,
+   "iou_p": 0.668,
+   "iou_e": 0.556,
+   "iou_r": 0.723,
+   "feat": {
+    "xh/cap": 0.747,
+    "desc/cap": 0.326,
+    "Fw/cap": 0.807,
+    "ew/cap": 0.657,
+    "rw/cap": 0.616,
+    "pw/cap": 0.817
+   }
+  },
+  {
+   "font": "Sahitya-700.ttf",
+   "name": "Sahitya Bold",
+   "mean": 0.6737657636404037,
+   "iou_F": 0.568,
+   "iou_p": 0.756,
+   "iou_e": 0.727,
+   "iou_r": 0.644,
+   "feat": {
+    "xh/cap": 0.731,
+    "desc/cap": 0.338,
+    "Fw/cap": 0.74,
+    "ew/cap": 0.611,
+    "rw/cap": 0.561,
+    "pw/cap": 0.737
+   }
+  },
+  {
+   "font": "Sanchez-400.ttf",
+   "name": "Sanchez",
+   "mean": 0.6716017723083496,
+   "iou_F": 0.659,
+   "iou_p": 0.66,
+   "iou_e": 0.675,
+   "iou_r": 0.693,
+   "feat": {
+    "xh/cap": 0.705,
+    "desc/cap": 0.313,
+    "Fw/cap": 0.751,
+    "ew/cap": 0.642,
+    "rw/cap": 0.519,
+    "pw/cap": 0.747
+   }
+  },
+  {
+   "font": "Bentham-400.ttf",
+   "name": "Bentham Regular",
+   "mean": 0.6708490401506424,
+   "iou_F": 0.641,
+   "iou_p": 0.732,
+   "iou_e": 0.68,
+   "iou_r": 0.63,
+   "feat": {
+    "xh/cap": 0.67,
+    "desc/cap": 0.34,
+    "Fw/cap": 0.735,
+    "ew/cap": 0.585,
+    "rw/cap": 0.564,
+    "pw/cap": 0.724
+   }
+  },
+  {
+   "font": "PT_Serif-700.ttf",
+   "name": "PT Serif Bold",
+   "mean": 0.6706948280334473,
+   "iou_F": 0.717,
+   "iou_p": 0.658,
+   "iou_e": 0.626,
+   "iou_r": 0.682,
+   "feat": {
+    "xh/cap": 0.749,
+    "desc/cap": 0.286,
+    "Fw/cap": 0.747,
+    "ew/cap": 0.67,
+    "rw/cap": 0.577,
+    "pw/cap": 0.796
+   }
+  },
+  {
+   "font": "Tinos-700.ttf",
+   "name": "Tinos Bold",
+   "mean": 0.6679084450006485,
+   "iou_F": 0.612,
+   "iou_p": 0.736,
+   "iou_e": 0.675,
+   "iou_r": 0.648,
+   "feat": {
+    "xh/cap": 0.732,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.834,
+    "ew/cap": 0.586,
+    "rw/cap": 0.604,
+    "pw/cap": 0.768
+   }
+  },
+  {
+   "font": "LiberationSerif-Bold.ttf",
+   "name": "Liberation Serif Bold",
+   "mean": 0.6679084450006485,
+   "iou_F": 0.612,
+   "iou_p": 0.736,
+   "iou_e": 0.675,
+   "iou_r": 0.648,
+   "feat": {
+    "xh/cap": 0.732,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.834,
+    "ew/cap": 0.586,
+    "rw/cap": 0.604,
+    "pw/cap": 0.768
+   }
+  },
+  {
+   "font": "LiberationSerif-Bold.ttf",
+   "name": "Liberation Serif Bold",
+   "mean": 0.6679084450006485,
+   "iou_F": 0.612,
+   "iou_p": 0.736,
+   "iou_e": 0.675,
+   "iou_r": 0.648,
+   "feat": {
+    "xh/cap": 0.732,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.834,
+    "ew/cap": 0.586,
+    "rw/cap": 0.604,
+    "pw/cap": 0.768
+   }
+  },
+  {
+   "font": "Playfair_Display-700.ttf",
+   "name": "Playfair Display Bold",
+   "mean": 0.6677985638380051,
+   "iou_F": 0.677,
+   "iou_p": 0.656,
+   "iou_e": 0.682,
+   "iou_r": 0.656,
+   "feat": {
+    "xh/cap": 0.77,
+    "desc/cap": 0.256,
+    "Fw/cap": 0.756,
+    "ew/cap": 0.612,
+    "rw/cap": 0.614,
+    "pw/cap": 0.766
+   }
+  },
+  {
+   "font": "Frank_Ruhl_Libre-700.ttf",
+   "name": "Frank Ruhl Libre Bold",
+   "mean": 0.659748911857605,
+   "iou_F": 0.692,
+   "iou_p": 0.665,
+   "iou_e": 0.621,
+   "iou_r": 0.66,
+   "feat": {
+    "xh/cap": 0.745,
+    "desc/cap": 0.303,
+    "Fw/cap": 0.767,
+    "ew/cap": 0.679,
+    "rw/cap": 0.633,
+    "pw/cap": 0.82
+   }
+  },
+  {
+   "font": "Amethysta-400.ttf",
+   "name": "Amethysta Regular",
+   "mean": 0.6574100703001022,
+   "iou_F": 0.509,
+   "iou_p": 0.779,
+   "iou_e": 0.696,
+   "iou_r": 0.646,
+   "feat": {
+    "xh/cap": 0.716,
+    "desc/cap": 0.341,
+    "Fw/cap": 0.648,
+    "ew/cap": 0.588,
+    "rw/cap": 0.512,
+    "pw/cap": 0.718
+   }
+  },
+  {
+   "font": "Quando-400.ttf",
+   "name": "Quando-Regular",
+   "mean": 0.6572725474834442,
+   "iou_F": 0.708,
+   "iou_p": 0.658,
+   "iou_e": 0.581,
+   "iou_r": 0.683,
+   "feat": {
+    "xh/cap": 0.801,
+    "desc/cap": 0.327,
+    "Fw/cap": 0.788,
+    "ew/cap": 0.638,
+    "rw/cap": 0.603,
+    "pw/cap": 0.782
+   }
+  },
+  {
+   "font": "Buenard-700.ttf",
+   "name": "Buenard Bold",
+   "mean": 0.6551610678434372,
+   "iou_F": 0.629,
+   "iou_p": 0.71,
+   "iou_e": 0.671,
+   "iou_r": 0.612,
+   "feat": {
+    "xh/cap": 0.677,
+    "desc/cap": 0.365,
+    "Fw/cap": 0.692,
+    "ew/cap": 0.599,
+    "rw/cap": 0.587,
+    "pw/cap": 0.744
+   }
+  },
+  {
+   "font": "Ovo-400.ttf",
+   "name": "Ovo",
+   "mean": 0.653335377573967,
+   "iou_F": 0.666,
+   "iou_p": 0.611,
+   "iou_e": 0.652,
+   "iou_r": 0.685,
+   "feat": {
+    "xh/cap": 0.708,
+    "desc/cap": 0.302,
+    "Fw/cap": 0.674,
+    "ew/cap": 0.608,
+    "rw/cap": 0.528,
+    "pw/cap": 0.757
+   }
+  },
+  {
+   "font": "Suranna-400.ttf",
+   "name": "Suranna",
+   "mean": 0.6517074704170227,
+   "iou_F": 0.649,
+   "iou_p": 0.669,
+   "iou_e": 0.605,
+   "iou_r": 0.683,
+   "feat": {
+    "xh/cap": 0.671,
+    "desc/cap": 0.355,
+    "Fw/cap": 0.751,
+    "ew/cap": 0.598,
+    "rw/cap": 0.511,
+    "pw/cap": 0.72
+   }
+  },
+  {
+   "font": "Sura-700.ttf",
+   "name": "Sura Bold",
+   "mean": 0.6507620364427567,
+   "iou_F": 0.621,
+   "iou_p": 0.676,
+   "iou_e": 0.678,
+   "iou_r": 0.628,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.318,
+    "Fw/cap": 0.714,
+    "ew/cap": 0.627,
+    "rw/cap": 0.593,
+    "pw/cap": 0.774
+   }
+  },
+  {
+   "font": "Alice-400.ttf",
+   "name": "Alice Regular",
+   "mean": 0.6507457345724106,
+   "iou_F": 0.586,
+   "iou_p": 0.612,
+   "iou_e": 0.628,
+   "iou_r": 0.777,
+   "feat": {
+    "xh/cap": 0.749,
+    "desc/cap": 0.322,
+    "Fw/cap": 0.713,
+    "ew/cap": 0.664,
+    "rw/cap": 0.59,
+    "pw/cap": 0.815
+   }
+  },
+  {
+   "font": "Prata-400.ttf",
+   "name": "Prata Regular",
+   "mean": 0.6481025218963623,
+   "iou_F": 0.647,
+   "iou_p": 0.668,
+   "iou_e": 0.597,
+   "iou_r": 0.68,
+   "feat": {
+    "xh/cap": 0.671,
+    "desc/cap": 0.354,
+    "Fw/cap": 0.752,
+    "ew/cap": 0.598,
+    "rw/cap": 0.51,
+    "pw/cap": 0.723
+   }
+  },
+  {
+   "font": "Playfair-700.ttf",
+   "name": "Playfair 5pt SemiExpanded Light Bold",
+   "mean": 0.6469017416238785,
+   "iou_F": 0.658,
+   "iou_p": 0.639,
+   "iou_e": 0.666,
+   "iou_r": 0.624,
+   "feat": {
+    "xh/cap": 0.77,
+    "desc/cap": 0.326,
+    "Fw/cap": 0.806,
+    "ew/cap": 0.671,
+    "rw/cap": 0.675,
+    "pw/cap": 0.833
+   }
+  },
+  {
+   "font": "Gentium_Book_Plus-700.ttf",
+   "name": "Gentium Book Plus Bold",
+   "mean": 0.6458502560853958,
+   "iou_F": 0.735,
+   "iou_p": 0.616,
+   "iou_e": 0.63,
+   "iou_r": 0.602,
+   "feat": {
+    "xh/cap": 0.786,
+    "desc/cap": 0.381,
+    "Fw/cap": 0.76,
+    "ew/cap": 0.703,
+    "rw/cap": 0.691,
+    "pw/cap": 0.841
+   }
+  },
+  {
+   "font": "DM_Serif_Display-400.ttf",
+   "name": "DM Serif Display Regular",
+   "mean": 0.6455276310443878,
+   "iou_F": 0.719,
+   "iou_p": 0.621,
+   "iou_e": 0.547,
+   "iou_r": 0.696,
+   "feat": {
+    "xh/cap": 0.774,
+    "desc/cap": 0.348,
+    "Fw/cap": 0.744,
+    "ew/cap": 0.686,
+    "rw/cap": 0.621,
+    "pw/cap": 0.808
+   }
+  },
+  {
+   "font": "Domine-700.ttf",
+   "name": "Domine Bold",
+   "mean": 0.645037829875946,
+   "iou_F": 0.681,
+   "iou_p": 0.635,
+   "iou_e": 0.598,
+   "iou_r": 0.667,
+   "feat": {
+    "xh/cap": 0.778,
+    "desc/cap": 0.25,
+    "Fw/cap": 0.824,
+    "ew/cap": 0.671,
+    "rw/cap": 0.61,
+    "pw/cap": 0.803
+   }
+  },
+  {
+   "font": "Esteban-400.ttf",
+   "name": "Esteban",
+   "mean": 0.6439237594604492,
+   "iou_F": 0.562,
+   "iou_p": 0.66,
+   "iou_e": 0.702,
+   "iou_r": 0.652,
+   "feat": {
+    "xh/cap": 0.701,
+    "desc/cap": 0.393,
+    "Fw/cap": 0.666,
+    "ew/cap": 0.56,
+    "rw/cap": 0.516,
+    "pw/cap": 0.71
+   }
+  },
+  {
+   "font": "Libre_Bodoni-700.ttf",
+   "name": "Libre Bodoni Bold",
+   "mean": 0.6408799290657043,
+   "iou_F": 0.664,
+   "iou_p": 0.702,
+   "iou_e": 0.634,
+   "iou_r": 0.563,
+   "feat": {
+    "xh/cap": 0.63,
+    "desc/cap": 0.416,
+    "Fw/cap": 0.83,
+    "ew/cap": 0.606,
+    "rw/cap": 0.603,
+    "pw/cap": 0.749
+   }
+  },
+  {
+   "font": "Kreon-700.ttf",
+   "name": "Kreon Light Bold",
+   "mean": 0.640373945236206,
+   "iou_F": 0.58,
+   "iou_p": 0.635,
+   "iou_e": 0.613,
+   "iou_r": 0.734,
+   "feat": {
+    "xh/cap": 0.716,
+    "desc/cap": 0.395,
+    "Fw/cap": 0.69,
+    "ew/cap": 0.57,
+    "rw/cap": 0.585,
+    "pw/cap": 0.677
+   }
+  },
+  {
+   "font": "Fjord_One-400.ttf",
+   "name": "Fjord One",
+   "mean": 0.6395675241947174,
+   "iou_F": 0.654,
+   "iou_p": 0.61,
+   "iou_e": 0.762,
+   "iou_r": 0.533,
+   "feat": {
+    "xh/cap": 0.696,
+    "desc/cap": 0.408,
+    "Fw/cap": 0.691,
+    "ew/cap": 0.548,
+    "rw/cap": 0.501,
+    "pw/cap": 0.727
+   }
+  },
+  {
+   "font": "Bona_Nova-700.ttf",
+   "name": "Bona Nova Bold",
+   "mean": 0.63792484998703,
+   "iou_F": 0.636,
+   "iou_p": 0.646,
+   "iou_e": 0.666,
+   "iou_r": 0.604,
+   "feat": {
+    "xh/cap": 0.737,
+    "desc/cap": 0.337,
+    "Fw/cap": 0.723,
+    "ew/cap": 0.68,
+    "rw/cap": 0.597,
+    "pw/cap": 0.827
+   }
+  },
+  {
+   "font": "Lusitana-700.ttf",
+   "name": "Lusitana Bold",
+   "mean": 0.6373336911201477,
+   "iou_F": 0.748,
+   "iou_p": 0.672,
+   "iou_e": 0.602,
+   "iou_r": 0.527,
+   "feat": {
+    "xh/cap": 0.642,
+    "desc/cap": 0.356,
+    "Fw/cap": 0.792,
+    "ew/cap": 0.574,
+    "rw/cap": 0.541,
+    "pw/cap": 0.728
+   }
+  },
+  {
+   "font": "Gupter-700.ttf",
+   "name": "Gupter Bold",
+   "mean": 0.6372088491916656,
+   "iou_F": 0.529,
+   "iou_p": 0.691,
+   "iou_e": 0.704,
+   "iou_r": 0.626,
+   "feat": {
+    "xh/cap": 0.79,
+    "desc/cap": 0.309,
+    "Fw/cap": 0.683,
+    "ew/cap": 0.595,
+    "rw/cap": 0.568,
+    "pw/cap": 0.751
+   }
+  },
+  {
+   "font": "Coustard-400.ttf",
+   "name": "Coustard Regular",
+   "mean": 0.6367509663105011,
+   "iou_F": 0.629,
+   "iou_p": 0.548,
+   "iou_e": 0.605,
+   "iou_r": 0.765,
+   "feat": {
+    "xh/cap": 0.742,
+    "desc/cap": 0.266,
+    "Fw/cap": 0.784,
+    "ew/cap": 0.685,
+    "rw/cap": 0.587,
+    "pw/cap": 0.821
+   }
+  },
+  {
+   "font": "Bitter-700.ttf",
+   "name": "Bitter Thin Bold",
+   "mean": 0.6361483037471771,
+   "iou_F": 0.658,
+   "iou_p": 0.679,
+   "iou_e": 0.571,
+   "iou_r": 0.636,
+   "feat": {
+    "xh/cap": 0.793,
+    "desc/cap": 0.327,
+    "Fw/cap": 0.717,
+    "ew/cap": 0.689,
+    "rw/cap": 0.607,
+    "pw/cap": 0.791
+   }
+  },
+  {
+   "font": "Bodoni_Moda-700.ttf",
+   "name": "Bodoni Moda 11pt Bold",
+   "mean": 0.6360238492488861,
+   "iou_F": 0.634,
+   "iou_p": 0.696,
+   "iou_e": 0.649,
+   "iou_r": 0.565,
+   "feat": {
+    "xh/cap": 0.64,
+    "desc/cap": 0.333,
+    "Fw/cap": 0.747,
+    "ew/cap": 0.609,
+    "rw/cap": 0.605,
+    "pw/cap": 0.767
+   }
+  },
+  {
+   "font": "Bodoni_Moda_SC-700.ttf",
+   "name": "Bodoni Moda SC 11pt Bold",
+   "mean": 0.6360238492488861,
+   "iou_F": 0.634,
+   "iou_p": 0.696,
+   "iou_e": 0.649,
+   "iou_r": 0.565,
+   "feat": {
+    "xh/cap": 0.64,
+    "desc/cap": 0.333,
+    "Fw/cap": 0.747,
+    "ew/cap": 0.609,
+    "rw/cap": 0.605,
+    "pw/cap": 0.767
+   }
+  },
+  {
+   "font": "Merriweather-900.ttf",
+   "name": "Merriweather Light 18pt Black",
+   "mean": 0.6355241239070892,
+   "iou_F": 0.655,
+   "iou_p": 0.671,
+   "iou_e": 0.59,
+   "iou_r": 0.625,
+   "feat": {
+    "xh/cap": 0.782,
+    "desc/cap": 0.326,
+    "Fw/cap": 0.771,
+    "ew/cap": 0.662,
+    "rw/cap": 0.563,
+    "pw/cap": 0.781
+   }
+  },
+  {
+   "font": "Playfair_Display-800.ttf",
+   "name": "Playfair Display ExtraBold",
+   "mean": 0.6332913935184479,
+   "iou_F": 0.647,
+   "iou_p": 0.614,
+   "iou_e": 0.663,
+   "iou_r": 0.61,
+   "feat": {
+    "xh/cap": 0.771,
+    "desc/cap": 0.256,
+    "Fw/cap": 0.773,
+    "ew/cap": 0.62,
+    "rw/cap": 0.63,
+    "pw/cap": 0.78
+   }
+  },
+  {
+   "font": "Tienne-700.ttf",
+   "name": "Tienne Bold",
+   "mean": 0.6315151154994965,
+   "iou_F": 0.67,
+   "iou_p": 0.634,
+   "iou_e": 0.601,
+   "iou_r": 0.621,
+   "feat": {
+    "xh/cap": 0.741,
+    "desc/cap": 0.322,
+    "Fw/cap": 0.871,
+    "ew/cap": 0.709,
+    "rw/cap": 0.686,
+    "pw/cap": 0.872
+   }
+  },
+  {
+   "font": "Crimson_Pro-700.ttf",
+   "name": "Crimson Pro Bold",
+   "mean": 0.6309525668621063,
+   "iou_F": 0.646,
+   "iou_p": 0.619,
+   "iou_e": 0.662,
+   "iou_r": 0.598,
+   "feat": {
+    "xh/cap": 0.769,
+    "desc/cap": 0.372,
+    "Fw/cap": 0.811,
+    "ew/cap": 0.701,
+    "rw/cap": 0.65,
+    "pw/cap": 0.875
+   }
+  },
+  {
+   "font": "Brygada_1918-700.ttf",
+   "name": "Brygada 1918 Bold",
+   "mean": 0.6307284086942673,
+   "iou_F": 0.7,
+   "iou_p": 0.605,
+   "iou_e": 0.597,
+   "iou_r": 0.621,
+   "feat": {
+    "xh/cap": 0.746,
+    "desc/cap": 0.373,
+    "Fw/cap": 0.772,
+    "ew/cap": 0.718,
+    "rw/cap": 0.672,
+    "pw/cap": 0.858
+   }
+  },
+  {
+   "font": "Marko_One-400.ttf",
+   "name": "Marko One",
+   "mean": 0.6305485218763351,
+   "iou_F": 0.673,
+   "iou_p": 0.597,
+   "iou_e": 0.588,
+   "iou_r": 0.664,
+   "feat": {
+    "xh/cap": 0.745,
+    "desc/cap": 0.436,
+    "Fw/cap": 0.702,
+    "ew/cap": 0.691,
+    "rw/cap": 0.67,
+    "pw/cap": 0.819
+   }
+  },
+  {
+   "font": "NotoSerif-Regular.ttf",
+   "name": "Noto Serif Regular",
+   "mean": 0.629321426153183,
+   "iou_F": 0.666,
+   "iou_p": 0.603,
+   "iou_e": 0.589,
+   "iou_r": 0.66,
+   "feat": {
+    "xh/cap": 0.779,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.713,
+    "ew/cap": 0.602,
+    "rw/cap": 0.592,
+    "pw/cap": 0.765
+   }
+  },
+  {
+   "font": "Roboto_Slab-700.ttf",
+   "name": "Roboto Slab Bold",
+   "mean": 0.6288139820098877,
+   "iou_F": 0.65,
+   "iou_p": 0.678,
+   "iou_e": 0.594,
+   "iou_r": 0.593,
+   "feat": {
+    "xh/cap": 0.771,
+    "desc/cap": 0.286,
+    "Fw/cap": 0.796,
+    "ew/cap": 0.645,
+    "rw/cap": 0.544,
+    "pw/cap": 0.777
+   }
+  },
+  {
+   "font": "Trocchi-400.ttf",
+   "name": "Trocchi Regular",
+   "mean": 0.6285490393638611,
+   "iou_F": 0.593,
+   "iou_p": 0.555,
+   "iou_e": 0.681,
+   "iou_r": 0.685,
+   "feat": {
+    "xh/cap": 0.75,
+    "desc/cap": 0.266,
+    "Fw/cap": 0.891,
+    "ew/cap": 0.664,
+    "rw/cap": 0.593,
+    "pw/cap": 0.797
+   }
+  },
+  {
+   "font": "Rosarivo-400.ttf",
+   "name": "Rosarivo",
+   "mean": 0.6275058537721634,
+   "iou_F": 0.689,
+   "iou_p": 0.472,
+   "iou_e": 0.652,
+   "iou_r": 0.697,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.49,
+    "Fw/cap": 0.746,
+    "ew/cap": 0.585,
+    "rw/cap": 0.544,
+    "pw/cap": 0.729
+   }
+  },
+  {
+   "font": "Vollkorn-700.ttf",
+   "name": "Vollkorn Bold",
+   "mean": 0.6266855597496033,
+   "iou_F": 0.635,
+   "iou_p": 0.664,
+   "iou_e": 0.652,
+   "iou_r": 0.555,
+   "feat": {
+    "xh/cap": 0.698,
+    "desc/cap": 0.355,
+    "Fw/cap": 0.765,
+    "ew/cap": 0.647,
+    "rw/cap": 0.62,
+    "pw/cap": 0.826
+   }
+  },
+  {
+   "font": "Solway-700.ttf",
+   "name": "Solway Bold",
+   "mean": 0.6259225308895111,
+   "iou_F": 0.616,
+   "iou_p": 0.661,
+   "iou_e": 0.621,
+   "iou_r": 0.606,
+   "feat": {
+    "xh/cap": 0.743,
+    "desc/cap": 0.329,
+    "Fw/cap": 0.763,
+    "ew/cap": 0.667,
+    "rw/cap": 0.633,
+    "pw/cap": 0.787
+   }
+  },
+  {
+   "font": "Slabo_27px-400.ttf",
+   "name": "Slabo 27px",
+   "mean": 0.6248128563165665,
+   "iou_F": 0.598,
+   "iou_p": 0.721,
+   "iou_e": 0.646,
+   "iou_r": 0.535,
+   "feat": {
+    "xh/cap": 0.759,
+    "desc/cap": 0.333,
+    "Fw/cap": 0.648,
+    "ew/cap": 0.546,
+    "rw/cap": 0.426,
+    "pw/cap": 0.657
+   }
+  },
+  {
+   "font": "NotoSerif-Bold.ttf",
+   "name": "Noto Serif Bold",
+   "mean": 0.624730572104454,
+   "iou_F": 0.67,
+   "iou_p": 0.63,
+   "iou_e": 0.587,
+   "iou_r": 0.613,
+   "feat": {
+    "xh/cap": 0.783,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.783,
+    "ew/cap": 0.675,
+    "rw/cap": 0.683,
+    "pw/cap": 0.819
+   }
+  },
+  {
+   "font": "Unna-700.ttf",
+   "name": "Unna Bold",
+   "mean": 0.6244422048330307,
+   "iou_F": 0.698,
+   "iou_p": 0.625,
+   "iou_e": 0.538,
+   "iou_r": 0.637,
+   "feat": {
+    "xh/cap": 0.744,
+    "desc/cap": 0.4,
+    "Fw/cap": 0.783,
+    "ew/cap": 0.716,
+    "rw/cap": 0.656,
+    "pw/cap": 0.804
+   }
+  },
+  {
+   "font": "Rasa-700.ttf",
+   "name": "Rasa Bold",
+   "mean": 0.6242875754833221,
+   "iou_F": 0.616,
+   "iou_p": 0.639,
+   "iou_e": 0.678,
+   "iou_r": 0.564,
+   "feat": {
+    "xh/cap": 0.773,
+    "desc/cap": 0.314,
+    "Fw/cap": 0.772,
+    "ew/cap": 0.647,
+    "rw/cap": 0.643,
+    "pw/cap": 0.801
+   }
+  },
+  {
+   "font": "Yrsa-700.ttf",
+   "name": "Yrsa Bold",
+   "mean": 0.6242875754833221,
+   "iou_F": 0.616,
+   "iou_p": 0.639,
+   "iou_e": 0.678,
+   "iou_r": 0.564,
+   "feat": {
+    "xh/cap": 0.773,
+    "desc/cap": 0.314,
+    "Fw/cap": 0.772,
+    "ew/cap": 0.647,
+    "rw/cap": 0.643,
+    "pw/cap": 0.801
+   }
+  },
+  {
+   "font": "Old_Standard_TT-700.ttf",
+   "name": "Old Standard TT Bold",
+   "mean": 0.6241996586322784,
+   "iou_F": 0.692,
+   "iou_p": 0.606,
+   "iou_e": 0.508,
+   "iou_r": 0.691,
+   "feat": {
+    "xh/cap": 0.699,
+    "desc/cap": 0.32,
+    "Fw/cap": 0.803,
+    "ew/cap": 0.525,
+    "rw/cap": 0.517,
+    "pw/cap": 0.657
+   }
+  },
+  {
+   "font": "Noto_Serif-700.ttf",
+   "name": "Noto Serif Bold",
+   "mean": 0.6241635233163834,
+   "iou_F": 0.671,
+   "iou_p": 0.633,
+   "iou_e": 0.586,
+   "iou_r": 0.607,
+   "feat": {
+    "xh/cap": 0.783,
+    "desc/cap": 0.321,
+    "Fw/cap": 0.784,
+    "ew/cap": 0.675,
+    "rw/cap": 0.683,
+    "pw/cap": 0.819
+   }
+  },
+  {
+   "font": "Young_Serif-400.ttf",
+   "name": "Young Serif Regular",
+   "mean": 0.6236120611429214,
+   "iou_F": 0.671,
+   "iou_p": 0.582,
+   "iou_e": 0.653,
+   "iou_r": 0.588,
+   "feat": {
+    "xh/cap": 0.689,
+    "desc/cap": 0.262,
+    "Fw/cap": 0.844,
+    "ew/cap": 0.623,
+    "rw/cap": 0.662,
+    "pw/cap": 0.775
+   }
+  },
+  {
+   "font": "EB_Garamond-700.ttf",
+   "name": "EB Garamond Bold",
+   "mean": 0.6234679818153381,
+   "iou_F": 0.608,
+   "iou_p": 0.714,
+   "iou_e": 0.574,
+   "iou_r": 0.597,
+   "feat": {
+    "xh/cap": 0.672,
+    "desc/cap": 0.39,
+    "Fw/cap": 0.767,
+    "ew/cap": 0.557,
+    "rw/cap": 0.586,
+    "pw/cap": 0.771
+   }
+  },
+  {
+   "font": "Besley-700.ttf",
+   "name": "Besley Bold",
+   "mean": 0.6213288605213165,
+   "iou_F": 0.551,
+   "iou_p": 0.653,
+   "iou_e": 0.672,
+   "iou_r": 0.609,
+   "feat": {
+    "xh/cap": 0.733,
+    "desc/cap": 0.34,
+    "Fw/cap": 0.927,
+    "ew/cap": 0.687,
+    "rw/cap": 0.705,
+    "pw/cap": 0.838
+   }
+  },
+  {
+   "font": "Brawler-700.ttf",
+   "name": "Brawler Bold",
+   "mean": 0.6205164194107056,
+   "iou_F": 0.701,
+   "iou_p": 0.624,
+   "iou_e": 0.515,
+   "iou_r": 0.642,
+   "feat": {
+    "xh/cap": 0.77,
+    "desc/cap": 0.321,
+    "Fw/cap": 0.785,
+    "ew/cap": 0.737,
+    "rw/cap": 0.668,
+    "pw/cap": 0.868
+   }
+  },
+  {
+   "font": "Gelasio-700.ttf",
+   "name": "Gelasio Bold",
+   "mean": 0.6196762323379517,
+   "iou_F": 0.653,
+   "iou_p": 0.599,
+   "iou_e": 0.618,
+   "iou_r": 0.608,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.3,
+    "Fw/cap": 0.849,
+    "ew/cap": 0.729,
+    "rw/cap": 0.708,
+    "pw/cap": 0.884
+   }
+  },
+  {
+   "font": "Nanum_Myeongjo-700.ttf",
+   "name": "NanumMyeongjoBold",
+   "mean": 0.618963748216629,
+   "iou_F": 0.665,
+   "iou_p": 0.645,
+   "iou_e": 0.6,
+   "iou_r": 0.566,
+   "feat": {
+    "xh/cap": 0.681,
+    "desc/cap": 0.323,
+    "Fw/cap": 0.677,
+    "ew/cap": 0.535,
+    "rw/cap": 0.485,
+    "pw/cap": 0.698
+   }
+  },
+  {
+   "font": "Volkhov-700.ttf",
+   "name": "Volkhov Bold",
+   "mean": 0.61844103038311,
+   "iou_F": 0.614,
+   "iou_p": 0.613,
+   "iou_e": 0.624,
+   "iou_r": 0.623,
+   "feat": {
+    "xh/cap": 0.757,
+    "desc/cap": 0.429,
+    "Fw/cap": 0.751,
+    "ew/cap": 0.689,
+    "rw/cap": 0.604,
+    "pw/cap": 0.844
+   }
+  },
+  {
+   "font": "Maitree-700.ttf",
+   "name": "Maitree Bold",
+   "mean": 0.6169726401567459,
+   "iou_F": 0.602,
+   "iou_p": 0.644,
+   "iou_e": 0.585,
+   "iou_r": 0.637,
+   "feat": {
+    "xh/cap": 0.744,
+    "desc/cap": 0.306,
+    "Fw/cap": 0.832,
+    "ew/cap": 0.698,
+    "rw/cap": 0.647,
+    "pw/cap": 0.84
+   }
+  },
+  {
+   "font": "Hahmlet-700.ttf",
+   "name": "Hahmlet Bold",
+   "mean": 0.6164961457252502,
+   "iou_F": 0.574,
+   "iou_p": 0.603,
+   "iou_e": 0.657,
+   "iou_r": 0.631,
+   "feat": {
+    "xh/cap": 0.689,
+    "desc/cap": 0.271,
+    "Fw/cap": 0.864,
+    "ew/cap": 0.644,
+    "rw/cap": 0.553,
+    "pw/cap": 0.8
+   }
+  },
+  {
+   "font": "Elsie-400.ttf",
+   "name": "Elsie Regular",
+   "mean": 0.6153092011809349,
+   "iou_F": 0.716,
+   "iou_p": 0.62,
+   "iou_e": 0.493,
+   "iou_r": 0.632,
+   "feat": {
+    "xh/cap": 0.769,
+    "desc/cap": 0.331,
+    "Fw/cap": 0.732,
+    "ew/cap": 0.614,
+    "rw/cap": 0.582,
+    "pw/cap": 0.74
+   }
+  },
+  {
+   "font": "Arapey-400.ttf",
+   "name": "Arapey Regular",
+   "mean": 0.6146784722805023,
+   "iou_F": 0.604,
+   "iou_p": 0.67,
+   "iou_e": 0.548,
+   "iou_r": 0.637,
+   "feat": {
+    "xh/cap": 0.714,
+    "desc/cap": 0.338,
+    "Fw/cap": 0.66,
+    "ew/cap": 0.557,
+    "rw/cap": 0.529,
+    "pw/cap": 0.673
+   }
+  },
+  {
+   "font": "Trirong-700.ttf",
+   "name": "Trirong Bold",
+   "mean": 0.6128910928964615,
+   "iou_F": 0.668,
+   "iou_p": 0.611,
+   "iou_e": 0.492,
+   "iou_r": 0.68,
+   "feat": {
+    "xh/cap": 0.739,
+    "desc/cap": 0.337,
+    "Fw/cap": 0.797,
+    "ew/cap": 0.759,
+    "rw/cap": 0.671,
+    "pw/cap": 0.886
+   }
+  },
+  {
+   "font": "Headland_One-400.ttf",
+   "name": "HeadlandOne-Regular",
+   "mean": 0.6111443340778351,
+   "iou_F": 0.67,
+   "iou_p": 0.605,
+   "iou_e": 0.548,
+   "iou_r": 0.621,
+   "feat": {
+    "xh/cap": 0.793,
+    "desc/cap": 0.329,
+    "Fw/cap": 0.783,
+    "ew/cap": 0.631,
+    "rw/cap": 0.585,
+    "pw/cap": 0.781
+   }
+  },
+  {
+   "font": "Halant-700.ttf",
+   "name": "Halant Bold",
+   "mean": 0.6106490939855576,
+   "iou_F": 0.614,
+   "iou_p": 0.632,
+   "iou_e": 0.646,
+   "iou_r": 0.551,
+   "feat": {
+    "xh/cap": 0.749,
+    "desc/cap": 0.368,
+    "Fw/cap": 0.794,
+    "ew/cap": 0.686,
+    "rw/cap": 0.62,
+    "pw/cap": 0.843
+   }
+  },
+  {
+   "font": "Newsreader-700.ttf",
+   "name": "Newsreader 16pt 16pt Bold",
+   "mean": 0.6101620644330978,
+   "iou_F": 0.536,
+   "iou_p": 0.675,
+   "iou_e": 0.667,
+   "iou_r": 0.562,
+   "feat": {
+    "xh/cap": 0.665,
+    "desc/cap": 0.347,
+    "Fw/cap": 0.827,
+    "ew/cap": 0.606,
+    "rw/cap": 0.59,
+    "pw/cap": 0.774
+   }
+  },
+  {
+   "font": "Yeseva_One-400.ttf",
+   "name": "Yeseva One Regular",
+   "mean": 0.6089547723531723,
+   "iou_F": 0.677,
+   "iou_p": 0.625,
+   "iou_e": 0.52,
+   "iou_r": 0.613,
+   "feat": {
+    "xh/cap": 0.757,
+    "desc/cap": 0.286,
+    "Fw/cap": 0.764,
+    "ew/cap": 0.693,
+    "rw/cap": 0.657,
+    "pw/cap": 0.793
+   }
+  },
+  {
+   "font": "Neuton-700.ttf",
+   "name": "Neuton Bold",
+   "mean": 0.606450155377388,
+   "iou_F": 0.579,
+   "iou_p": 0.648,
+   "iou_e": 0.625,
+   "iou_r": 0.574,
+   "feat": {
+    "xh/cap": 0.768,
+    "desc/cap": 0.298,
+    "Fw/cap": 0.88,
+    "ew/cap": 0.599,
+    "rw/cap": 0.622,
+    "pw/cap": 0.805
+   }
+  },
+  {
+   "font": "Lustria-400.ttf",
+   "name": "Lustria",
+   "mean": 0.6058051884174347,
+   "iou_F": 0.696,
+   "iou_p": 0.463,
+   "iou_e": 0.599,
+   "iou_r": 0.666,
+   "feat": {
+    "xh/cap": 0.737,
+    "desc/cap": 0.424,
+    "Fw/cap": 0.75,
+    "ew/cap": 0.631,
+    "rw/cap": 0.534,
+    "pw/cap": 0.792
+   }
+  },
+  {
+   "font": "Rufina-700.ttf",
+   "name": "Rufina Bold",
+   "mean": 0.6036563217639923,
+   "iou_F": 0.63,
+   "iou_p": 0.558,
+   "iou_e": 0.557,
+   "iou_r": 0.67,
+   "feat": {
+    "xh/cap": 0.762,
+    "desc/cap": 0.374,
+    "Fw/cap": 0.762,
+    "ew/cap": 0.686,
+    "rw/cap": 0.614,
+    "pw/cap": 0.871
+   }
+  },
+  {
+   "font": "Abril_Fatface-400.ttf",
+   "name": "Abril Fatface",
+   "mean": 0.6028760820627213,
+   "iou_F": 0.632,
+   "iou_p": 0.614,
+   "iou_e": 0.625,
+   "iou_r": 0.54,
+   "feat": {
+    "xh/cap": 0.709,
+    "desc/cap": 0.34,
+    "Fw/cap": 0.757,
+    "ew/cap": 0.679,
+    "rw/cap": 0.687,
+    "pw/cap": 0.797
+   }
+  },
+  {
+   "font": "Faustina-700.ttf",
+   "name": "Faustina Light Bold",
+   "mean": 0.601261556148529,
+   "iou_F": 0.621,
+   "iou_p": 0.634,
+   "iou_e": 0.561,
+   "iou_r": 0.589,
+   "feat": {
+    "xh/cap": 0.804,
+    "desc/cap": 0.255,
+    "Fw/cap": 0.752,
+    "ew/cap": 0.668,
+    "rw/cap": 0.585,
+    "pw/cap": 0.815
+   }
+  },
+  {
+   "font": "Playfair_Display-900.ttf",
+   "name": "Playfair Display Black",
+   "mean": 0.598418653011322,
+   "iou_F": 0.617,
+   "iou_p": 0.576,
+   "iou_e": 0.634,
+   "iou_r": 0.567,
+   "feat": {
+    "xh/cap": 0.773,
+    "desc/cap": 0.256,
+    "Fw/cap": 0.79,
+    "ew/cap": 0.63,
+    "rw/cap": 0.645,
+    "pw/cap": 0.794
+   }
+  },
+  {
+   "font": "Zilla_Slab-700.ttf",
+   "name": "Zilla Slab Bold",
+   "mean": 0.5959047824144363,
+   "iou_F": 0.542,
+   "iou_p": 0.613,
+   "iou_e": 0.612,
+   "iou_r": 0.616,
+   "feat": {
+    "xh/cap": 0.723,
+    "desc/cap": 0.328,
+    "Fw/cap": 0.782,
+    "ew/cap": 0.68,
+    "rw/cap": 0.614,
+    "pw/cap": 0.829
+   }
+  },
+  {
+   "font": "Aref_Ruqaa-700.ttf",
+   "name": "Aref Ruqaa Bold",
+   "mean": 0.5941518768668175,
+   "iou_F": 0.481,
+   "iou_p": 0.625,
+   "iou_e": 0.665,
+   "iou_r": 0.605,
+   "feat": {
+    "xh/cap": 0.712,
+    "desc/cap": 0.327,
+    "Fw/cap": 0.671,
+    "ew/cap": 0.656,
+    "rw/cap": 0.648,
+    "pw/cap": 0.801
+   }
+  },
+  {
+   "font": "LiberationSerif-BoldItalic.ttf",
+   "name": "Liberation Serif Bold Italic",
+   "mean": 0.5919924974441528,
+   "iou_F": 0.548,
+   "iou_p": 0.57,
+   "iou_e": 0.606,
+   "iou_r": 0.645,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.995,
+    "ew/cap": 0.609,
+    "rw/cap": 0.574,
+    "pw/cap": 0.826
+   }
+  },
+  {
+   "font": "LiberationSerif-BoldItalic.ttf",
+   "name": "Liberation Serif Bold Italic",
+   "mean": 0.5919924974441528,
+   "iou_F": 0.548,
+   "iou_p": 0.57,
+   "iou_e": 0.606,
+   "iou_r": 0.645,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.995,
+    "ew/cap": 0.609,
+    "rw/cap": 0.574,
+    "pw/cap": 0.826
+   }
+  },
+  {
+   "font": "Goudy_Bookletter_1911-400.ttf",
+   "name": "Goudy Bookletter 1911",
+   "mean": 0.58867496997118,
+   "iou_F": 0.749,
+   "iou_p": 0.519,
+   "iou_e": 0.489,
+   "iou_r": 0.598,
+   "feat": {
+    "xh/cap": 0.647,
+    "desc/cap": 0.319,
+    "Fw/cap": 0.743,
+    "ew/cap": 0.543,
+    "rw/cap": 0.496,
+    "pw/cap": 0.665
+   }
+  },
+  {
+   "font": "Fraunces-700.ttf",
+   "name": "Fraunces Bold",
+   "mean": 0.5882718861103058,
+   "iou_F": 0.55,
+   "iou_p": 0.63,
+   "iou_e": 0.636,
+   "iou_r": 0.537,
+   "feat": {
+    "xh/cap": 0.702,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.795,
+    "ew/cap": 0.679,
+    "rw/cap": 0.644,
+    "pw/cap": 0.817
+   }
+  },
+  {
+   "font": "Literata-700.ttf",
+   "name": "Literata Bold",
+   "mean": 0.5857312232255936,
+   "iou_F": 0.605,
+   "iou_p": 0.607,
+   "iou_e": 0.583,
+   "iou_r": 0.548,
+   "feat": {
+    "xh/cap": 0.77,
+    "desc/cap": 0.308,
+    "Fw/cap": 0.799,
+    "ew/cap": 0.71,
+    "rw/cap": 0.709,
+    "pw/cap": 0.854
+   }
+  },
+  {
+   "font": "Cutive-400.ttf",
+   "name": "Cutive Regular",
+   "mean": 0.5844730585813522,
+   "iou_F": 0.497,
+   "iou_p": 0.609,
+   "iou_e": 0.654,
+   "iou_r": 0.578,
+   "feat": {
+    "xh/cap": 0.708,
+    "desc/cap": 0.335,
+    "Fw/cap": 1.033,
+    "ew/cap": 0.663,
+    "rw/cap": 0.589,
+    "pw/cap": 0.816
+   }
+  },
+  {
+   "font": "Fondamento-400.ttf",
+   "name": "Fondamento Regular",
+   "mean": 0.5788995698094368,
+   "iou_F": 0.615,
+   "iou_p": 0.552,
+   "iou_e": 0.436,
+   "iou_r": 0.712,
+   "feat": {
+    "xh/cap": 0.691,
+    "desc/cap": 0.423,
+    "Fw/cap": 0.741,
+    "ew/cap": 0.528,
+    "rw/cap": 0.68,
+    "pw/cap": 0.736
+   }
+  },
+  {
+   "font": "Kotta_One-400.ttf",
+   "name": "Kotta One",
+   "mean": 0.5786186754703522,
+   "iou_F": 0.652,
+   "iou_p": 0.538,
+   "iou_e": 0.504,
+   "iou_r": 0.62,
+   "feat": {
+    "xh/cap": 0.706,
+    "desc/cap": 0.357,
+    "Fw/cap": 0.785,
+    "ew/cap": 0.513,
+    "rw/cap": 0.563,
+    "pw/cap": 0.765
+   }
+  },
+  {
+   "font": "Cormorant_Garamond-700.ttf",
+   "name": "Cormorant Garamond Light Bold",
+   "mean": 0.5773250460624695,
+   "iou_F": 0.599,
+   "iou_p": 0.632,
+   "iou_e": 0.571,
+   "iou_r": 0.508,
+   "feat": {
+    "xh/cap": 0.651,
+    "desc/cap": 0.44,
+    "Fw/cap": 0.714,
+    "ew/cap": 0.579,
+    "rw/cap": 0.574,
+    "pw/cap": 0.779
+   }
+  },
+  {
+   "font": "Cormorant_Infant-700.ttf",
+   "name": "Cormorant Infant Light Bold",
+   "mean": 0.5773250460624695,
+   "iou_F": 0.599,
+   "iou_p": 0.632,
+   "iou_e": 0.571,
+   "iou_r": 0.508,
+   "feat": {
+    "xh/cap": 0.651,
+    "desc/cap": 0.44,
+    "Fw/cap": 0.714,
+    "ew/cap": 0.579,
+    "rw/cap": 0.574,
+    "pw/cap": 0.779
+   }
+  },
+  {
+   "font": "Taviraj-700.ttf",
+   "name": "Taviraj Bold",
+   "mean": 0.5766026973724365,
+   "iou_F": 0.57,
+   "iou_p": 0.566,
+   "iou_e": 0.637,
+   "iou_r": 0.533,
+   "feat": {
+    "xh/cap": 0.7,
+    "desc/cap": 0.323,
+    "Fw/cap": 0.874,
+    "ew/cap": 0.756,
+    "rw/cap": 0.739,
+    "pw/cap": 0.909
+   }
+  },
+  {
+   "font": "Libre_Bodoni-400.ttf",
+   "name": "Libre Bodoni Regular",
+   "mean": 0.5741400122642517,
+   "iou_F": 0.619,
+   "iou_p": 0.651,
+   "iou_e": 0.545,
+   "iou_r": 0.481,
+   "feat": {
+    "xh/cap": 0.629,
+    "desc/cap": 0.416,
+    "Fw/cap": 0.81,
+    "ew/cap": 0.56,
+    "rw/cap": 0.504,
+    "pw/cap": 0.69
+   }
+  },
+  {
+   "font": "Inknut_Antiqua-700.ttf",
+   "name": "Inknut Antiqua Bold",
+   "mean": 0.5731162875890732,
+   "iou_F": 0.563,
+   "iou_p": 0.6,
+   "iou_e": 0.582,
+   "iou_r": 0.548,
+   "feat": {
+    "xh/cap": 0.695,
+    "desc/cap": 0.315,
+    "Fw/cap": 0.884,
+    "ew/cap": 0.677,
+    "rw/cap": 0.657,
+    "pw/cap": 0.821
+   }
+  },
+  {
+   "font": "IM_Fell_English-400.ttf",
+   "name": "IM FELL English Roman",
+   "mean": 0.5729036778211594,
+   "iou_F": 0.523,
+   "iou_p": 0.697,
+   "iou_e": 0.572,
+   "iou_r": 0.501,
+   "feat": {
+    "xh/cap": 0.677,
+    "desc/cap": 0.379,
+    "Fw/cap": 0.842,
+    "ew/cap": 0.569,
+    "rw/cap": 0.46,
+    "pw/cap": 0.713
+   }
+  },
+  {
+   "font": "Arvo-700.ttf",
+   "name": "Arvo Bold",
+   "mean": 0.5715491026639938,
+   "iou_F": 0.538,
+   "iou_p": 0.611,
+   "iou_e": 0.591,
+   "iou_r": 0.546,
+   "feat": {
+    "xh/cap": 0.731,
+    "desc/cap": 0.311,
+    "Fw/cap": 0.774,
+    "ew/cap": 0.701,
+    "rw/cap": 0.625,
+    "pw/cap": 0.822
+   }
+  },
+  {
+   "font": "Sedan-400.ttf",
+   "name": "Sedan Regular",
+   "mean": 0.5687715038657188,
+   "iou_F": 0.463,
+   "iou_p": 0.703,
+   "iou_e": 0.556,
+   "iou_r": 0.554,
+   "feat": {
+    "xh/cap": 0.657,
+    "desc/cap": 0.384,
+    "Fw/cap": 0.675,
+    "ew/cap": 0.553,
+    "rw/cap": 0.498,
+    "pw/cap": 0.74
+   }
+  },
+  {
+   "font": "Rye-400.ttf",
+   "name": "Rye Regular",
+   "mean": 0.5657782405614853,
+   "iou_F": 0.523,
+   "iou_p": 0.647,
+   "iou_e": 0.538,
+   "iou_r": 0.554,
+   "feat": {
+    "xh/cap": 0.759,
+    "desc/cap": 0.306,
+    "Fw/cap": 0.785,
+    "ew/cap": 0.711,
+    "rw/cap": 0.68,
+    "pw/cap": 0.812
+   }
+  },
+  {
+   "font": "Cormorant-700.ttf",
+   "name": "Cormorant Light Bold",
+   "mean": 0.5657455921173096,
+   "iou_F": 0.599,
+   "iou_p": 0.632,
+   "iou_e": 0.525,
+   "iou_r": 0.508,
+   "feat": {
+    "xh/cap": 0.651,
+    "desc/cap": 0.44,
+    "Fw/cap": 0.714,
+    "ew/cap": 0.579,
+    "rw/cap": 0.574,
+    "pw/cap": 0.779
+   }
+  },
+  {
+   "font": "Simonetta-400.ttf",
+   "name": "Simonetta Regular",
+   "mean": 0.564884290099144,
+   "iou_F": 0.578,
+   "iou_p": 0.538,
+   "iou_e": 0.591,
+   "iou_r": 0.553,
+   "feat": {
+    "xh/cap": 0.659,
+    "desc/cap": 0.392,
+    "Fw/cap": 0.657,
+    "ew/cap": 0.571,
+    "rw/cap": 0.514,
+    "pw/cap": 0.702
+   }
+  },
+  {
+   "font": "Noto_Serif_Display-700.ttf",
+   "name": "Noto Serif Display Bold",
+   "mean": 0.5615743920207024,
+   "iou_F": 0.601,
+   "iou_p": 0.581,
+   "iou_e": 0.475,
+   "iou_r": 0.589,
+   "feat": {
+    "xh/cap": 0.783,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.783,
+    "ew/cap": 0.675,
+    "rw/cap": 0.683,
+    "pw/cap": 0.819
+   }
+  },
+  {
+   "font": "NotoSerifDisplay-Bold.ttf",
+   "name": "Noto Serif Display Bold",
+   "mean": 0.561314731836319,
+   "iou_F": 0.601,
+   "iou_p": 0.58,
+   "iou_e": 0.476,
+   "iou_r": 0.589,
+   "feat": {
+    "xh/cap": 0.783,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.783,
+    "ew/cap": 0.675,
+    "rw/cap": 0.683,
+    "pw/cap": 0.819
+   }
+  },
+  {
+   "font": "Mate-400.ttf",
+   "name": "Mate Regular",
+   "mean": 0.5607034713029861,
+   "iou_F": 0.576,
+   "iou_p": 0.638,
+   "iou_e": 0.6,
+   "iou_r": 0.429,
+   "feat": {
+    "xh/cap": 0.686,
+    "desc/cap": 0.357,
+    "Fw/cap": 0.657,
+    "ew/cap": 0.563,
+    "rw/cap": 0.451,
+    "pw/cap": 0.717
+   }
+  },
+  {
+   "font": "Rokkitt-700.ttf",
+   "name": "Rokkitt SemiBold Bold",
+   "mean": 0.5588908195495605,
+   "iou_F": 0.516,
+   "iou_p": 0.572,
+   "iou_e": 0.543,
+   "iou_r": 0.604,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.293,
+    "Fw/cap": 0.892,
+    "ew/cap": 0.734,
+    "rw/cap": 0.617,
+    "pw/cap": 0.849
+   }
+  },
+  {
+   "font": "Baskervville-400.ttf",
+   "name": "Baskervville Regular",
+   "mean": 0.5573159903287888,
+   "iou_F": 0.631,
+   "iou_p": 0.589,
+   "iou_e": 0.54,
+   "iou_r": 0.469,
+   "feat": {
+    "xh/cap": 0.649,
+    "desc/cap": 0.391,
+    "Fw/cap": 0.785,
+    "ew/cap": 0.554,
+    "rw/cap": 0.48,
+    "pw/cap": 0.698
+   }
+  },
+  {
+   "font": "Gilda_Display-400.ttf",
+   "name": "Gilda Display Regular",
+   "mean": 0.5546096861362457,
+   "iou_F": 0.508,
+   "iou_p": 0.554,
+   "iou_e": 0.553,
+   "iou_r": 0.604,
+   "feat": {
+    "xh/cap": 0.704,
+    "desc/cap": 0.391,
+    "Fw/cap": 0.667,
+    "ew/cap": 0.577,
+    "rw/cap": 0.544,
+    "pw/cap": 0.707
+   }
+  },
+  {
+   "font": "Source_Serif_4-700.ttf",
+   "name": "Source Serif 4 Bold",
+   "mean": 0.5530990213155746,
+   "iou_F": 0.616,
+   "iou_p": 0.563,
+   "iou_e": 0.505,
+   "iou_r": 0.529,
+   "feat": {
+    "xh/cap": 0.805,
+    "desc/cap": 0.341,
+    "Fw/cap": 0.831,
+    "ew/cap": 0.738,
+    "rw/cap": 0.708,
+    "pw/cap": 0.89
+   }
+  },
+  {
+   "font": "Noticia_Text-700.ttf",
+   "name": "Noticia Text Bold",
+   "mean": 0.5528873801231384,
+   "iou_F": 0.675,
+   "iou_p": 0.536,
+   "iou_e": 0.434,
+   "iou_r": 0.566,
+   "feat": {
+    "xh/cap": 0.834,
+    "desc/cap": 0.322,
+    "Fw/cap": 0.718,
+    "ew/cap": 0.715,
+    "rw/cap": 0.617,
+    "pw/cap": 0.846
+   }
+  },
+  {
+   "font": "Judson-700.ttf",
+   "name": "Judson Bold",
+   "mean": 0.5501428544521332,
+   "iou_F": 0.66,
+   "iou_p": 0.493,
+   "iou_e": 0.484,
+   "iou_r": 0.563,
+   "feat": {
+    "xh/cap": 0.786,
+    "desc/cap": 0.328,
+    "Fw/cap": 0.706,
+    "ew/cap": 0.762,
+    "rw/cap": 0.703,
+    "pw/cap": 0.901
+   }
+  },
+  {
+   "font": "Junge-400.ttf",
+   "name": "Junge",
+   "mean": 0.5475722327828407,
+   "iou_F": 0.568,
+   "iou_p": 0.495,
+   "iou_e": 0.575,
+   "iou_r": 0.551,
+   "feat": {
+    "xh/cap": 0.734,
+    "desc/cap": 0.387,
+    "Fw/cap": 0.681,
+    "ew/cap": 0.577,
+    "rw/cap": 0.505,
+    "pw/cap": 0.74
+   }
+  },
+  {
+   "font": "Roboto_Serif-700.ttf",
+   "name": "Roboto Serif 20pt Bold",
+   "mean": 0.5464096441864967,
+   "iou_F": 0.6,
+   "iou_p": 0.546,
+   "iou_e": 0.49,
+   "iou_r": 0.551,
+   "feat": {
+    "xh/cap": 0.793,
+    "desc/cap": 0.314,
+    "Fw/cap": 0.815,
+    "ew/cap": 0.769,
+    "rw/cap": 0.608,
+    "pw/cap": 0.904
+   }
+  },
+  {
+   "font": "Kameron-700.ttf",
+   "name": "Kameron Bold",
+   "mean": 0.5448593497276306,
+   "iou_F": 0.57,
+   "iou_p": 0.521,
+   "iou_e": 0.531,
+   "iou_r": 0.558,
+   "feat": {
+    "xh/cap": 0.739,
+    "desc/cap": 0.317,
+    "Fw/cap": 0.874,
+    "ew/cap": 0.797,
+    "rw/cap": 0.654,
+    "pw/cap": 0.929
+   }
+  },
+  {
+   "font": "Marcellus-400.ttf",
+   "name": "Marcellus",
+   "mean": 0.5443788915872574,
+   "iou_F": 0.628,
+   "iou_p": 0.505,
+   "iou_e": 0.503,
+   "iou_r": 0.542,
+   "feat": {
+    "xh/cap": 0.731,
+    "desc/cap": 0.353,
+    "Fw/cap": 0.531,
+    "ew/cap": 0.675,
+    "rw/cap": 0.468,
+    "pw/cap": 0.69
+   }
+  },
+  {
+   "font": "Manuale-700.ttf",
+   "name": "Manuale Bold",
+   "mean": 0.5431945323944092,
+   "iou_F": 0.582,
+   "iou_p": 0.551,
+   "iou_e": 0.502,
+   "iou_r": 0.538,
+   "feat": {
+    "xh/cap": 0.834,
+    "desc/cap": 0.274,
+    "Fw/cap": 0.754,
+    "ew/cap": 0.702,
+    "rw/cap": 0.637,
+    "pw/cap": 0.888
+   }
+  },
+  {
+   "font": "Oranienbaum-400.ttf",
+   "name": "Oranienbaum",
+   "mean": 0.5397610142827034,
+   "iou_F": 0.487,
+   "iou_p": 0.62,
+   "iou_e": 0.467,
+   "iou_r": 0.586,
+   "feat": {
+    "xh/cap": 0.7,
+    "desc/cap": 0.343,
+    "Fw/cap": 0.579,
+    "ew/cap": 0.514,
+    "rw/cap": 0.457,
+    "pw/cap": 0.614
+   }
+  },
+  {
+   "font": "Macondo-400.ttf",
+   "name": "Macondo",
+   "mean": 0.5274740681052208,
+   "iou_F": 0.63,
+   "iou_p": 0.504,
+   "iou_e": 0.383,
+   "iou_r": 0.593,
+   "feat": {
+    "xh/cap": 0.658,
+    "desc/cap": 0.405,
+    "Fw/cap": 0.692,
+    "ew/cap": 0.514,
+    "rw/cap": 0.456,
+    "pw/cap": 0.655
+   }
+  },
+  {
+   "font": "Original_Surfer-400.ttf",
+   "name": "Original Surfer",
+   "mean": 0.5237581208348274,
+   "iou_F": 0.319,
+   "iou_p": 0.605,
+   "iou_e": 0.53,
+   "iou_r": 0.642,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.342,
+    "Fw/cap": 0.803,
+    "ew/cap": 0.684,
+    "rw/cap": 0.413,
+    "pw/cap": 0.722
+   }
+  },
+  {
+   "font": "Sorts_Mill_Goudy-400.ttf",
+   "name": "Sorts Mill Goudy Regular",
+   "mean": 0.520598366856575,
+   "iou_F": 0.669,
+   "iou_p": 0.483,
+   "iou_e": 0.509,
+   "iou_r": 0.422,
+   "feat": {
+    "xh/cap": 0.628,
+    "desc/cap": 0.273,
+    "Fw/cap": 0.716,
+    "ew/cap": 0.54,
+    "rw/cap": 0.472,
+    "pw/cap": 0.675
+   }
+  },
+  {
+   "font": "NotoSerifDisplay-Regular.ttf",
+   "name": "Noto Serif Display Regular",
+   "mean": 0.5197943523526192,
+   "iou_F": 0.547,
+   "iou_p": 0.494,
+   "iou_e": 0.441,
+   "iou_r": 0.596,
+   "feat": {
+    "xh/cap": 0.779,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.714,
+    "ew/cap": 0.602,
+    "rw/cap": 0.606,
+    "pw/cap": 0.765
+   }
+  },
+  {
+   "font": "LiberationSerif-Italic.ttf",
+   "name": "Liberation Serif Italic",
+   "mean": 0.5187045186758041,
+   "iou_F": 0.51,
+   "iou_p": 0.476,
+   "iou_e": 0.519,
+   "iou_r": 0.57,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.954,
+    "ew/cap": 0.597,
+    "rw/cap": 0.537,
+    "pw/cap": 0.807
+   }
+  },
+  {
+   "font": "LiberationSerif-Italic.ttf",
+   "name": "Liberation Serif Italic",
+   "mean": 0.5187045186758041,
+   "iou_F": 0.51,
+   "iou_p": 0.476,
+   "iou_e": 0.519,
+   "iou_r": 0.57,
+   "feat": {
+    "xh/cap": 0.735,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.954,
+    "ew/cap": 0.597,
+    "rw/cap": 0.537,
+    "pw/cap": 0.807
+   }
+  },
+  {
+   "font": "NotoSerif-BoldItalic.ttf",
+   "name": "Noto Serif Bold Italic",
+   "mean": 0.5179705247282982,
+   "iou_F": 0.535,
+   "iou_p": 0.536,
+   "iou_e": 0.563,
+   "iou_r": 0.438,
+   "feat": {
+    "xh/cap": 0.779,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.98,
+    "ew/cap": 0.686,
+    "rw/cap": 0.728,
+    "pw/cap": 0.859
+   }
+  },
+  {
+   "font": "Noto_Serif_Display-900.ttf",
+   "name": "Noto Serif Display Black",
+   "mean": 0.5144824534654617,
+   "iou_F": 0.539,
+   "iou_p": 0.548,
+   "iou_e": 0.459,
+   "iou_r": 0.512,
+   "feat": {
+    "xh/cap": 0.786,
+    "desc/cap": 0.31,
+    "Fw/cap": 0.835,
+    "ew/cap": 0.728,
+    "rw/cap": 0.751,
+    "pw/cap": 0.864
+   }
+  },
+  {
+   "font": "Linden_Hill-400.ttf",
+   "name": "Linden Hill Regular",
+   "mean": 0.5122451335191727,
+   "iou_F": 0.687,
+   "iou_p": 0.561,
+   "iou_e": 0.447,
+   "iou_r": 0.354,
+   "feat": {
+    "xh/cap": 0.617,
+    "desc/cap": 0.388,
+    "Fw/cap": 0.776,
+    "ew/cap": 0.547,
+    "rw/cap": 0.462,
+    "pw/cap": 0.679
+   }
+  },
+  {
+   "font": "Lancelot-400.ttf",
+   "name": "Lancelot",
+   "mean": 0.512175627052784,
+   "iou_F": 0.519,
+   "iou_p": 0.362,
+   "iou_e": 0.526,
+   "iou_r": 0.642,
+   "feat": {
+    "xh/cap": 0.72,
+    "desc/cap": 0.559,
+    "Fw/cap": 0.621,
+    "ew/cap": 0.529,
+    "rw/cap": 0.48,
+    "pw/cap": 0.693
+   }
+  },
+  {
+   "font": "Podkova-700.ttf",
+   "name": "Podkova Bold",
+   "mean": 0.5070013180375099,
+   "iou_F": 0.547,
+   "iou_p": 0.527,
+   "iou_e": 0.414,
+   "iou_r": 0.541,
+   "feat": {
+    "xh/cap": 0.823,
+    "desc/cap": 0.374,
+    "Fw/cap": 0.876,
+    "ew/cap": 0.779,
+    "rw/cap": 0.72,
+    "pw/cap": 0.912
+   }
+  },
+  {
+   "font": "Pridi-700.ttf",
+   "name": "Pridi Bold",
+   "mean": 0.5049986094236374,
+   "iou_F": 0.511,
+   "iou_p": 0.528,
+   "iou_e": 0.462,
+   "iou_r": 0.519,
+   "feat": {
+    "xh/cap": 0.79,
+    "desc/cap": 0.321,
+    "Fw/cap": 0.801,
+    "ew/cap": 0.798,
+    "rw/cap": 0.614,
+    "pw/cap": 0.889
+   }
+  },
+  {
+   "font": "FreeSerifBoldItalic.ttf",
+   "name": "FreeSerif Bold Italic",
+   "mean": 0.5045959502458572,
+   "iou_F": 0.518,
+   "iou_p": 0.476,
+   "iou_e": 0.463,
+   "iou_r": 0.562,
+   "feat": {
+    "xh/cap": 0.71,
+    "desc/cap": 0.306,
+    "Fw/cap": 1.006,
+    "ew/cap": 0.587,
+    "rw/cap": 0.613,
+    "pw/cap": 0.846
+   }
+  },
+  {
+   "font": "FreeSerifBoldItalic.ttf",
+   "name": "FreeSerif Bold Italic",
+   "mean": 0.5045959502458572,
+   "iou_F": 0.518,
+   "iou_p": 0.476,
+   "iou_e": 0.463,
+   "iou_r": 0.562,
+   "feat": {
+    "xh/cap": 0.71,
+    "desc/cap": 0.306,
+    "Fw/cap": 1.006,
+    "ew/cap": 0.587,
+    "rw/cap": 0.613,
+    "pw/cap": 0.846
+   }
+  },
+  {
+   "font": "Jacques_Francois-400.ttf",
+   "name": "Jacques Francois",
+   "mean": 0.5006110221147537,
+   "iou_F": 0.461,
+   "iou_p": 0.569,
+   "iou_e": 0.537,
+   "iou_r": 0.435,
+   "feat": {
+    "xh/cap": 0.636,
+    "desc/cap": 0.361,
+    "Fw/cap": 0.97,
+    "ew/cap": 0.539,
+    "rw/cap": 0.526,
+    "pw/cap": 0.701
+   }
+  },
+  {
+   "font": "Rum_Raisin-400.ttf",
+   "name": "Rum Raisin",
+   "mean": 0.49904270470142365,
+   "iou_F": 0.481,
+   "iou_p": 0.572,
+   "iou_e": 0.466,
+   "iou_r": 0.477,
+   "feat": {
+    "xh/cap": 0.841,
+    "desc/cap": 0.252,
+    "Fw/cap": 0.473,
+    "ew/cap": 0.5,
+    "rw/cap": 0.504,
+    "pw/cap": 0.538
+   }
+  },
+  {
+   "font": "NotoSerif-Italic.ttf",
+   "name": "Noto Serif Italic",
+   "mean": 0.4990139305591583,
+   "iou_F": 0.5,
+   "iou_p": 0.498,
+   "iou_e": 0.513,
+   "iou_r": 0.485,
+   "feat": {
+    "xh/cap": 0.779,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.917,
+    "ew/cap": 0.604,
+    "rw/cap": 0.601,
+    "pw/cap": 0.758
+   }
+  },
+  {
+   "font": "Metamorphous-400.ttf",
+   "name": "Metamorphous",
+   "mean": 0.4975699186325073,
+   "iou_F": 0.595,
+   "iou_p": 0.473,
+   "iou_e": 0.433,
+   "iou_r": 0.49,
+   "feat": {
+    "xh/cap": 0.816,
+    "desc/cap": 0.37,
+    "Fw/cap": 0.819,
+    "ew/cap": 0.632,
+    "rw/cap": 0.625,
+    "pw/cap": 0.79
+   }
+  },
+  {
+   "font": "Libre_Caslon_Display-400.ttf",
+   "name": "Libre Caslon Display Regular",
+   "mean": 0.48651646077632904,
+   "iou_F": 0.566,
+   "iou_p": 0.522,
+   "iou_e": 0.452,
+   "iou_r": 0.406,
+   "feat": {
+    "xh/cap": 0.643,
+    "desc/cap": 0.339,
+    "Fw/cap": 0.701,
+    "ew/cap": 0.503,
+    "rw/cap": 0.4,
+    "pw/cap": 0.599
+   }
+  },
+  {
+   "font": "Antic_Didone-400.ttf",
+   "name": "Antic Didone Regular",
+   "mean": 0.46822379529476166,
+   "iou_F": 0.459,
+   "iou_p": 0.482,
+   "iou_e": 0.396,
+   "iou_r": 0.536,
+   "feat": {
+    "xh/cap": 0.725,
+    "desc/cap": 0.355,
+    "Fw/cap": 0.629,
+    "ew/cap": 0.608,
+    "rw/cap": 0.505,
+    "pw/cap": 0.663
+   }
+  },
+  {
+   "font": "NotoSerifDisplay-BoldItalic.ttf",
+   "name": "Noto Serif Display Bold Italic",
+   "mean": 0.4629480838775635,
+   "iou_F": 0.467,
+   "iou_p": 0.487,
+   "iou_e": 0.486,
+   "iou_r": 0.412,
+   "feat": {
+    "xh/cap": 0.779,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.982,
+    "ew/cap": 0.689,
+    "rw/cap": 0.716,
+    "pw/cap": 0.863
+   }
+  },
+  {
+   "font": "Della_Respira-400.ttf",
+   "name": "Della Respira",
+   "mean": 0.45793548226356506,
+   "iou_F": 0.507,
+   "iou_p": 0.466,
+   "iou_e": 0.41,
+   "iou_r": 0.449,
+   "feat": {
+    "xh/cap": 0.606,
+    "desc/cap": 0.252,
+    "Fw/cap": 0.709,
+    "ew/cap": 0.564,
+    "rw/cap": 0.419,
+    "pw/cap": 0.633
+   }
+  },
+  {
+   "font": "Instrument_Serif-400.ttf",
+   "name": "Instrument Serif Regular",
+   "mean": 0.4568900465965271,
+   "iou_F": 0.333,
+   "iou_p": 0.475,
+   "iou_e": 0.443,
+   "iou_r": 0.577,
+   "feat": {
+    "xh/cap": 0.729,
+    "desc/cap": 0.285,
+    "Fw/cap": 0.514,
+    "ew/cap": 0.426,
+    "rw/cap": 0.421,
+    "pw/cap": 0.558
+   }
+  },
+  {
+   "font": "Rozha_One-400.ttf",
+   "name": "Rozha One Regular",
+   "mean": 0.44682008773088455,
+   "iou_F": 0.589,
+   "iou_p": 0.416,
+   "iou_e": 0.326,
+   "iou_r": 0.457,
+   "feat": {
+    "xh/cap": 0.857,
+    "desc/cap": 0.375,
+    "Fw/cap": 0.821,
+    "ew/cap": 0.807,
+    "rw/cap": 0.774,
+    "pw/cap": 0.943
+   }
+  },
+  {
+   "font": "Emilys_Candy-400.ttf",
+   "name": "Emilys Candy",
+   "mean": 0.4451591297984123,
+   "iou_F": 0.567,
+   "iou_p": 0.409,
+   "iou_e": 0.43,
+   "iou_r": 0.375,
+   "feat": {
+    "xh/cap": 0.664,
+    "desc/cap": 0.284,
+    "Fw/cap": 0.962,
+    "ew/cap": 0.507,
+    "rw/cap": 0.521,
+    "pw/cap": 0.641
+   }
+  },
+  {
+   "font": "Uncial_Antiqua-400.ttf",
+   "name": "Uncial Antiqua",
+   "mean": 0.43691202998161316,
+   "iou_F": 0.526,
+   "iou_p": 0.447,
+   "iou_e": 0.509,
+   "iou_r": 0.266,
+   "feat": {
+    "xh/cap": 0.574,
+    "desc/cap": -0.074,
+    "Fw/cap": 0.638,
+    "ew/cap": 0.603,
+    "rw/cap": 0.619,
+    "pw/cap": 0.623
+   }
+  },
+  {
+   "font": "Spirax-400.ttf",
+   "name": "Spirax-Regular",
+   "mean": 0.4289548136293888,
+   "iou_F": 0.196,
+   "iou_p": 0.56,
+   "iou_e": 0.463,
+   "iou_r": 0.498,
+   "feat": {
+    "xh/cap": 0.654,
+    "desc/cap": 0.325,
+    "Fw/cap": 0.844,
+    "ew/cap": 0.541,
+    "rw/cap": 0.444,
+    "pw/cap": 0.594
+   }
+  },
+  {
+   "font": "FreeSerifItalic.ttf",
+   "name": "FreeSerif Italic",
+   "mean": 0.42782851308584213,
+   "iou_F": 0.462,
+   "iou_p": 0.37,
+   "iou_e": 0.38,
+   "iou_r": 0.499,
+   "feat": {
+    "xh/cap": 0.692,
+    "desc/cap": 0.314,
+    "Fw/cap": 0.974,
+    "ew/cap": 0.583,
+    "rw/cap": 0.562,
+    "pw/cap": 0.833
+   }
+  },
+  {
+   "font": "FreeSerifItalic.ttf",
+   "name": "FreeSerif Italic",
+   "mean": 0.42782851308584213,
+   "iou_F": 0.462,
+   "iou_p": 0.37,
+   "iou_e": 0.38,
+   "iou_r": 0.499,
+   "feat": {
+    "xh/cap": 0.692,
+    "desc/cap": 0.314,
+    "Fw/cap": 0.974,
+    "ew/cap": 0.583,
+    "rw/cap": 0.562,
+    "pw/cap": 0.833
+   }
+  },
+  {
+   "font": "NotoSerifDisplay-Italic.ttf",
+   "name": "Noto Serif Display Italic",
+   "mean": 0.42442165315151215,
+   "iou_F": 0.397,
+   "iou_p": 0.439,
+   "iou_e": 0.438,
+   "iou_r": 0.423,
+   "feat": {
+    "xh/cap": 0.779,
+    "desc/cap": 0.336,
+    "Fw/cap": 0.917,
+    "ew/cap": 0.604,
+    "rw/cap": 0.601,
+    "pw/cap": 0.758
+   }
+  },
+  {
+   "font": "Imbue-700.ttf",
+   "name": "Imbue Thin 10pt Bold",
+   "mean": 0.41737397760152817,
+   "iou_F": 0.255,
+   "iou_p": 0.418,
+   "iou_e": 0.473,
+   "iou_r": 0.524,
+   "feat": {
+    "xh/cap": 0.772,
+    "desc/cap": 0.357,
+    "Fw/cap": 0.423,
+    "ew/cap": 0.469,
+    "rw/cap": 0.471,
+    "pw/cap": 0.539
+   }
+  },
+  {
+   "font": "Playfair_Display_SC-700.ttf",
+   "name": "Playfair Display SC Bold",
+   "mean": 0.40728990361094475,
+   "iou_F": 0.677,
+   "iou_p": 0.521,
+   "iou_e": 0.274,
+   "iou_r": 0.157,
+   "feat": {
+    "xh/cap": 0.859,
+    "desc/cap": 0.0,
+    "Fw/cap": 0.756,
+    "ew/cap": 0.747,
+    "rw/cap": 0.914,
+    "pw/cap": 0.791
+   }
+  },
+  {
+   "font": "Italiana-400.ttf",
+   "name": "Italiana",
+   "mean": 0.4039164185523987,
+   "iou_F": 0.409,
+   "iou_p": 0.359,
+   "iou_e": 0.381,
+   "iou_r": 0.467,
+   "feat": {
+    "xh/cap": 0.726,
+    "desc/cap": 0.357,
+    "Fw/cap": 0.569,
+    "ew/cap": 0.611,
+    "rw/cap": 0.406,
+    "pw/cap": 0.629
+   }
+  },
+  {
+   "font": "Lugrasimo-400.ttf",
+   "name": "Lugrasimo Regular",
+   "mean": 0.37861761450767517,
+   "iou_F": 0.368,
+   "iou_p": 0.456,
+   "iou_e": 0.393,
+   "iou_r": 0.296,
+   "feat": {
+    "xh/cap": 0.692,
+    "desc/cap": 0.422,
+    "Fw/cap": 1.021,
+    "ew/cap": 0.675,
+    "rw/cap": 0.757,
+    "pw/cap": 0.752
+   }
+  },
+  {
+   "font": "Smokum-400.ttf",
+   "name": "Smokum Regular",
+   "mean": 0.3772248104214668,
+   "iou_F": 0.253,
+   "iou_p": 0.375,
+   "iou_e": 0.353,
+   "iou_r": 0.528,
+   "feat": {
+    "xh/cap": 0.688,
+    "desc/cap": 0.304,
+    "Fw/cap": 0.455,
+    "ew/cap": 0.403,
+    "rw/cap": 0.43,
+    "pw/cap": 0.488
+   }
+  },
+  {
+   "font": "Cinzel_Decorative-700.ttf",
+   "name": "Cinzel Decorative Bold",
+   "mean": 0.3744783792644739,
+   "iou_F": 0.54,
+   "iou_p": 0.642,
+   "iou_e": 0.241,
+   "iou_r": 0.075,
+   "feat": {
+    "xh/cap": 1.0,
+    "desc/cap": 0.0,
+    "Fw/cap": 0.85,
+    "ew/cap": 0.786,
+    "rw/cap": 1.036,
+    "pw/cap": 0.811
+   }
+  },
+  {
+   "font": "Bellefair-400.ttf",
+   "name": "Bellefair Regular",
+   "mean": 0.3706667348742485,
+   "iou_F": 0.524,
+   "iou_p": 0.364,
+   "iou_e": 0.267,
+   "iou_r": 0.326,
+   "feat": {
+    "xh/cap": 0.557,
+    "desc/cap": 0.337,
+    "Fw/cap": 0.525,
+    "ew/cap": 0.464,
+    "rw/cap": 0.377,
+    "pw/cap": 0.563
+   }
+  },
+  {
+   "font": "Ultra-400.ttf",
+   "name": "Ultra Regular",
+   "mean": 0.3678699731826782,
+   "iou_F": 0.378,
+   "iou_p": 0.379,
+   "iou_e": 0.38,
+   "iou_r": 0.335,
+   "feat": {
+    "xh/cap": 0.808,
+    "desc/cap": 0.348,
+    "Fw/cap": 0.94,
+    "ew/cap": 0.925,
+    "rw/cap": 0.82,
+    "pw/cap": 1.056
+   }
+  },
+  {
+   "font": "Stint_Ultra_Expanded-400.ttf",
+   "name": "Stint Ultra Expanded",
+   "mean": 0.34310100972652435,
+   "iou_F": 0.352,
+   "iou_p": 0.214,
+   "iou_e": 0.223,
+   "iou_r": 0.584,
+   "feat": {
+    "xh/cap": 0.726,
+    "desc/cap": 0.286,
+    "Fw/cap": 1.058,
+    "ew/cap": 0.828,
+    "rw/cap": 0.71,
+    "pw/cap": 0.999
+   }
+  },
+  {
+   "font": "Milonga-400.ttf",
+   "name": "Milonga",
+   "mean": 0.3246498331427574,
+   "iou_F": 0.166,
+   "iou_p": 0.451,
+   "iou_e": 0.274,
+   "iou_r": 0.408,
+   "feat": {
+    "xh/cap": 0.573,
+    "desc/cap": 0.297,
+    "Fw/cap": 0.756,
+    "ew/cap": 0.466,
+    "rw/cap": 0.459,
+    "pw/cap": 0.614
+   }
+  },
+  {
+   "font": "Holtwood_One_SC-400.ttf",
+   "name": "Holtwood One SC Regular",
+   "mean": 0.3078911453485489,
+   "iou_F": 0.414,
+   "iou_p": 0.345,
+   "iou_e": 0.295,
+   "iou_r": 0.177,
+   "feat": {
+    "xh/cap": 0.917,
+    "desc/cap": 0.0,
+    "Fw/cap": 0.825,
+    "ew/cap": 0.805,
+    "rw/cap": 1.018,
+    "pw/cap": 1.018
+   }
+  },
+  {
+   "font": "Nixie_One-400.ttf",
+   "name": "Nixie One",
+   "mean": 0.28675979748368263,
+   "iou_F": 0.41,
+   "iou_p": 0.253,
+   "iou_e": 0.176,
+   "iou_r": 0.308,
+   "feat": {
+    "xh/cap": 0.743,
+    "desc/cap": 0.286,
+    "Fw/cap": 0.721,
+    "ew/cap": 0.671,
+    "rw/cap": 0.634,
+    "pw/cap": 0.786
+   }
+  },
+  {
+   "font": "Sail-400.ttf",
+   "name": "Sail",
+   "mean": 0.26839956641197205,
+   "iou_F": 0.107,
+   "iou_p": 0.381,
+   "iou_e": 0.188,
+   "iou_r": 0.398,
+   "feat": {
+    "xh/cap": 0.521,
+    "desc/cap": -0.009,
+    "Fw/cap": 1.09,
+    "ew/cap": 0.453,
+    "rw/cap": 0.479,
+    "pw/cap": 0.592
+   }
+  },
+  {
+   "font": "Ruslan_Display-400.ttf",
+   "name": "Ruslan Display Regular",
+   "mean": 0.242335956543684,
+   "iou_F": 0.369,
+   "iou_p": 0.352,
+   "iou_e": 0.147,
+   "iou_r": 0.102,
+   "feat": {
+    "xh/cap": 1.002,
+    "desc/cap": 0.0,
+    "Fw/cap": 1.098,
+    "ew/cap": 1.104,
+    "rw/cap": 1.234,
+    "pw/cap": 1.172
+   }
+  },
+  {
+   "font": "BhuTuka_Expanded_One-400.ttf",
+   "name": "BhuTuka Expanded One Regular",
+   "mean": 0.1300521269440651,
+   "iou_F": 0.171,
+   "iou_p": 0.096,
+   "iou_e": 0.085,
+   "iou_r": 0.168,
+   "feat": {
+    "xh/cap": 0.724,
+    "desc/cap": 0.319,
+    "Fw/cap": 1.455,
+    "ew/cap": 1.127,
+    "rw/cap": 1.155,
+    "pw/cap": 1.539
+   }
+  },
+  {
+   "font": "Mrs_Saint_Delafield-400.ttf",
+   "name": "Mrs Saint Delafield",
+   "mean": 0.09936228580772877,
+   "iou_F": 0.101,
+   "iou_p": 0.107,
+   "iou_e": 0.073,
+   "iou_r": 0.116,
+   "feat": {
+    "xh/cap": 0.306,
+    "desc/cap": 0.481,
+    "Fw/cap": 1.137,
+    "ew/cap": 0.427,
+    "rw/cap": 0.352,
+    "pw/cap": 0.942
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fiper social master — Fiper Brand Identity System v2.2.0 (approved composition). Link share image: headline-dominant, paper.
+     Editable <text>; fonts by family name: install brand/fonts/*.woff2. Safe margin = 2× lockup height: posts 72–84 px, story 96 px (Q8). The fixed risk line «الاستثمار ينطوي على مخاطر · Investing involves risk» sits ON the image — small, muted, inside the bottom safe area — and in the caption too (Q4, CEO decision 30 Oct 2026); the full regulatory block stays in the caption, never on the image. Logo = the official master inlined (never recoloured). Arabic letter-spacing 0, font-synthesis none. Body text ≥ 42 px (≥ 14 px when shown at 360 wide). -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F4F1"/>
+<image id="lockup" href="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" x="1021.96" y="64" width="114" height="40" preserveAspectRatio="xMinYMin meet"/>  <text id="headline" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="64" fill="#120D0E" letter-spacing="0"><tspan x="1136" y="330">استثمار يُدار بشفافية</tspan></text>
+  <text id="support" x="1136" y="410" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="30" letter-spacing="0" fill="#6B635E">صناديق فايبر — متوافقة مع الشريعة</text>
+  <line x1="64" y1="496" x2="1136" y2="496" stroke="rgba(18,13,14,.22)" stroke-width="1"/>
+  <text id="meta" x="64" y="546" direction="ltr" text-anchor="start" font-family="Inter" font-weight="500" font-size="22" fill="#6B635E">fiper.io</text>
+  <text id="risk" x="1136" y="600" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="500" font-size="33" letter-spacing="0" fill="#6B635E">الاستثمار ينطوي على مخاطر · Investing involves risk</text>
+</svg>

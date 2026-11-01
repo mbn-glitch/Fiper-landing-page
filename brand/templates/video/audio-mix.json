@@ -1,0 +1,12 @@
+{
+  "$description": "Fiper video audio chain — CEO-approved broadcast standard (15 Oct 2026), adopted in brand v2.3.0 from production-notes-2026-10-30.md § 4-ب. Units: dB, Hz, ms, s. Implemented by lib/audio-chain.mjs; verified by scripts/check-audio-loudness.mjs (ffmpeg ebur128).",
+  "values": {
+    "vo": { "highpass_hz": 80, "comp_threshold_db": -22, "comp_ratio": 3, "comp_attack_ms": 6, "comp_release_ms": 100, "eq_hz": 4500, "eq_gain_db": 1.5, "lufs": -16, "tp": -2, "lra": 7 },
+    "music": { "lufs": -20, "tp": -1, "lra": 11, "trim_db": -1.5, "trim_range_db": [-2, -1] },
+    "duck": { "depth_db": -10.5, "depth_range_db": [-12, -9], "ramp_s": 0.3, "scope": "the whole speech span, first word to last word — never between sentences" },
+    "sfx": { "whoosh": -15, "whoosh_range_db": [-16, -14], "boom": -14, "click": -18, "chime": -16 },
+    "final": { "limiter": 0.89, "lufs": -14, "tp": -1.5, "lra": 11 },
+    "verify": { "lufs_min": -14.2, "lufs_max": -14.0, "tp_max": -1.5, "tool": "ffmpeg -af ebur128=peak=true" },
+    "delivery": { "audio_codec": "AAC 256k (share) / Opus 160k (WebM)", "sample_rate_hz": 48000 }
+  }
+}

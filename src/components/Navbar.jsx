@@ -2,9 +2,12 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import Icon from "./Icon";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { BRAND_EASE } from "./Reveal";
 
+/** Sticky header: the official lockup at 26 px (never mirrored), text links (44 px targets), the language switch and a
+ *  SECONDARY "get your card" button — the one primary action of the first screen is the hero CTA. */
 export default function Navbar() {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
@@ -43,49 +46,31 @@ export default function Navbar() {
     return () => observers.forEach((o) => o?.disconnect());
   }, []);
 
+  const linkBase = "inline-flex items-center min-h-11 px-3 text-sm transition-colors duration-200 rounded-sm";
+  const linkState = (isActive) => (isActive ? "text-fg shadow-[inset_0_-2px_0_var(--fp-brand-red)]" : "text-muted hover:text-fg");
+
   return (
-    <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-black/60 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/50"
-          : "bg-transparent"
+    <nav
+      className={`fixed top-0 left-0 right-0 z-[80] border-b transition-colors duration-300 ${
+        scrolled ? "bg-header backdrop-blur-[14px] border-line" : "bg-transparent border-transparent"
       }`}
+      style={{ paddingTop: "env(safe-area-inset-top)" }}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="flex items-center justify-between py-6">
-          <a href="#home" className="flex-shrink-0" aria-label="Fiper — go to top">
-            <img
-              src="/Fiper_Logo_white2.png"
-              alt="Fiper"
-              className="h-24 md:h-28 w-auto object-contain"
-            />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between gap-4 min-h-14 py-2">
+          <a href="#home" className="lockup inline-flex items-center min-h-11 flex-shrink-0" aria-label="Fiper">
+            <img src="/brand/fiper-lockup-horizontal-colour.svg" alt="Fiper" width="74" height="26" className="h-[26px] w-auto" />
           </a>
 
           <div className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => {
               const isActive = !link.isRoute && link.href === `#${activeSection}`;
-              const baseClasses = "px-4 py-2 text-sm transition-colors duration-200 rounded-lg";
-              const stateClasses = isActive
-                ? "text-white bg-white/5"
-                : "text-zinc-400 hover:text-white hover:bg-white/5";
               return link.isRoute ? (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  className={`${baseClasses} text-zinc-400 hover:text-white hover:bg-white/5`}
-                >
+                <Link key={link.href} to={link.href} className={`${linkBase} ${linkState(false)}`}>
                   {link.label}
                 </Link>
               ) : (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  aria-current={isActive ? "true" : undefined}
-                  className={`${baseClasses} ${stateClasses}`}
-                >
+                <a key={link.href} href={link.href} aria-current={isActive ? "true" : undefined} className={`${linkBase} ${linkState(isActive)}`}>
                   {link.label}
                 </a>
               );
@@ -94,24 +79,22 @@ export default function Navbar() {
 
           <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher />
-            <a
-              href="https://crm.fiper.me"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-fiper px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-fiper-dark hover:shadow-lg hover:shadow-red-500/20"
-            >
+            <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer" className="fp-btn fp-btn--secondary fp-btn--sm">
               {t("nav.getYourCard")}
             </a>
           </div>
 
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 text-zinc-400 hover:text-white"
-            aria-label={mobileOpen ? "Close menu" : "Open menu"}
-            aria-expanded={mobileOpen}
-          >
-            {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="flex items-center gap-2 lg:hidden">
+            <LanguageSwitcher />
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="fp-btn fp-btn--ghost fp-btn--icon"
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileOpen}
+            >
+              <Icon name={mobileOpen ? "x" : "menu"} size="lg" />
+            </button>
+          </div>
         </div>
       </div>
 
@@ -121,45 +104,25 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="lg:hidden bg-black/95 backdrop-blur-2xl border-b border-white/10"
+            transition={{ duration: 0.3, ease: BRAND_EASE }}
+            className="lg:hidden bg-coal border-t border-line"
           >
-            <div className="px-6 py-6 space-y-1">
+            <div className="px-4 py-4 space-y-1">
               {navLinks.map((link) => {
                 const isActive = !link.isRoute && link.href === `#${activeSection}`;
-                const stateClasses = isActive
-                  ? "text-white bg-white/5"
-                  : "text-zinc-400 hover:text-white hover:bg-white/5";
+                const cls = `flex items-center min-h-12 px-3 text-base rounded-sm border-b border-line ${isActive ? "text-fg" : "text-muted hover:text-fg"}`;
                 return link.isRoute ? (
-                  <Link
-                    key={link.href}
-                    to={link.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="block px-4 py-3 text-base text-zinc-400 hover:text-white rounded-lg hover:bg-white/5 transition-colors"
-                  >
+                  <Link key={link.href} to={link.href} onClick={() => setMobileOpen(false)} className={cls}>
                     {link.label}
                   </Link>
                 ) : (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    onClick={() => setMobileOpen(false)}
-                    aria-current={isActive ? "true" : undefined}
-                    className={`block px-4 py-3 text-base rounded-lg transition-colors ${stateClasses}`}
-                  >
+                  <a key={link.href} href={link.href} onClick={() => setMobileOpen(false)} aria-current={isActive ? "true" : undefined} className={cls}>
                     {link.label}
                   </a>
                 );
               })}
-              <div className="pt-4 space-y-3">
-                <LanguageSwitcher className="w-full justify-center" />
-                <a
-                  href="https://crm.fiper.me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setMobileOpen(false)}
-                  className="block w-full text-center rounded-full bg-fiper px-6 py-3 text-sm font-semibold text-white"
-                >
+              <div className="pt-4">
+                <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="fp-btn fp-btn--secondary fp-btn--block">
                   {t("nav.getYourCard")}
                 </a>
               </div>
@@ -167,6 +130,6 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.nav>
+    </nav>
   );
 }

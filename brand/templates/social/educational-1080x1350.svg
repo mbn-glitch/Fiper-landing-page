@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fiper social master — Fiper Brand Identity System v2.2.0 (approved composition). Educational post: comparison axes (not sequential steps → no numbering), axis column + two option columns, heavy top rule, body 44 px (14.7 px at 360).
+     Editable <text>; fonts by family name: install brand/fonts/*.woff2. Safe margin = 2× lockup height: posts 72–84 px, story 96 px (Q8). The fixed risk line «الاستثمار ينطوي على مخاطر · Investing involves risk» sits ON the image — small, muted, inside the bottom safe area — and in the caption too (Q4, CEO decision 30 Oct 2026); the full regulatory block stays in the caption, never on the image. Logo = the official master inlined (never recoloured). Arabic letter-spacing 0, font-synthesis none. Body text ≥ 42 px (≥ 14 px when shown at 360 wide). -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#F7F4F1"/>
+<image id="lockup" href="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" x="893.364" y="84" width="103" height="36" preserveAspectRatio="xMinYMin meet"/>  <text id="kicker" x="996" y="214" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="600" font-size="26" letter-spacing="0" fill="#6B635E">أكاديمية فايبر · مقارنة</text>
+  <text id="title" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="66" fill="#120D0E" letter-spacing="0"><tspan x="996" y="300">التداول أم الاستثمار في الصناديق؟</tspan><tspan x="996" dy="80">ثلاثة محاور تحسم اختيارك</tspan></text>
+  <line x1="84" y1="450" x2="996" y2="450" stroke="#120D0E" stroke-width="2"/>
+  <text id="h-axis" x="996" y="508" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="600" font-size="24" letter-spacing="0" fill="#6B635E">المحور</text>
+  <text id="h-a" x="696" y="508" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="34" letter-spacing="0" fill="#120D0E">التداول</text>
+  <text id="h-b" x="414" y="508" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="34" letter-spacing="0" fill="#120D0E">صناديق فايبر</text>
+  <line x1="84" y1="542" x2="996" y2="542" stroke="rgba(18,13,14,.22)" stroke-width="1"/>
+  <text id="ax1" x="996" y="638" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="44" letter-spacing="0" fill="#120D0E">الأفق الزمني</text>
+  <text id="a1" x="696" y="638" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="44" letter-spacing="0" fill="#120D0E">أيام إلى أسابيع</text>
+  <text id="b1" x="414" y="638" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="44" letter-spacing="0" fill="#120D0E">سنوات</text>
+  <line x1="84" y1="692" x2="996" y2="692" stroke="rgba(18,13,14,.22)" stroke-width="1"/>
+  <text id="ax2" x="996" y="788" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="44" letter-spacing="0" fill="#120D0E">مصدر العائد</text>
+  <text id="a2" x="696" y="788" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="44" letter-spacing="0" fill="#120D0E">فرق السعر</text>
+  <text id="b2" x="414" y="788" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="44" letter-spacing="0" fill="#120D0E">نموّ الأصول وتوزيعاتها</text>
+  <line x1="84" y1="842" x2="996" y2="842" stroke="rgba(18,13,14,.22)" stroke-width="1"/>
+  <text id="ax3" x="996" y="938" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="44" letter-spacing="0" fill="#120D0E">المتابعة</text>
+  <text id="a3" x="696" y="938" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="44" letter-spacing="0" fill="#120D0E">يومية ومستمرة</text>
+  <text id="b3" x="414" y="938" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="44" letter-spacing="0" fill="#120D0E">مراجعة دورية</text>
+  <line x1="84" y1="992" x2="996" y2="992" stroke="rgba(18,13,14,.22)" stroke-width="1"/>
+  <text id="closing" x="996" y="1082" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="30" letter-spacing="0" fill="#6B635E">اختر ما يناسب وقتك وأهدافك — الاستثمار ينطوي على مخاطر.</text>
+  <text id="meta" x="84" y="1266" direction="ltr" text-anchor="start" font-family="Inter" font-weight="500" font-size="22" fill="#6B635E">fiper.io</text>
+  <text id="risk" x="996" y="1300" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="500" font-size="33" letter-spacing="0" fill="#6B635E">الاستثمار ينطوي على مخاطر · Investing involves risk</text>
+</svg>

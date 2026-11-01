@@ -1,14 +1,16 @@
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
-import { Check, X, ArrowRight, Star } from "lucide-react";
-import FiperCard3D from "./FiperCard3D";
+import Icon from "./Icon";
+import Reveal from "./Reveal";
+import SectionHead from "./SectionHead";
+import CardVisual from "./CardVisual";
 
+/** Two selectable plan cards (a justified box each: the product, its facts and its one action). Figures in IBM Plex Mono.
+ *  The physical plan carries the primary button, the virtual plan a secondary one — one primary per screen. */
 export default function ChooseCard() {
   const { t } = useTranslation();
 
-  // PRICING MODEL — confirmed with operations
-  // Virtual Card: $50 issuing fee → $30 loaded to card balance → $20 actual cost
-  // Physical Card: $100 issuing fee (no balance loaded)
+  // PRICING MODEL — confirmed with operations (unchanged):
+  // Virtual Card: $50 issuing fee → $30 loaded to card balance → $20 actual cost · Physical Card: $100 issuing fee.
   // These values MUST match helpCenter.vp_a1 in src/locales/*.json.
   const plans = [
     {
@@ -17,7 +19,8 @@ export default function ChooseCard() {
       badge: t("chooseCard.virtualBadge"),
       variant: "virtual",
       cta: t("chooseCard.virtualCta"),
-      popular: true,
+      tag: t("chooseCard.mostPopular"),
+      primary: false,
       features: [
         { text: t("chooseCard.vf1"), included: true },
         { text: t("chooseCard.vf2"), included: true },
@@ -25,6 +28,10 @@ export default function ChooseCard() {
         { text: t("chooseCard.vf4"), included: true },
         { text: t("chooseCard.vf5"), included: true },
         { text: t("chooseCard.vf6"), included: false },
+      ],
+      facts: [
+        { label: t("chooseCard.loadedToCard"), value: "+ $30" },
+        { label: t("chooseCard.actualCost"), value: "$20" },
       ],
       fees: [
         { label: t("chooseCard.topUp"), value: t("chooseCard.topUpVal") },
@@ -39,8 +46,8 @@ export default function ChooseCard() {
       badge: t("chooseCard.physicalBadge"),
       variant: "physical",
       cta: t("chooseCard.physicalCta"),
-      popular: false,
-      premium: true,
+      tag: t("chooseCard.premiumChoice"),
+      primary: true,
       features: [
         { text: t("chooseCard.pf1"), included: true },
         { text: t("chooseCard.pf2"), included: true },
@@ -48,6 +55,10 @@ export default function ChooseCard() {
         { text: t("chooseCard.pf4"), included: true },
         { text: t("chooseCard.pf5"), included: false },
         { text: t("chooseCard.pf6"), included: false },
+      ],
+      facts: [
+        { label: t("chooseCard.atmAccess"), value: "$2k / week" },
+        { label: t("chooseCard.validity"), value: t("chooseCard.threeYears"), text: true },
       ],
       fees: [
         { label: t("chooseCard.topUp"), value: t("chooseCard.topUpVal") },
@@ -59,117 +70,66 @@ export default function ChooseCard() {
   ];
 
   return (
-    <section id="cards" className="relative py-24 md:py-32 overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full bg-red-500/[0.03] blur-[200px] pointer-events-none" />
-      <div className="relative mx-auto max-w-7xl px-6">
-        <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.7 }} className="text-center mb-16 md:mb-20">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fiper mb-4">{t("chooseCard.label")}</p>
-          <h2 className="text-4xl font-semibold leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl" style={{ letterSpacing: "-0.04em" }}>
-            {t("chooseCard.heading1")}
-            <span className="text-zinc-400"> {t("chooseCard.heading2")}</span>
-          </h2>
-        </motion.div>
+    <section id="cards" className="relative py-20 md:py-28 bg-coal border-y border-line">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
+        <SectionHead label={t("chooseCard.label")} heading1={t("chooseCard.heading1")} heading2={t("chooseCard.heading2")} />
 
-        <div className="relative grid gap-8 lg:grid-cols-2 max-w-5xl mx-auto">
-          <div className="hidden lg:block absolute top-[10%] bottom-[10%] left-1/2 -translate-x-1/2 w-px">
-            <div className="h-full bg-gradient-to-b from-transparent via-white/10 to-transparent" />
-          </div>
-
+        <div className="grid gap-6 lg:grid-cols-2 max-w-5xl mx-auto items-start">
           {plans.map((plan, idx) => (
-            <motion.div
-              key={plan.name}
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.7, delay: idx * 0.15 }}
-              whileHover={{ y: -8, transition: { duration: 0.3, ease: "easeOut" } }}
-              animate={plan.premium ? { y: [-3, 3, -3] } : {}}
-              {...(plan.premium && { transition: { y: { duration: 5, repeat: Infinity, ease: "easeInOut" }, default: { duration: 0.7, delay: idx * 0.15 } } })}
-              style={plan.premium ? { transform: "scale(1.03)" } : undefined}
-              className={`relative rounded-3xl overflow-hidden transition-all duration-500 ${plan.premium ? "border-2 border-fiper/60 bg-gradient-to-b from-red-500/[0.10] to-transparent hover:border-fiper hover:shadow-[0_0_60px_-10px_rgba(220,38,38,0.5)] shadow-[0_0_40px_-15px_rgba(220,38,38,0.3)]" : plan.popular ? "border border-white/[0.08] bg-white/[0.015] hover:border-white/[0.15]" : "border border-white/[0.06] bg-white/[0.02] hover:border-red-500/30"}`}
-            >
-              {plan.premium && <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-fiper to-transparent" />}
-              {plan.popular && (
-                <div className="absolute top-5 end-5 z-10">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.08] border border-white/[0.12] px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-300 backdrop-blur-md">
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-                    {t("chooseCard.mostPopular")}
-                  </span>
-                </div>
-              )}
-              {plan.premium && (
-                <div className="absolute top-5 end-5 z-10">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-red-600 to-red-500 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-wider text-white shadow-lg shadow-red-500/30">
-                    <Star size={12} fill="currentColor" />
-                    {t("chooseCard.premiumChoice")}
-                  </span>
-                </div>
-              )}
-              <div className="p-8 lg:p-10">
-                <span className="inline-block rounded-full bg-white/5 border border-white/10 px-3 py-1 text-xs text-zinc-400 mb-6">{plan.badge}</span>
-                <div className="flex justify-center mb-8 scale-[0.75] origin-center sm:scale-[0.85]">
-                  <FiperCard3D variant={plan.variant} />
-                </div>
-                <div className="flex items-baseline justify-between mb-8">
-                  <h3 className="text-2xl font-bold">{plan.name}</h3>
-                  <div className="text-end">
-                    <span className="text-3xl font-bold">{plan.price}</span>
-                    <p className="text-xs text-zinc-500 mt-1">{t("chooseCard.oneTimeFee")}</p>
-                  </div>
-                </div>
-                {plan.variant === "virtual" && (
-                  <div className="rounded-xl bg-emerald-500/[0.04] border border-emerald-500/20 p-4 mb-8">
-                    <div className="flex items-center justify-between text-sm mb-2">
-                      <span className="text-zinc-400">{t("chooseCard.loadedToCard")}</span>
-                      <span className="text-emerald-400 font-medium">+ $30</span>
-                    </div>
-                    <div className="flex items-center justify-between text-sm pt-2 border-t border-white/5">
-                      <span className="text-zinc-300 font-medium">{t("chooseCard.actualCost")}</span>
-                      <span className="text-white font-semibold">$20</span>
-                    </div>
-                  </div>
-                )}
-                {plan.variant === "physical" && (
-                  <div className="rounded-xl bg-fiper/[0.04] border border-fiper/20 p-4 mb-8">
-                    <div className="flex items-center justify-between text-sm mb-2">
-                      <span className="text-zinc-400">{t("chooseCard.atmAccess")}</span>
-                      <span className="text-emerald-400 font-medium">$2k / week</span>
-                    </div>
-                    <div className="flex items-center justify-between text-sm pt-2 border-t border-white/5">
-                      <span className="text-zinc-300 font-medium">{t("chooseCard.validity")}</span>
-                      <span className="text-white font-semibold">{t("chooseCard.threeYears")}</span>
-                    </div>
-                  </div>
-                )}
-                <ul className="space-y-3 mb-8">
-                  {plan.features.map((f) => (
-                    <li key={f.text} className="flex items-start gap-3">
-                      {f.included ? <Check size={16} className="mt-0.5 flex-shrink-0 text-emerald-500" /> : <X size={16} className="mt-0.5 flex-shrink-0 text-zinc-600" />}
-                      <span className={`text-sm ${f.included ? "text-zinc-300" : "text-zinc-600"}`}>{f.text}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="rounded-xl bg-white/[0.02] border border-white/5 p-4 mb-8">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-3">{t("chooseCard.feesTitle")}</p>
-                  <div className="space-y-2">
-                    {plan.fees.map((fee) => (
-                      <div key={fee.label} className="flex items-center justify-between text-sm">
-                        <span className="text-zinc-500">{fee.label}</span>
-                        <span className="text-zinc-300 font-medium">{fee.value}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer"
-                  className={`group flex w-full items-center justify-center gap-2 rounded-full py-4 text-sm font-semibold transition-all duration-300 ${plan.premium ? "bg-fiper text-white hover:bg-fiper-dark hover:shadow-lg hover:shadow-red-500/25" : "bg-white/5 border border-white/10 text-white hover:bg-white/10"}`}>
-                  {plan.cta}
-                  <ArrowRight size={16} className="transition-transform group-hover:translate-x-1 rtl-flip" />
-                </a>
+            <Reveal key={plan.name} delay={idx * 0.1} className={`fp-card min-w-0 overflow-hidden ${plan.primary ? "border-line-strong" : ""}`}>
+              <div className="flex flex-wrap items-start justify-between gap-2 mb-6">
+                <span className="fp-badge fp-badge--outline h-auto min-h-6 py-1 whitespace-normal">{plan.badge}</span>
+                <span className={`fp-badge ${plan.primary ? "fp-badge--brand" : "fp-badge--neutral"}`}>{plan.tag}</span>
               </div>
-            </motion.div>
+              <div className="mb-8 mx-auto max-w-[360px]">
+                <CardVisual variant={plan.variant} />
+              </div>
+              <div className="flex items-baseline justify-between gap-4 mb-6">
+                <h3 className="text-xl font-semibold text-fg">{plan.name}</h3>
+                <div className="text-end">
+                  <span className="fp-num text-3xl font-semibold text-fg">{plan.price}</span>
+                  <p className="text-xs text-muted mt-1">{t("chooseCard.oneTimeFee")}</p>
+                </div>
+              </div>
+
+              <dl className="fp-group fp-group--tight mb-6">
+                {plan.facts.map((f) => (
+                  <div key={f.label} className="fp-kv">
+                    <dt>{f.label}</dt>
+                    <dd>{f.text ? f.value : <span className="fp-num">{f.value}</span>}</dd>
+                  </div>
+                ))}
+              </dl>
+
+              <ul className="space-y-2.5 mb-6">
+                {plan.features.map((f) => (
+                  <li key={f.text} className="flex items-start gap-3">
+                    <span className={`mt-0.5 ${f.included ? "text-fg" : "text-muted"}`}><Icon name={f.included ? "check" : "x"} size="sm" /></span>
+                    <span className={`text-sm ${f.included ? "text-fg" : "text-muted line-through"}`}>{f.text}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div className="border-t border-line pt-4 mb-8">
+                <p className="label-sm mb-2">{t("chooseCard.feesTitle")}</p>
+                <dl>
+                  {plan.fees.map((fee) => (
+                    <div key={fee.label} className="fp-kv py-2">
+                      <dt className="text-sm">{fee.label}</dt>
+                      <dd className="text-sm font-medium text-fg">{fee.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+
+              <a href="https://crm.fiper.me" target="_blank" rel="noopener noreferrer" className={`fp-btn fp-btn--block ${plan.primary ? "fp-btn--primary" : "fp-btn--secondary"}`}>
+                {plan.cta}
+                <Icon name="arrow-right" size="md" dir />
+              </a>
+            </Reveal>
           ))}
         </div>
-        <p className="text-center text-xs text-zinc-600 mt-8">{t("chooseCard.footnote")}</p>
+        <p className="text-center text-xs text-muted mt-8">{t("chooseCard.footnote")}</p>
       </div>
     </section>
   );

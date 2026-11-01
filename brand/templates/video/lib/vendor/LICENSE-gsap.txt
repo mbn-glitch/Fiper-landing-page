@@ -1,0 +1,1 @@
+GSAP 3.12.5 (gsap.min.js, CustomEase.min.js) — vendored unmodified from the npm package `gsap@3.12.5`. Licence: GSAP "no-charge" licence (https://gsap.com/licensing/) — free for commercial use since Webflow's 2024 release; no files altered. Used only by the video kit runtime.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><title>بطاقة عمل — فايبر / Fiper business card (v2.0)</title>
+<link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../../fonts/fonts.css">
+<style>
+@page{size:85mm 55mm;margin:0}
+body{margin:0;background:#e9e5e1;font-family:'IBM Plex Sans Arabic','Inter',sans-serif;color:#120D0E}
+.card{width:85mm;height:55mm;box-sizing:border-box;padding:6mm;position:relative;page-break-after:always;overflow:hidden;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+@media screen{.card{margin:8mm auto;border-radius:3mm}}
+.front{background:#0A0708;color:#EDEAE6;display:flex;flex-direction:column;justify-content:space-between}
+.front img{height:9mm;width:auto;align-self:flex-start}
+.front .tag{font-family:'Inter',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.06em;color:#8E8681;direction:ltr;text-align:left;align-self:flex-start}
+
+body{font-synthesis:none;letter-spacing:0}
+.back{background:#F7F4F1}
+.name{font-size:12pt;font-weight:700;line-height:1.4}
+.role{font-size:8pt;color:#6B635E;margin-bottom:3mm}
+.row{font-size:7.5pt;line-height:1.9}
+.num{font-family:'IBM Plex Mono',monospace;direction:ltr;unicode-bidi:isolate}
+</style></head>
+<body>
+<section class="card front"><img src="../../logos/svg/fiper-lockup-horizontal-colour.svg" alt="Fiper"><div class="tag">FIPER GLOBAL · DUBAI</div></section>
+<section class="card back">
+  <div class="name">الاسم الكامل · Full name<br><span lang="en" style="font-family:'Inter',sans-serif;font-weight:600;font-size:9.5pt;direction:ltr;display:inline-block">Full name (Latin)</span></div>
+  <div class="role">المنصب · Title</div>
+  <div class="row">الهاتف · Phone <span class="num fp-unit">+974 3360 0905</span></div>
+  <div class="row">البريد · E-mail <span class="num">support@fiper.me</span></div>
+  <div class="row" style="color:#6B635E">Fiper Global UAE · Dubai, U.A.E.</div>
+  <div class="row risk" style="color:#6B635E;font-size:5.5pt">الاستثمار ينطوي على مخاطر · Investing involves risk</div><!-- CEO 30 Oct 2026: the fixed risk line on every visual output — bottom corner, muted, smallest legible size -->
+</section>
+</body></html>

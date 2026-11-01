@@ -2,25 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="Fiper Card — Turn your trading profits into real purchasing power in minutes. Virtual & Physical cards for traders, with instant activation, global ATM access, and Apple Pay support." />
-    <meta name="theme-color" content="#DC2626" />
+    <meta name="theme-color" content="#0A0708" />
     <meta name="author" content="Fiper Global" />
     <meta name="keywords" content="Fiper Card, trading card, prop trading card, Visa card for traders, Apple Pay trader card, virtual card, physical card, Fiper" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://fipercard.com/" />
 
-    <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc.) -->
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc.) — share image from the fiper-brand v2.3.4 logo kit -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fipercard.com/" />
     <meta property="og:site_name" content="Fiper Card" />
     <meta property="og:title" content="Fiper Card — Real Power for Traders" />
     <meta property="og:description" content="Turn your trading profits into real purchasing power in minutes. Virtual & Physical cards with instant activation, global ATM access, and Apple Pay." />
-    <meta property="og:image" content="https://fipercard.com/fiper-physical-card.png" />
-    <meta property="og:image:width" content="1500" />
-    <meta property="og:image:height" content="951" />
-    <meta property="og:image:alt" content="Fiper Physical Card design featuring the bull artwork" />
+    <meta property="og:image" content="https://fipercard.com/brand/og-1200x630-charcoal.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Fiper" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="ar_AE" />
     <meta property="og:locale:alternate" content="tr_TR" />
@@ -33,19 +33,19 @@
     <meta name="twitter:url" content="https://fipercard.com/" />
     <meta name="twitter:title" content="Fiper Card — Real Power for Traders" />
     <meta name="twitter:description" content="Turn your trading profits into real purchasing power in minutes. Virtual & Physical cards for traders." />
-    <meta name="twitter:image" content="https://fipercard.com/fiper-physical-card.png" />
+    <meta name="twitter:image" content="https://fipercard.com/brand/og-1200x630-charcoal.png" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Icons — fiper-brand v2.3.4 logo kit (variant A) -->
+    <link rel="icon" href="/brand/favicon.ico" sizes="any" />
+    <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/brand/icon-180.png" />
+    <link rel="manifest" href="/brand/manifest.webmanifest" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!-- Fonts: self-hosted (brand/fonts) through src/index.css — no Google Fonts -->
+    <link rel="preload" href="/brand/fonts/IBMPlexSansArabic-700.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/brand/fonts/Inter-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/brand/fonts/BarlowCondensed-700.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Structured data for SEO -->
     <script type="application/ld+json">
@@ -55,7 +55,7 @@
       "name": "Fiper Card",
       "alternateName": "Fiper",
       "url": "https://fipercard.com",
-      "logo": "https://fipercard.com/Fiper_Logo_white2.png",
+      "logo": "https://fipercard.com/brand/icon-512.png",
       "description": "Fiper Card turns trading profits into real-world purchasing power. Virtual and Physical cards for traders worldwide.",
       "parentOrganization": {
         "@type": "Organization",
@@ -69,7 +69,7 @@
 
     <title>Fiper Card — Real Power for Traders</title>
   </head>
-  <body class="bg-black text-white antialiased">
+  <body class="antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

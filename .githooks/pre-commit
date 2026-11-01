@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+# Fiper identity gates before every commit (fiper-brand v2.3.4): verify-identity · risk line + rendered contrast on the built site.
+set -e
+if [ "${FIPER_SKIP_GATES:-}" = "1" ]; then echo "[pre-commit] FIPER_SKIP_GATES=1 — gates skipped"; exit 0; fi
+cd "$(git rev-parse --show-toplevel)"
+echo "[pre-commit] verify-identity"
+node brand/scripts/verify-identity.mjs src public index.html
+echo "[pre-commit] build + check-identity (risk line, contrast, fonts, lockup — en/ar, 390/1360)"
+npx vite build --logLevel error
+node scripts/gates/check-identity.mjs | tail -3

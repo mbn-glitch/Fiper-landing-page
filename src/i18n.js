@@ -58,10 +58,10 @@ if (i18n.language && i18n.language !== "en") {
 export default i18n;
 
 export const LANGUAGES = [
-  { code: "en", label: "English", native: "EN", flag: "🇬🇧" },
-  { code: "ar", label: "العربية", native: "عربي", flag: "🇸🇦" },
-  { code: "tr", label: "Türkçe", native: "TR", flag: "🇹🇷" },
-  { code: "fr", label: "Français", native: "FR", flag: "🇫🇷" },
-  { code: "es", label: "Español", native: "ES", flag: "🇪🇸" },
-  { code: "pt", label: "Português", native: "PT", flag: "🇧🇷" },
+  { code: "en", label: "English", native: "EN" },
+  { code: "ar", label: "العربية", native: "عربي" },
+  { code: "tr", label: "Türkçe", native: "TR" },
+  { code: "fr", label: "Français", native: "FR" },
+  { code: "es", label: "Español", native: "ES" },
+  { code: "pt", label: "Português", native: "PT" },
 ];

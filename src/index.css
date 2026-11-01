@@ -1,9 +1,66 @@
+/* fipercard.com on the Fiper Brand Identity System v2.3.4.
+   Order per brand/README.md § Install: fonts.css → tokens.css (--fp-*; the site is a marketing surface and stays charcoal)
+   → components.css. Tailwind 4 keeps only the identity palette: the default palette is cleared and every colour utility
+   maps to a --fp-* token through @theme inline, so no non-token colour can be written in a class. */
 @import "tailwindcss";
+@import "../brand/fonts/fonts.css";
+@import "../brand/tokens.css";
+@import "../brand/components/components.css";
 
 @theme {
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --color-fiper: #DC2626;
-  --color-fiper-dark: #B91C1C;
+  --color-*: initial;
+  --font-*: initial;
+  --shadow-*: initial;
+  --radius-*: initial;
+}
+
+@theme inline {
+  /* grounds */
+  --color-bg: var(--fp-ground-bg);
+  --color-coal: var(--fp-ground-coal);
+  --color-panel: var(--fp-ground-panel);
+  --color-frame: var(--fp-ground-frame);
+  --color-scrim: var(--fp-c-sheet-scrim);
+  --color-header: var(--fp-c-header-fill);
+  /* text */
+  --color-fg: var(--fp-text-primary);
+  --color-muted: var(--fp-text-muted);
+  --color-label: var(--fp-text-label);
+  --color-on-brand: var(--fp-text-on-brand);
+  /* lines */
+  --color-line: var(--fp-line-ash);
+  --color-line-strong: var(--fp-line-strong);
+  --color-divider: var(--fp-line-divider);
+  --color-line-input: var(--fp-line-input);
+  --color-line-frame: var(--fp-line-frame);
+  /* brand + states */
+  --color-fiper: var(--fp-brand-red);
+  --color-fiper-end: var(--fp-brand-red-gradient-end);
+  --color-fiper-deep: var(--fp-brand-red-deep);
+  --color-fiper-wash: var(--fp-brand-red-wash);
+  --color-focus: var(--fp-action-focus-ring);
+  --color-success: var(--fp-state-success);
+  --color-success-wash: var(--fp-state-success-wash);
+  --color-danger: var(--fp-state-danger);
+  --color-warning: var(--fp-state-warning);
+  --color-transparent: transparent;
+  /* type */
+  --font-sans: var(--fp-font-ui);
+  --font-display: var(--fp-font-family-display);
+  --font-mono: var(--fp-font-family-mono);
+  /* radii */
+  --radius-sm: var(--fp-radius-sm);
+  --radius-input: var(--fp-radius-input);
+  --radius-media: var(--fp-radius-media);
+  --radius-card: var(--fp-radius-card);
+  --radius-sheet: var(--fp-radius-sheet);
+  --radius-pill: var(--fp-radius-pill);
+  --radius-full: 9999px;
+  /* the one shadow: floating layers */
+  --shadow-overlay: var(--fp-shadow-overlay);
+  /* motion */
+  --ease-brand: var(--fp-motion-easing-standard);
+  --ease-exit: var(--fp-motion-easing-exit);
 }
 
 html,
@@ -16,8 +73,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/* iOS Safari: use native momentum scrolling, disable CSS smooth scroll on touch
-   (CSS smooth fights iOS momentum scrolling and causes jerkiness) */
+/* iOS Safari: native momentum scrolling */
 @media (hover: none) and (pointer: coarse) {
   html {
     scroll-behavior: auto;
@@ -28,153 +84,54 @@ html {
 }
 
 body {
-  background: #000000;
+  background: var(--fp-ground-bg);
+  color: var(--fp-text-primary);
+  font-family: var(--fp-font-ui);
+  font-synthesis: none;
 }
 
-/* Noise texture overlay */
-.noise-bg::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  opacity: 0.03;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-  background-size: 256px 256px;
+/* Latin display headings: Barlow Condensed uppercase; Arabic: IBM Plex Sans Arabic 700, letter-spacing 0 (components.css .fp-h) */
+.h-display {
+  font-family: var(--fp-font-family-display);
+  font-weight: var(--fp-font-weight-display);
+  text-transform: uppercase;
+  letter-spacing: var(--fp-font-letterSpacing-heading);
+  line-height: var(--fp-font-lineHeight-heading);
+}
+html[lang="ar"] .h-display {
+  font-family: var(--fp-font-family-arabic);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+/* small label: Inter 600 .75rem uppercase .06em label colour; Arabic: Plex Arabic 600, no uppercase, no tracking */
+.label-sm {
+  font-family: var(--fp-font-ui);
+  font-size: var(--fp-font-size-sm);
+  font-weight: var(--fp-font-weight-semibold);
+  letter-spacing: var(--fp-font-letterSpacing-eyebrow);
+  text-transform: uppercase;
+  color: var(--fp-text-label);
+}
+html[lang="ar"] .label-sm {
+  letter-spacing: 0;
+  text-transform: none;
+}
+html[lang="ar"] body {
+  line-height: var(--fp-font-lineHeight-arabic-body);
 }
 
-/* Glass morphism utility */
-.glass {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.glass-strong {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-/* Gradient text */
-.text-gradient-red {
-  background: linear-gradient(135deg, #DC2626 0%, #F87171 50%, #DC2626 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Card shine effect */
-.card-shine {
-  position: relative;
-  overflow: hidden;
-}
-
-.card-shine::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    105deg,
-    transparent 40%,
-    rgba(255, 255, 255, 0.03) 45%,
-    rgba(255, 255, 255, 0.05) 50%,
-    rgba(255, 255, 255, 0.03) 55%,
-    transparent 60%
-  );
-  pointer-events: none;
-}
-
-/* Scrollbar styling */
+/* Scrollbar styling (tokens) */
 ::-webkit-scrollbar {
   width: 6px;
 }
-
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: var(--fp-ground-bg);
 }
-
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: var(--fp-line-strong);
   border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-/* Fiper logo safety — prevent any framework override */
-img[src*="Fiper_Logo"] {
-  filter: none !important;
-  opacity: 1 !important;
-  max-width: none !important;
-  max-height: none !important;
-  image-rendering: -webkit-optimize-contrast;
-}
-
-/* Respect user motion preferences */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* iOS Safari performance: reduce blur intensity on small screens to avoid GPU thrashing */
-@media (max-width: 767px) {
-  .glass {
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    background: rgba(255, 255, 255, 0.04);
-  }
-  .glass-strong {
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-  }
-}
-@media (max-width: 480px) {
-  .glass {
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-  }
-  .glass-strong {
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-  }
-}
-
-/* iOS Safari: disable the heavy radial glow pulse on touch devices.
-   It's the most expensive GPU element on the page. */
-@media (hover: none) and (pointer: coarse) {
-  .hero-glow-pulse {
-    animation: none !important;
-    opacity: 0.7 !important;
-    transform: translate(-50%, -50%) scale(1) !important;
-  }
-}
-
-/* GPU layer hints — promote heavy animated elements to their own compositor layer
-   so they don't trigger repaints of surrounding content during scroll.
-   Note: permanent `will-change` was removed; it wastes GPU memory and isn't needed
-   when transform: translateZ(0) already establishes a compositor layer. */
-.gpu-layer {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-/* Performance hint without hiding content (prevents scroll flicker).
-   `content-visibility: auto` was causing flash/flicker on mobile as sections
-   entered the viewport. `contain` keeps the optimization signal without that. */
-.cv-auto {
-  contain: layout style paint;
 }
 
 /* Skip-to-content link (accessibility) */
@@ -184,33 +141,41 @@ img[src*="Fiper_Logo"] {
   left: 16px;
   z-index: 100;
   padding: 12px 20px;
-  background: #DC2626;
-  color: white;
-  border-radius: 8px;
+  background: var(--fp-brand-red);
+  color: var(--fp-text-on-brand);
+  border-radius: var(--fp-radius-sm);
   font-weight: 600;
-  transition: top 0.3s;
+  transition: top var(--fp-motion-duration-state);
 }
 .skip-link:focus {
   top: 16px;
 }
 
-/* RTL / Arabic support */
-html[dir="rtl"] {
-  font-family: "Tajawal", "Inter", system-ui, sans-serif;
-}
+/* plan cards: key-value rows may wrap on narrow screens */
+.fp-kv dt, .fp-kv dd { min-width: 0; overflow-wrap: anywhere; }
 
-html[dir="rtl"] body {
-  line-height: 1.8;
-}
-
-html[dir="rtl"] h1,
-html[dir="rtl"] h2,
-html[dir="rtl"] h3 {
-  font-weight: 700;
-  line-height: 1.3;
-}
-
-/* Flip directional icons in RTL */
+/* Flip directional icons in RTL (components.css .fp-icon--dir does the same for the sprite icons) */
 html[dir="rtl"] .rtl-flip {
   transform: scaleX(-1);
+}
+
+/* Logos never mirror and never get filters */
+.lockup {
+  direction: ltr;
+}
+.lockup img {
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+/* Performance hint without hiding content */
+.cv-auto {
+  contain: layout style paint;
+}
+
+/* Respect user motion preferences (tokens.css already neutralises animations; keep smooth scroll off too) */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
 }

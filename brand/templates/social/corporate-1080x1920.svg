@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fiper social master — Fiper Brand Identity System v2.2.0 (approved composition). Corporate announcement (story): statement-led, lockup top-start, one headline block at the optical centre, meta column at the foot.
+     Editable <text>; fonts by family name: install brand/fonts/*.woff2. Safe margin = 2× lockup height: posts 72–84 px, story 96 px (Q8). The fixed risk line «الاستثمار ينطوي على مخاطر · Investing involves risk» sits ON the image — small, muted, inside the bottom safe area — and in the caption too (Q4, CEO decision 30 Oct 2026); the full regulatory block stays in the caption, never on the image. Logo = the official master inlined (never recoloured). Arabic letter-spacing 0, font-synthesis none. Body text ≥ 42 px (≥ 14 px when shown at 360 wide). -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#F7F4F1"/>
+<image id="lockup" href="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" x="869.96" y="96" width="114" height="40" preserveAspectRatio="xMinYMin meet"/>  <text id="kind" x="984" y="700" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="500" font-size="30" letter-spacing="0" fill="#6B635E">بيان مؤسسي</text>
+  <text id="headline" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="700" font-size="76" fill="#120D0E" letter-spacing="0"><tspan x="984" y="800">فايبر جلوبال تعلن</tspan><tspan x="984" dy="96">إدراج صناديق جديدة</tspan><tspan x="984" dy="96">متوافقة مع الشريعة</tspan></text>
+  <text id="sub" x="984" y="1090" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="36" letter-spacing="0" fill="#6B635E">التفاصيل الكاملة في مركز المساعدة</text>
+  <line x1="96" y1="1664" x2="984" y2="1664" stroke="rgba(18,13,14,.22)" stroke-width="1"/>
+  <text id="brandline" x="984" y="1724" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="400" font-size="30" letter-spacing="0" fill="#6B635E">منظومة مالية مرخصة: تداول وتمويل وإنفاق واستثمار — تحت سقف واحد.</text>
+  <text id="date" x="96" y="1784" direction="ltr" text-anchor="start" font-family="Inter" font-weight="500" font-size="24" fill="#6B635E">29 Oct 2026 · fiper.io</text>
+  <text id="risk" x="984" y="1858" direction="rtl" text-anchor="start" font-family="IBM Plex Sans Arabic" font-weight="500" font-size="33" letter-spacing="0" fill="#6B635E">الاستثمار ينطوي على مخاطر · Investing involves risk</text>
+</svg>

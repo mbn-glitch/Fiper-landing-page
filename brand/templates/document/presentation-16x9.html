@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><title>عرض تقديمي — فايبر / Fiper 16:9 deck (v2.0)</title>
+<link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../../fonts/fonts.css">
+<style>
+/* Fiper 16:9 deck — HTML reference of the PPTX layouts, Fiper Brand Identity System v2.0 (approved direction).
+   Paper on every slide; number-dominant figure slide (title column 5 : figure column 7); chart slide generated from the sample dataset; no "//" labels, no decorative numbering, no glow.
+   Native editable file: ../presentation/Fiper-Presentation-Template.pptx (same layouts). All figures: SAMPLE. */
+@page{size:1920px 1080px;margin:0}
+body{margin:0;background:#e9e5e1;font-family:'IBM Plex Sans Arabic','Inter',sans-serif;font-synthesis:none;letter-spacing:0;color:#120D0E}
+.slide{width:1920px;height:1080px;box-sizing:border-box;padding:112px;position:relative;page-break-after:always;overflow:hidden;background:#F7F4F1;display:grid;grid-template-rows:1fr auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+@media screen{.slide{margin:24px auto}}
+.lockup{position:absolute;top:112px;inset-inline-start:112px;height:56px;width:auto}
+.en{font-family:'Inter',sans-serif;direction:ltr}
+.num,.fp-unit{font-family:'IBM Plex Mono','IBM Plex Sans Arabic','Inter',monospace;font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+.fp-unit{display:inline-block}
+.muted{color:#6B635E}
+.rule{border:0;border-top:1px solid rgba(18,13,14,.22)}
+.foot{display:flex;justify-content:space-between;align-items:center;padding-top:22px;border-top:1px solid rgba(18,13,14,.22);font-size:18px;color:#6B635E}
+/* title slide — headline-dominant */
+.title-slide .block{margin:auto 0;padding-top:120px;max-width:1300px}
+.title-slide .kind{font-size:26px;color:#6B635E;font-weight:500}
+.title-slide h1{font-size:88px;line-height:1.15;font-weight:700;margin:14px 0 0}
+.title-slide .sub{font-size:30px;color:#6B635E;margin-top:28px}
+/* figure slide — number-dominant */
+.body{display:grid;grid-template-columns:5fr 7fr;gap:96px;align-items:start;margin-top:120px}
+.title{font-size:64px;font-weight:700;line-height:1.15;margin:0}
+.title-en{font-size:24px;color:#6B635E;margin-top:18px;direction:ltr;text-align:right}
+.list{margin-top:48px;max-width:760px}
+.list div{display:flex;justify-content:space-between;gap:24px;padding:16px 0;border-top:1px solid rgba(18,13,14,.22);font-size:26px}
+.list div:last-child{border-bottom:1px solid rgba(18,13,14,.22)}
+.figure .v{font-size:150px;font-weight:600;line-height:1}
+.figure .u{font-size:28px;color:#6B635E;margin-top:16px}
+.figure .d{display:flex;gap:14px;align-items:center;font-size:30px;font-weight:600;margin-top:26px}
+.gain{color:#146A45}.loss{color:#B91C1C}
+.ic{width:30px;height:30px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+/* chart slide */
+.chart-slide .head{display:flex;justify-content:space-between;align-items:baseline;margin-top:120px}
+.chart-slide h2{font-size:56px;font-weight:700;margin:0}
+.chart-slide .chart{margin-top:40px}
+.chart-slide .chart svg{width:100%;height:auto;display:block}
+.chart-slide .cap{font-size:22px;color:#6B635E;margin-top:18px;max-width:1500px;line-height:1.6}
+/* closing */
+.closing{align-content:center;justify-items:center;text-align:center}
+.closing .lockup{position:static;height:80px;margin-bottom:48px}
+.closing .slogan{font-size:40px;line-height:1.6;max-width:1100px}
+.foot .risk{color:#6B635E} /* CEO 30 Oct 2026: fixed risk line on every slide, footer, muted (≥ 24 px at 2160 → 22 px at 1920 ≈ 24.75 at 2160) */
+.closing .slogan small{display:block;font-family:'Inter',sans-serif;font-size:26px;color:#6B635E;direction:ltr;margin-top:14px}
+</style></head>
+<body>
+<section class="slide title-slide"><img class="lockup" src="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" alt="Fiper">
+  <div class="block"><div class="kind">عرض المنتج · أكتوبر <span class="fp-unit">2026</span></div><h1>صناديق فايبر: استثمار يُدار بشفافية</h1><div class="sub">الصناديق المتوافقة مع الشريعة · <span class="fp-unit">29</span> أكتوبر <span class="fp-unit">2026</span> · بيانات تجريبية SAMPLE</div></div>
+  <div class="foot"><span><span class="risk">الاستثمار ينطوي على مخاطر · Investing involves risk</span> · Fiper Global</span><span class="en"><span class="fp-unit">1 / 4</span></span></div></section>
+
+<section class="slide"><img class="lockup" src="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" alt="Fiper">
+  <div class="body">
+    <div><h2 class="title">صناديق فايبر في أكتوبر: نموّ هادئ، تسوية منتظمة</h2><div class="title-en">Fiper Funds · 1–31 October 2026 · sample figures for review</div>
+      <div class="list"><div><span>الأوامر المنفَّذة خلال أكتوبر</span><span class="num">1,284</span></div><div><span>متوسط زمن التسوية</span><span><span class="fp-unit">T+2</span> · يوما عمل</span></div><div><span>الصناديق المتوافقة المدرجة</span><span class="num">17</span></div><div><span>حجم الطلبات المنفَّذة</span><span class="num">1,605,320.00 USD</span></div></div></div>
+    <div class="figure"><div class="v num">11,553.65</div><div class="u">قيمة محفظة العميل النموذجي · USD · في <span class="fp-unit">31</span> أكتوبر <span class="fp-unit">2026</span></div><div class="d gain"><svg class="ic" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>ربح الشهر <span class="fp-unit">+303.75 USD</span> · <span class="fp-unit">+2.70 %</span></div></div>
+  </div>
+  <div class="foot"><span><span class="risk">الاستثمار ينطوي على مخاطر · Investing involves risk</span> · بيانات تجريبية · SAMPLE — الأداء السابق لا يضمن النتائج المستقبلية</span><span class="en">Fiper Global · <span class="fp-unit">2 / 4</span></span></div></section>
+
+<section class="slide chart-slide"><img class="lockup" src="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" alt="Fiper">
+  <div><div class="head"><h2>قيمة المحفظة النموذجية خلال <span class="fp-unit">12</span> شهراً</h2><span class="muted" style="font-size:24px">نوفمبر 2025 → أكتوبر 2026 · USD · إقفال شهري</span></div>
+    <div class="chart"><!--CHART:{"theme":"paper","width":1696,"height":560,"fontSize":22,"padL":120,"padB":56,"padT":40}--><svg viewBox="0 0 1696 560" width="100%" font-family="IBM Plex Mono, IBM Plex Sans Arabic, Inter" font-size="22" direction="ltr" role="img" aria-label="portfolio value chart" data-chart="sample-portfolio-12m"><line x1="120" y1="504.0" x2="1682" y2="504.0" stroke="rgba(18,13,14,.12)"/><line x1="120" y1="388.0" x2="1682" y2="388.0" stroke="rgba(18,13,14,.12)"/><line x1="120" y1="272.0" x2="1682" y2="272.0" stroke="rgba(18,13,14,.12)"/><line x1="120" y1="156.0" x2="1682" y2="156.0" stroke="rgba(18,13,14,.12)"/><line x1="120" y1="40.0" x2="1682" y2="40.0" stroke="rgba(18,13,14,.12)"/><text x="112" y="508.0" text-anchor="end" fill="#6B635E">10.0k</text><text x="112" y="392.0" text-anchor="end" fill="#6B635E">10.5k</text><text x="112" y="276.0" text-anchor="end" fill="#6B635E">11.0k</text><text x="112" y="160.0" text-anchor="end" fill="#6B635E">11.5k</text><text x="112" y="44.0" text-anchor="end" fill="#6B635E">12.0k</text><text x="120.0" y="554" text-anchor="start" fill="#6B635E">أكتوبر 2025</text><text x="510.5" y="554" text-anchor="middle" fill="#6B635E">يناير 2026</text><text x="901.0" y="554" text-anchor="middle" fill="#6B635E">أبريل</text><text x="1291.5" y="554" text-anchor="middle" fill="#6B635E">يوليو</text><text x="1682.0" y="554" text-anchor="end" fill="#6B635E">أكتوبر 2026</text><path d="M120.0 446.0 L250.2 427.2 L380.3 407.3 L510.5 434.6 L640.7 389.4 L770.8 362.0 L901.0 349.0 L1031.2 322.3 L1161.3 295.0 L1291.5 267.6 L1421.7 282.7 L1551.8 249.3 L1682.0 199.6" fill="none" stroke="#6B635E" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M120.0 446.0 L250.2 414.9 L380.3 392.9 L510.5 431.6 L640.7 372.2 L770.8 336.3 L901.0 343.7 L1031.2 298.7 L1161.3 262.3 L1291.5 242.5 L1421.7 274.6 L1551.8 214.0 L1682.0 143.6" fill="none" stroke="#120D0E" stroke-width="2"/><text x="126.0" y="460.0" fill="#6B635E">10,250.00</text><circle cx="1682.0" cy="143.6" r="3.5" fill="#DC2626"/><text x="1674.0" y="135.6" text-anchor="end" fill="#120D0E" font-weight="600">11,553.65</text></svg><!--/CHART--></div>
+    <p class="cap">الخط الكامل: قيمة المحفظة بالدولار الأمريكي في نهاية كل شهر · المتقطّع: المؤشر المرجعي S&amp;P 500 Sharia مُعاد توزينه على قيمة البداية <span class="fp-unit">10,250.00 USD</span> · بيانات تجريبية SAMPLE — الأداء السابق لا يضمن النتائج المستقبلية.</p></div>
+  <div class="foot"><span><span class="risk">الاستثمار ينطوي على مخاطر · Investing involves risk</span> · بيانات تجريبية · SAMPLE</span><span class="en">Fiper Global · <span class="fp-unit">3 / 4</span></span></div></section>
+
+<section class="slide closing"><img class="lockup" src="../../logos/png/lockup-horizontal/fiper-lockup-horizontal-paper-h48@3x.png" alt="Fiper">
+  <div class="slogan">منظومة مالية مرخصة: تداول وتمويل وإنفاق واستثمار — تحت سقف واحد.<small>A licensed financial ecosystem: trade, fund, spend, and invest — under one roof.</small></div>
+  <div class="foot" style="width:100%"><span><span class="risk">الاستثمار ينطوي على مخاطر · Investing involves risk</span> · Fiper Global LLC · Dubai, U.A.E.</span><span class="en"><span class="fp-unit">4 / 4</span></span></div></section>
+</body></html>

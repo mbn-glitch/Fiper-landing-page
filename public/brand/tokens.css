@@ -1,0 +1,556 @@
+/* Fiper Brand Identity System v2.3.4 — tokens.css (GENERATED from brand/tokens.json, DTCG 2025.10; do not edit by hand)
+   Layers: --fp-p-* primitives · --fp-* semantic roles · --fp-c-* component tokens · --fp-observed-* = site observations kept for documentation, never to be used (verify-identity whitelists only these lines).
+   Dark (charcoal) is the DEFAULT for every app and site; the light theme is APPROVED as OPTIONAL (CEO decision 30 Oct 2026, decision item 3): <html data-theme="light"> — a complete semantic set, user/system toggle; marketing surfaces stay charcoal.
+   Status of every value (approved / observed / proposed / deprecated): tokens.json $extensions.fiper.status
+   v2.3.4: textual values (file names, placements, fixed wordings) are CSS <string>s in double quotes — a consumer that reads one from CSS strips the quotes (or reads tokens.json directly); the file parses with the strict PostCSS parser (gate: verify-tokens). */
+:root{
+  /* primitives */
+  --fp-p-charcoal-950: #0A0708;
+  --fp-p-charcoal-900: #0E0C0D;
+  --fp-p-charcoal-875: #120D0E;
+  --fp-p-charcoal-850: #141011;
+  --fp-p-charcoal-825: #171112;
+  --fp-p-charcoal-800: #1B1516;
+  --fp-p-red-500: #DC2626;
+  --fp-p-red-600: #A31212;
+  --fp-p-red-800: #7A1512;
+  --fp-p-ember-500: #F0421B;
+  --fp-p-logo-red-light: #E03636;
+  --fp-p-logo-red-mid: #AD1D1C;
+  --fp-p-logo-red-dark: #9C1515;
+  --fp-p-logo-shadow-light: #A82929; /* PROPOSED */
+  --fp-p-logo-shadow-mid: #821615; /* PROPOSED */
+  --fp-p-logo-shadow-dark: #751010; /* PROPOSED */
+  --fp-p-logo-wordmark-dark: #2C2929;
+  --fp-p-sand-100: #EDEAE6;
+  --fp-p-sand-500: #8E8681;
+  --fp-p-white: #FFFFFF;
+  --fp-p-green-500: #2AB37A;
+  --fp-p-amber-400: #D9A441;
+  --fp-p-blue-400: #5B9BD5; /* PROPOSED */
+  --fp-p-sand-50: #F7F4F1; /* PROPOSED */
+  --fp-p-sand-75: #EFEBE7; /* PROPOSED */
+  --fp-p-sand-600: #6B635E; /* PROPOSED */
+  --fp-p-red-700: #B91C1C; /* PROPOSED */
+  --fp-p-green-700: #146A45; /* PROPOSED */
+  --fp-p-amber-700: #7A520A; /* PROPOSED */
+  --fp-p-blue-700: #275E94; /* PROPOSED */
+  --fp-p-sand-a09: rgba(237,234,230,0.09);
+  --fp-p-sand-a12: rgba(237,234,230,0.12);
+  --fp-p-sand-a14: rgba(237,234,230,0.14);
+  --fp-p-sand-a35: rgba(237,234,230,0.35);
+  --fp-p-sand-a05: rgba(237,234,230,0.05);
+  --fp-p-sand-a06: rgba(237,234,230,0.06); /* PROPOSED */
+  --fp-p-sand-a07: rgba(237,234,230,0.07); /* PROPOSED */
+  --fp-p-sand-a08: rgba(237,234,230,0.08); /* PROPOSED */
+  --fp-p-sand-a38: rgba(237,234,230,0.38); /* PROPOSED */
+  --fp-p-red-a06: rgba(220,38,38,0.06);
+  --fp-p-red-a12: rgba(220,38,38,0.12); /* PROPOSED */
+  --fp-p-red-a16: rgba(220,38,38,0.16);
+  --fp-p-red-a28: rgba(220,38,38,0.28);
+  --fp-p-red-a35: rgba(220,38,38,0.35);
+  --fp-p-red-a40: rgba(220,38,38,0.40);
+  --fp-p-red-a45: rgba(220,38,38,0.45);
+  --fp-p-red-a50: rgba(220,38,38,0.50);
+  --fp-p-mut-a85: rgba(142,134,129,0.85);
+  --fp-p-mut-a90: rgba(142,134,129,0.9);
+  --fp-p-bg-a72: rgba(10,7,8,0.72); /* PROPOSED */
+  --fp-p-bg-a85: rgba(10,7,8,0.85);
+  --fp-p-black-a55: rgba(0,0,0,0.55);
+  --fp-p-green-a12: rgba(42,179,122,0.12); /* PROPOSED */
+  --fp-p-amber-a12: rgba(217,164,65,0.12); /* PROPOSED */
+  --fp-p-blue-a12: rgba(91,155,213,0.12); /* PROPOSED */
+  --fp-p-ink-a10: rgba(18,13,14,0.10); /* PROPOSED */
+  --fp-p-ink-a35: rgba(18,13,14,0.35); /* PROPOSED */
+  --fp-p-ink-a08: rgba(18,13,14,0.08); /* PROPOSED */
+  --fp-p-ink-a38: rgba(18,13,14,0.38); /* PROPOSED */
+  --fp-p-ink-a18: rgba(18,13,14,0.18); /* PROPOSED */
+  --fp-p-selection-a35: rgba(220,38,38,0.35);
+  --fp-p-sand-200: #E6E1DC; /* PROPOSED */
+  --fp-p-sand-150: #E9E5E1; /* PROPOSED */
+  --fp-p-charcoal-775: #2A2325; /* PROPOSED */
+  --fp-p-sand-a40: rgba(237,234,230,0.40); /* PROPOSED */
+  --fp-p-ink-a55: rgba(18,13,14,0.55); /* PROPOSED */
+  --fp-p-red-400: #F05252;
+  --fp-p-sand-a28: rgba(237,234,230,0.28);
+  --fp-p-ink-a22: rgba(18,13,14,0.22);
+  --fp-p-bg-a08: rgba(10,7,8,0.08);
+  --fp-p-paper-a85: rgba(247,244,241,0.85);
+  --fp-p-red-a08: rgba(220,38,38,0.08);
+  --fp-p-green-a08: rgba(42,179,122,0.08);
+  --fp-p-amber-a08: rgba(217,164,65,0.08);
+  --fp-p-blue-a08: rgba(91,155,213,0.08);
+  /* semantic */
+  --fp-ground-bg: #0A0708;
+  --fp-ground-coal: #120D0E;
+  --fp-ground-panel: #171112;
+  --fp-ground-frame: #0E0C0D;
+  --fp-ground-chrome: #141011;
+  --fp-ground-bezel: #1B1516;
+  --fp-line-ash: rgba(237,234,230,0.09);
+  --fp-line-strong: rgba(237,234,230,0.35);
+  --fp-line-frame: rgba(237,234,230,0.12);
+  --fp-line-brand: rgba(220,38,38,0.45);
+  --fp-line-brand-soft: rgba(220,38,38,0.40);
+  --fp-line-dark-mail: #2A2325; /* PROPOSED */
+  --fp-line-input: rgba(237,234,230,0.40); /* PROPOSED */
+  --fp-line-divider: rgba(237,234,230,0.28);
+  --fp-text-primary: #EDEAE6;
+  --fp-text-muted: #8E8681;
+  --fp-text-risk: rgba(142,134,129,0.9);
+  --fp-text-disclaimer: rgba(142,134,129,0.85);
+  --fp-text-on-brand: #FFFFFF;
+  --fp-text-selection: #FFFFFF;
+  --fp-text-icon-on-brand: #FFFFFF; /* PROPOSED */
+  --fp-text-on-success: #0A0708; /* PROPOSED */
+  --fp-text-on-danger: #0A0708; /* PROPOSED */
+  --fp-text-label: #8E8681; /* PROPOSED */
+  --fp-brand-red: #DC2626;
+  --fp-brand-red-deep: #7A1512;
+  --fp-brand-red-gradient-end: #A31212;
+  --fp-brand-ember: #F0421B;
+  --fp-brand-red-wash: rgba(220,38,38,0.06);
+  --fp-brand-red-wash-strong: rgba(220,38,38,0.16);
+  --fp-brand-selection-bg: rgba(220,38,38,0.35);
+  --fp-brand-logo-gradient: linear-gradient(90deg, #E03636 0%, #AD1D1C 50%, #9C1515 100%);
+  --fp-action-primary: #DC2626;
+  --fp-action-primary-end: #A31212;
+  --fp-action-primary-pressed: #7A1512; /* PROPOSED */
+  --fp-observed-action-primary-shadow: rgba(220,38,38,0.35); /* OBSERVED ONLY — not applied */
+  --fp-observed-action-primary-shadow-hover: rgba(220,38,38,0.5); /* OBSERVED ONLY — not applied */
+  --fp-action-focus-ring: #F0421B; /* PROPOSED */
+  --fp-action-disabled-fg: rgba(237,234,230,0.38); /* PROPOSED */
+  --fp-action-disabled-bg: rgba(237,234,230,0.08); /* PROPOSED */
+  --fp-state-success: #2AB37A;
+  --fp-state-danger: #F05252;
+  --fp-state-warning: #D9A441; /* PROPOSED */
+  --fp-state-info: #5B9BD5; /* PROPOSED */
+  --fp-state-success-wash: rgba(42,179,122,0.12); /* PROPOSED */
+  --fp-state-danger-wash: rgba(220,38,38,0.12);
+  --fp-state-warning-wash: rgba(217,164,65,0.12); /* PROPOSED */
+  --fp-state-info-wash: rgba(91,155,213,0.12); /* PROPOSED */
+  --fp-finance-gain: #2AB37A;
+  --fp-finance-loss: #F05252;
+  --fp-finance-neutral: #8E8681;
+  --fp-finance-pending: #D9A441;
+  --fp-chart-series-1: #DC2626; /* PROPOSED */
+  --fp-chart-series-2: #EDEAE6; /* PROPOSED */
+  --fp-chart-series-3: #8E8681; /* PROPOSED */
+  --fp-chart-series-4: #D9A441; /* PROPOSED */
+  --fp-chart-series-5: #5B9BD5; /* PROPOSED */
+  --fp-chart-series-6: #2AB37A; /* PROPOSED */
+  --fp-chart-candle-up: #2AB37A;
+  --fp-chart-candle-down: #F05252;
+  --fp-chart-grid: rgba(237,234,230,0.07); /* PROPOSED */
+  --fp-chart-axis: #8E8681;
+  --fp-chart-crosshair: rgba(237,234,230,0.35); /* PROPOSED */
+  --fp-chart-area-fill: rgba(220,38,38,0.12); /* PROPOSED */
+  --fp-chart-benchmark: #8E8681;
+  --fp-media-grade: rgba(10,7,8,0.08);
+  --fp-font-family-display: 'Barlow Condensed', sans-serif;
+  --fp-font-family-body: Inter, sans-serif;
+  --fp-font-family-mono: 'IBM Plex Mono', monospace;
+  --fp-font-family-arabic: 'IBM Plex Sans Arabic', Inter, sans-serif;
+  --fp-font-family-sans-alt: 'IBM Plex Sans', sans-serif; /* PROPOSED */
+  --fp-font-weight-regular: 400; /* PROPOSED */
+  --fp-font-weight-medium: 500; /* PROPOSED */
+  --fp-font-weight-semibold: 600; /* PROPOSED */
+  --fp-font-weight-bold: 700; /* PROPOSED */
+  --fp-font-weight-display: 800; /* PROPOSED */
+  --fp-font-size-xs: 0.68rem;
+  --fp-font-size-sm: 0.75rem;
+  --fp-font-size-md: 0.85rem;
+  --fp-font-size-base: 0.92rem;
+  --fp-font-size-lg: 0.98rem;
+  --fp-font-size-xl: 1.3rem;
+  --fp-font-size-2xl: 1.9rem;
+  --fp-font-size-3xl: 2rem;
+  --fp-font-size-4xl: 2.9rem;
+  --fp-font-size-app-caption: 12px; /* PROPOSED */
+  --fp-font-size-app-body: 15px; /* PROPOSED */
+  --fp-font-size-app-title: 20px; /* PROPOSED */
+  --fp-font-size-app-display: 28px; /* PROPOSED */
+  --fp-font-lineHeight-body: 1.65;
+  --fp-font-lineHeight-heading: 1.05;
+  --fp-font-lineHeight-arabic-body: 1.9;
+  --fp-font-lineHeight-arabic-heading: 1.3;
+  --fp-font-lineHeight-legal: 1.7;
+  --fp-font-letterSpacing-heading: 0.5px;
+  --fp-font-letterSpacing-eyebrow: 0.06em; /* PROPOSED */
+  --fp-observed-font-letterSpacing-tag: 0.2em; /* OBSERVED ONLY — not applied */
+  --fp-font-letterSpacing-arabic: 0;
+  --fp-space-1: 4px; /* PROPOSED */
+  --fp-space-2: 8px; /* PROPOSED */
+  --fp-space-3: 12px; /* PROPOSED */
+  --fp-space-4: 16px; /* PROPOSED */
+  --fp-space-5: 20px; /* PROPOSED */
+  --fp-space-6: 24px; /* PROPOSED */
+  --fp-space-7: 28px; /* PROPOSED */
+  --fp-space-8: 32px; /* PROPOSED */
+  --fp-space-10: 40px; /* PROPOSED */
+  --fp-space-12: 48px; /* PROPOSED */
+  --fp-space-16: 64px; /* PROPOSED */
+  --fp-space-24: 96px; /* PROPOSED */
+  --fp-space-30: 120px; /* PROPOSED */
+  --fp-space-btn-y: 14px;
+  --fp-space-btn-x: 32px;
+  --fp-space-btn-sm-y: 10px;
+  --fp-space-btn-sm-x: 22px;
+  --fp-space-card-y: 26px;
+  --fp-space-card-x: 24px;
+  --fp-space-gutter: 16px;
+  --fp-space-section-min: 64px;
+  --fp-space-section-max: 120px;
+  --fp-size-wrap-max: 1200px;
+  --fp-size-wrap-pct: 92%;
+  --fp-size-logo-nav-h: 26px;
+  --fp-size-touch-min: 44px; /* PROPOSED */
+  --fp-size-icon-tile: 52px;
+  --fp-size-icon-sm: 16px; /* PROPOSED */
+  --fp-size-icon-md: 20px; /* PROPOSED */
+  --fp-size-icon-lg: 24px; /* PROPOSED */
+  --fp-size-header-h: 56px; /* PROPOSED */
+  --fp-size-tabbar-h: 56px; /* PROPOSED */
+  --fp-size-bp-min: 360px; /* PROPOSED */
+  --fp-size-bp-design: 390px; /* PROPOSED */
+  --fp-size-bp-sm: 640px;
+  --fp-size-bp-md: 900px;
+  --fp-size-bp-lg: 1200px;
+  --fp-radius-pill: 999px;
+  --fp-radius-card: 16px;
+  --fp-radius-media: 14px;
+  --fp-radius-sheet: 18px;
+  --fp-radius-input: 12px; /* PROPOSED */
+  --fp-radius-sm: 8px; /* PROPOSED */
+  --fp-radius-logo-mark: 23%;
+  --fp-radius-device: 22px;
+  --fp-observed-shadow-primary: 0 6px 26px rgba(220,38,38,0.35); /* OBSERVED ONLY — not applied */
+  --fp-observed-shadow-primary-hover: 0 10px 36px rgba(220,38,38,0.5); /* OBSERVED ONLY — not applied */
+  --fp-shadow-overlay: 0 22px 70px rgba(0,0,0,0.55);
+  --fp-shadow-none: none; /* PROPOSED */
+  --fp-z-base: 0; /* PROPOSED */
+  --fp-z-raised: 10; /* PROPOSED */
+  --fp-z-sticky: 20; /* PROPOSED */
+  --fp-z-header: 80;
+  --fp-z-scrim: 90; /* PROPOSED */
+  --fp-z-sheet: 100; /* PROPOSED */
+  --fp-z-toast: 110; /* PROPOSED */
+  --fp-z-tooltip: 120; /* PROPOSED */
+  --fp-motion-duration-press: 140ms;
+  --fp-motion-duration-hover: 250ms;
+  --fp-motion-duration-state: 300ms;
+  --fp-motion-duration-surface: 350ms;
+  --fp-motion-duration-reveal: 800ms;
+  --fp-motion-easing-standard: cubic-bezier(0.2,0.7,0.2,1);
+  --fp-motion-easing-exit: cubic-bezier(0.22,1,0.36,1);
+  --fp-motion-easing-press: ease-out;
+  --fp-motion-press-scale: 0.97;
+  --fp-motion-reveal-offset: 26px;
+  /* component */
+  --fp-c-button-primary-fill: linear-gradient(120deg, #DC2626, #A31212);
+  --fp-c-button-primary-text: #FFFFFF;
+  --fp-c-button-primary-icon: #FFFFFF;
+  --fp-c-button-primary-shadow: none; /* PROPOSED */
+  --fp-c-button-primary-shadow-hover: none; /* PROPOSED */
+  --fp-c-button-primary-fill-pressed: #7A1512;
+  --fp-c-button-primary-radius: 999px;
+  --fp-c-button-primary-padding-y: 14px;
+  --fp-c-button-primary-padding-x: 32px;
+  --fp-c-button-primary-font-size: 0.92rem;
+  --fp-c-button-primary-font-weight: 700;
+  --fp-c-button-primary-press-scale: 0.97;
+  --fp-c-button-primary-press-duration: 140ms;
+  --fp-c-button-secondary-fill: #171112;
+  --fp-c-button-secondary-border: rgba(237,234,230,0.35);
+  --fp-c-button-secondary-text: #EDEAE6;
+  --fp-c-button-ghost-border: rgba(237,234,230,0.09);
+  --fp-c-button-ghost-border-hover: rgba(237,234,230,0.35);
+  --fp-c-button-ghost-text: #EDEAE6;
+  --fp-c-button-destructive-fill: #F05252; /* PROPOSED */
+  --fp-c-button-destructive-text: #0A0708;
+  --fp-c-button-destructive-default-style: "outline or text — never filled";
+  --fp-c-button-destructive-fill-scope: "final-confirmation-dialog-only";
+  --fp-c-button-disabled-fill: rgba(237,234,230,0.08);
+  --fp-c-button-disabled-text: rgba(237,234,230,0.38);
+  --fp-c-button-focus-ring: #F0421B;
+  --fp-c-button-min-height: 44px;
+  --fp-c-button-small-padding-y: 10px;
+  --fp-c-button-small-padding-x: 22px;
+  --fp-c-button-small-font-size: 0.82rem;
+  --fp-c-input-fill: #120D0E; /* PROPOSED */
+  --fp-c-input-border: rgba(237,234,230,0.40); /* PROPOSED */
+  --fp-c-input-border-error: #F05252;
+  --fp-c-input-text: #EDEAE6;
+  --fp-c-input-placeholder: #8E8681;
+  --fp-c-input-radius: 12px;
+  --fp-c-input-font-size: 15px;
+  --fp-c-input-min-height: 44px;
+  --fp-c-input-padding: 12px 14px; /* PROPOSED */
+  --fp-c-input-otp-width: 44px; /* PROPOSED */
+  --fp-c-input-otp-height: 52px; /* PROPOSED */
+  --fp-c-input-otp-font-size: 22px; /* PROPOSED */
+  --fp-c-input-otp-gap: 8px; /* PROPOSED */
+  --fp-c-input-otp-active-border: #F0421B;
+  --fp-c-card-fill: #171112;
+  --fp-c-card-border: rgba(237,234,230,0.09);
+  --fp-c-card-border-hover: rgba(220,38,38,0.45);
+  --fp-c-card-radius: 16px;
+  --fp-c-card-padding-y: 26px;
+  --fp-c-card-padding-x: 24px;
+  --fp-c-card-title-size: 1.3rem;
+  --fp-c-table-header-fill: #120D0E;
+  --fp-c-table-header-text: #8E8681;
+  --fp-c-table-row-line: rgba(237,234,230,0.09);
+  --fp-c-table-row-height: 48px; /* PROPOSED */
+  --fp-c-table-row-height-compact: 40px; /* PROPOSED */
+  --fp-c-table-row-selected: rgba(220,38,38,0.06);
+  --fp-c-table-number-font: 'IBM Plex Mono', monospace;
+  --fp-c-chip-height: 24px; /* PROPOSED */
+  --fp-c-chip-brand-height: 20px;
+  --fp-c-chip-radius: 999px;
+  --fp-c-chip-wash-alpha: 0.12; /* PROPOSED */
+  --fp-c-chip-sharia-fill: rgba(42,179,122,0.12);
+  --fp-c-chip-sharia-text: #2AB37A; /* PROPOSED */
+  --fp-c-toast-fill: #120D0E;
+  --fp-c-toast-border: rgba(237,234,230,0.35);
+  --fp-c-toast-accent-width: 3px; /* PROPOSED */
+  --fp-c-toast-max-width: 420px; /* PROPOSED */
+  --fp-c-toast-duration: 300ms;
+  --fp-c-toast-auto-dismiss: 5000ms; /* PROPOSED */
+  --fp-c-tabbar-height: 56px;
+  --fp-c-tabbar-fill: rgba(10,7,8,0.92); /* PROPOSED */
+  --fp-c-tabbar-blur: 14px;
+  --fp-c-tabbar-active: #DC2626;
+  --fp-c-tabbar-inactive: #8E8681;
+  --fp-c-tabbar-label-size: 11px; /* PROPOSED */
+  --fp-c-tabbar-icon-size: 24px;
+  --fp-c-header-height: 56px;
+  --fp-c-header-fill: rgba(10,7,8,0.85);
+  --fp-c-header-border: rgba(237,234,230,0.09);
+  --fp-c-header-logo-height: 26px;
+  --fp-c-header-descriptor-min-width: 640px;
+  --fp-c-sheet-fill: #171112;
+  --fp-c-sheet-radius: 18px;
+  --fp-c-sheet-scrim: rgba(10,7,8,0.72); /* PROPOSED */
+  --fp-c-sheet-shadow: 0 22px 70px rgba(0,0,0,0.55);
+  --fp-c-sheet-handle: 36px 4px; /* PROPOSED */
+  --fp-c-sheet-in-duration: 350ms;
+  --fp-c-skeleton-fill: rgba(237,234,230,0.09);
+  --fp-c-skeleton-pulse-duration: 1200ms; /* PROPOSED */
+  --fp-c-skeleton-pulse-min-opacity: 0.45; /* PROPOSED */
+  --fp-c-skeleton-show-after: 150ms; /* PROPOSED */
+  --fp-c-skeleton-min-visible: 400ms; /* PROPOSED */
+  --fp-c-chart-background: #171112;
+  --fp-c-chart-grid: rgba(237,234,230,0.07);
+  --fp-c-chart-axis-text: #8E8681;
+  --fp-c-chart-axis-font-size: 0.68rem;
+  --fp-c-chart-line-width: 2px; /* PROPOSED */
+  --fp-c-chart-candle-body: 10px; /* PROPOSED */
+  --fp-c-chart-candle-wick: 1px; /* PROPOSED */
+  --fp-c-chart-up: #2AB37A;
+  --fp-c-chart-down: #F05252;
+  --fp-c-chart-benchmark-dash: 4 4; /* PROPOSED */
+  --fp-c-eyebrow-font: Inter, sans-serif; /* PROPOSED */
+  --fp-c-eyebrow-size: 0.75rem; /* PROPOSED */
+  --fp-c-eyebrow-weight: 600; /* PROPOSED */
+  --fp-c-eyebrow-letter-spacing: 0.06em; /* PROPOSED */
+  --fp-c-eyebrow-color: #8E8681; /* PROPOSED */
+  --fp-c-eyebrow-arabic-font: 'IBM Plex Sans Arabic', Inter, sans-serif;
+  --fp-c-eyebrow-arabic-weight: 600; /* PROPOSED */
+  --fp-c-eyebrow-arabic-letter-spacing: 0;
+  --fp-c-logo-nav-height: 26px;
+  --fp-c-logo-master-file: "logos/svg/fiper-lockup-horizontal-colour.svg";
+  --fp-c-logo-clear-space: 0.5; /* PROPOSED */
+  --fp-c-logo-min-lockup-screen: 20px; /* PROPOSED */
+  --fp-c-logo-min-lockup-print: 6mm; /* PROPOSED */
+  --fp-c-logo-min-mark-screen: 16px; /* PROPOSED */
+  --fp-c-logo-min-mark-print: 4mm; /* PROPOSED */
+  --fp-c-logo-aspect: 2.851;
+  --fp-c-logo-mark-aspect: 0.987;
+  --fp-c-logo-mark-radius-ratio: 23%;
+  --fp-c-logo-gap-to-wordmark: 0.156;
+  --fp-c-logo-product-lockup-name-height: 0.62; /* PROPOSED */
+  --fp-c-logo-product-lockup-gap: 0.4; /* PROPOSED */
+  --fp-c-logo-product-lockup-by-fiper-lockup-height: 0.5; /* PROPOSED */
+  --fp-c-logo-product-lockup-partner-logo-height: 1.0; /* PROPOSED */
+  --fp-c-logo-video-corner-height: 96px;
+  --fp-c-video-logo-corner-height: 96px;
+  --fp-c-video-logo-corner-inset: 64px;
+  --fp-c-video-lower-third-hold: 3400ms;
+  --fp-c-video-lower-third-count: 1;
+  --fp-c-video-reveal-easing: 0.2,0.7,0.2,1;
+  --fp-c-video-fade-easing: linear;
+  --fp-c-video-risk-line-size-1080: 24px;
+  --fp-c-video-risk-line-size-1920: 22px;
+  --fp-c-video-risk-line-placement-9x16: "side-left-rotated";
+  --fp-c-video-risk-line-placement-16x9: "bottom-start";
+  --fp-c-video-risk-line-color: rgba(237,234,230,0.28);
+  --fp-c-video-risk-line-presence: "first-to-last-frame";
+  --fp-c-video-corner-mark-fade: 300ms;
+  --fp-c-video-corner-word-delay: 150ms;
+  --fp-c-video-transition-fade: 240ms;
+  --fp-c-video-transition-opacity: 0.9;
+  --fp-c-video-grain-opacity-min: 0.04;
+  --fp-c-video-grain-opacity-max: 0.06;
+  --fp-c-video-grain-fps: 24;
+  --fp-c-video-vignette-max: 0.45;
+  --fp-c-video-entity-line: "Fiper Global UAE — Company registration number: 2422384";
+  --fp-c-video-master-encode: "H.264 CRF 16 preset slow, AAC 256k, yuv420p, faststart";
+  --fp-c-video-share-encode: "H.264 CRF 21, maxrate 10M, bufsize 20M, AAC 256k, faststart";
+  --fp-c-video-fps: 30;
+  --fp-c-video-closing-card: none;
+  --fp-c-video-logo-presence-official: "first-to-last-frame";
+  --fp-c-video-logo-presence-person: none;
+  --fp-c-video-entity-line-placement: "caption";
+  --fp-c-video-entity-line-placement-person: "inside-risk-line";
+  --fp-c-video-caption-emphasis-danger: #F05252;
+  --fp-c-video-caption-emphasis-profit: #2AB37A;
+  --fp-c-video-caption-emphasis-info: #D9A441;
+  --fp-c-video-lower-third-total-max: 4000ms;
+  --fp-c-video-lower-third-placement-9x16: "bottom-centre";
+  --fp-c-video-lower-third-bottom-9x16: 80%;
+  --fp-c-video-takeaway-size-1080: 76px;
+  --fp-c-video-takeaway-side-margin-1080: 130px;
+  --fp-c-video-title-card-size-1080: 76px;
+  --fp-c-video-title-card-side-margin-1080: 130px;
+  --fp-c-video-caption-max-chars: 26;
+  --fp-c-video-caption-during-takeaway: "hide-matching-group";
+  --fp-c-video-caption-text-source: "spoken-as-recorded";
+  --fp-c-video-non-native-aspect: "blurred-source-backdrop";
+  --fp-c-video-entity-line-mau: "Fiper Global MAU — Company registration number: GB23201759";
+  --fp-c-video-entity-line-person: "Fiper Global — Company registration number GB23201759";
+  --fp-c-email-logo-width: 160px;
+  --fp-c-email-logo-height: 56px;
+  --fp-c-email-logo-file: "email/email-header-160-paper@2x.png";
+  --fp-c-email-logo-ground: #F7F4F1;
+  --fp-c-email-scheme: "paper-only";
+  --fp-c-email-language-parity: "recipient-language + one equivalence line";
+  --fp-c-email-equivalence-line-ar: "هذه الرسالة متاحة بالعربية";
+  --fp-c-email-equivalence-line-en: "This e-mail is also available in English";
+  --fp-c-social-safe-margin-post-min: 72px;
+  --fp-c-social-safe-margin-post-max: 84px;
+  --fp-c-social-safe-margin-story: 96px;
+  --fp-c-social-risk-line-size: 33px;
+  --fp-c-social-risk-line: "الاستثمار ينطوي على مخاطر · Investing involves risk";
+  --fp-c-qr-side-ratio: 0.12;
+  --fp-c-qr-min-side: 160px;
+  --fp-c-qr-quiet-zone: 4;
+  --fp-c-qr-position: "bottom-start";
+  --fp-c-qr-max-side: 300px;
+  --fp-c-media-asset-types: "screen | artwork";
+  --fp-c-media-grade: rgba(10,7,8,0.08);
+  --fp-c-media-frame-bezel: #1B1516;
+  --fp-c-risk-line-text: "الاستثمار ينطوي على مخاطر · Investing involves risk";
+  --fp-c-risk-line-text-ar: "الاستثمار ينطوي على مخاطر";
+  --fp-c-risk-line-text-en: "Investing involves risk";
+  --fp-c-risk-line-placement: "side or bottom corner inside the safe margin; never over the subject or the headline; never hidden";
+  --fp-c-risk-line-color: #8E8681;
+  --fp-c-risk-line-min-size-1080: 12px;
+  --fp-c-risk-line-min-size-2160: 24px;
+  --fp-c-risk-line-min-size-social-360: 11px;
+  --fp-c-risk-line-document-size: 8pt;
+  --fp-c-risk-line-email-size: 11px;
+  /* short aliases used by components.css */
+  --fp-bg: var(--fp-ground-bg); --fp-surface: var(--fp-ground-panel); --fp-surface-2: var(--fp-ground-coal);
+  --fp-line: var(--fp-line-ash); --fp-fg: var(--fp-text-primary); --fp-fg-muted: var(--fp-text-muted);
+  --fp-primary: var(--fp-brand-red); --fp-primary-fg: var(--fp-text-on-brand);
+  --fp-red-as-text: var(--fp-brand-red);
+  --fp-font-ui: var(--fp-font-family-body); --fp-font-heading: var(--fp-font-family-display);
+  color-scheme: dark;
+}
+:root[dir="rtl"], :root[lang="ar"], [lang="ar"]{ --fp-font-ui: var(--fp-font-family-arabic); --fp-font-heading: var(--fp-font-family-arabic); }
+/* APPROVED OPTIONAL light theme — decision item 3 (CEO 30 Oct 2026): dark is the default, this block is the complete light set for apps (and the paper ground of documents) */
+:root[data-theme="light"]{
+  --fp-ground-bg: #F7F4F1;
+  --fp-ground-coal: #EFEBE7;
+  --fp-ground-panel: #FFFFFF;
+  --fp-ground-frame: #EFEBE7;
+  --fp-line-ash: rgba(18,13,14,0.10);
+  --fp-line-strong: rgba(18,13,14,0.35);
+  --fp-text-primary: #120D0E;
+  --fp-text-muted: #6B635E;
+  --fp-state-success: #146A45;
+  --fp-state-danger: #B91C1C;
+  --fp-state-warning: #7A520A;
+  --fp-state-info: #275E94;
+  --fp-chart-grid: rgba(18,13,14,0.08);
+  --fp-action-disabled-fg: rgba(18,13,14,0.38);
+  --fp-action-disabled-bg: rgba(18,13,14,0.08);
+  --fp-line-input: rgba(18,13,14,0.55);
+  --fp-ground-chrome: rgba(247,244,241,0.85);
+  --fp-ground-bezel: #1B1516;
+  --fp-line-frame: rgba(18,13,14,0.18);
+  --fp-line-brand: rgba(220,38,38,0.45);
+  --fp-text-label: #6B635E;
+  --fp-text-risk: #6B635E;
+  --fp-text-disclaimer: #6B635E;
+  --fp-action-focus-ring: #DC2626;
+  --fp-text-selection: rgba(220,38,38,0.35);
+  --fp-state-success-wash: rgba(42,179,122,0.08);
+  --fp-state-danger-wash: rgba(220,38,38,0.08);
+  --fp-state-warning-wash: rgba(217,164,65,0.08);
+  --fp-state-info-wash: rgba(91,155,213,0.08);
+  --fp-chart-axis: #6B635E;
+  --fp-chart-benchmark: #6B635E;
+  --fp-chart-crosshair: rgba(18,13,14,0.35);
+  --fp-chart-area-fill: rgba(220,38,38,0.12);
+  --fp-line-divider: rgba(18,13,14,0.22);
+  --fp-finance-neutral: #6B635E;
+  --fp-chart-series-2: #120D0E;
+  --fp-chart-series-3: #6B635E;
+  --fp-chart-series-4: #7A520A;
+  --fp-chart-series-5: #275E94;
+  --fp-chart-series-6: #146A45;
+  --fp-c-button-secondary-fill: #FFFFFF;
+  --fp-c-button-secondary-border: rgba(18,13,14,0.35);
+  --fp-c-button-secondary-text: #120D0E;
+  --fp-c-button-ghost-border: rgba(18,13,14,0.10);
+  --fp-c-button-ghost-border-hover: rgba(18,13,14,0.35);
+  --fp-c-button-ghost-text: #120D0E;
+  --fp-c-button-destructive-fill: #B91C1C;
+  --fp-c-button-disabled-fill: rgba(18,13,14,0.08);
+  --fp-c-button-disabled-text: rgba(18,13,14,0.38);
+  --fp-c-button-focus-ring: #DC2626;
+  --fp-c-input-fill: #EFEBE7;
+  --fp-c-input-border: rgba(18,13,14,0.55);
+  --fp-c-input-border-error: #B91C1C;
+  --fp-c-input-text: #120D0E;
+  --fp-c-input-placeholder: #6B635E;
+  --fp-c-card-fill: #FFFFFF;
+  --fp-c-card-border: rgba(18,13,14,0.10);
+  --fp-c-card-border-hover: rgba(220,38,38,0.45);
+  --fp-c-table-header-fill: #EFEBE7;
+  --fp-c-table-header-text: #6B635E;
+  --fp-c-table-row-line: rgba(18,13,14,0.10);
+  --fp-c-chip-sharia-fill: rgba(42,179,122,0.08);
+  --fp-c-chip-sharia-text: #146A45;
+  --fp-c-toast-fill: #EFEBE7;
+  --fp-c-toast-border: rgba(18,13,14,0.35);
+  --fp-c-tabbar-inactive: #6B635E;
+  --fp-c-header-border: rgba(18,13,14,0.10);
+  --fp-c-sheet-fill: #FFFFFF;
+  --fp-c-skeleton-fill: rgba(18,13,14,0.10);
+  --fp-c-chart-background: #FFFFFF;
+  --fp-c-chart-grid: rgba(18,13,14,0.08);
+  --fp-c-chart-axis-text: #6B635E;
+  --fp-c-eyebrow-color: #6B635E;
+  --fp-c-video-risk-line-color: rgba(18,13,14,0.22);
+  --fp-c-media-frame-bezel: #1B1516;
+  --fp-c-risk-line-color: #6B635E;
+  --fp-red-as-text: #B91C1C;
+  --fp-finance-gain: #146A45; --fp-finance-loss: #B91C1C; --fp-finance-pending: #7A520A;
+  --fp-chart-candle-up: #146A45; --fp-chart-candle-down: #B91C1C;
+  --fp-shadow-overlay: 0 22px 70px rgba(18,13,14,0.18);
+  --fp-c-input-fill: #FFFFFF; --fp-c-table-header-fill: var(--fp-ground-frame); --fp-c-toast-fill: #FFFFFF; --fp-c-sheet-fill: #FFFFFF; --fp-c-sheet-scrim: rgba(18,13,14,0.55); --fp-c-chart-background: #FFFFFF; --fp-c-card-fill: #FFFFFF; --fp-c-header-fill: rgba(247,244,241,0.85); --fp-c-button-primary-shadow: none;
+  color-scheme: light;
+}
+/* base */
+html{background:var(--fp-bg);color:var(--fp-fg);font-family:var(--fp-font-ui);line-height:var(--fp-font-lineHeight-body);-webkit-font-smoothing:antialiased;font-synthesis:none}
+[lang="ar"]{line-height:var(--fp-font-lineHeight-arabic-body);letter-spacing:0}
+.fp-num,[data-num]{font-family:var(--fp-font-family-mono);font-variant-numeric:tabular-nums lining-nums;direction:ltr;unicode-bidi:isolate}
+::selection{background:var(--fp-brand-selection-bg);color:var(--fp-text-selection)}
+:focus-visible{outline:2px solid var(--fp-action-focus-ring);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:1ms!important}}
+/* v2.0 — unbreakable numeric units inside Arabic text: amount+currency, sign+number+percent, date parts */
+.fp-unit,.unit{display:inline-block;white-space:nowrap;direction:ltr;unicode-bidi:isolate;font-family:var(--fp-font-family-mono);font-variant-numeric:tabular-nums}
+.fp-num{white-space:nowrap}
